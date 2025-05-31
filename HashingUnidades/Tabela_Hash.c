@@ -47,7 +47,7 @@ void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela)
     else
     {
         UnidadeHash *ptr = tabela->tabelaUnidades[indice];
-        while(ptr != NULL)
+        while(ptr->prox != NULL)
         {
             ptr = ptr->prox;
         }
@@ -70,8 +70,8 @@ void ImprimirTabela(TabHashUnidade *tabela)
 
             while (ptr != NULL)
             {
-                printf("\nId do bairro: %d", ptr->unidade.id);
-                printf("\nNome do bairro: %s", ptr->unidade.nome);
+                printf("\nId do Unidade: %d", ptr->unidade.id);
+                printf("\nNome do Unidade: %s", ptr->unidade.nome);
 
                 printf("\n");
 

@@ -22,3 +22,6 @@ typedef struct TabHashUnidade
 } TabHashUnidade;
 
 void Inicializar(TabHashUnidade *tabela);
+int HashUnidades(char nome[]);
+void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela);
+void ImprimirTabela(TabHashUnidade *tabela);
