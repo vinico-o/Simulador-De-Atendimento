@@ -24,3 +24,35 @@ int HashUnidades(char nome[])
     return soma % MAXTABHASH;
 }
 
+void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela)
+{
+    int indice = HashUnidades(nome);
+
+    UnidadeHash *novo = malloc(sizeof(UnidadeHash));
+    if(novo == NULL)
+    {
+        printf("Erro ao alocar na memoria!\n");
+        return;
+    }
+
+    //TODO: definir como os ids serao gerados
+    novo->unidade.id = 0;
+    strcpy(novo->unidade.nome, nome);
+    novo->prox = NULL;
+
+    if(tabela->tabelaUnidades[indice] == NULL)
+    {
+        tabela->tabelaUnidades[indice] = novo;
+    }
+    else
+    {
+        UnidadeHash *ptr = tabela->tabelaUnidades[indice];
+        while(ptr != NULL)
+        {
+            ptr = ptr->prox;
+        }
+        ptr->prox = novo;
+
+    }
+
+}
