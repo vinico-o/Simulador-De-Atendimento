@@ -56,3 +56,29 @@ void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela)
     }
 
 }
+
+void ImprimirTabela(TabHashUnidade *tabela)
+{
+    printf("\n-----TABELA HASH UNIDADES-----\n");
+    for (int i = 0; i < MAXTABHASH; i++)
+    {
+        printf ("\n\n%d:", i);
+
+        if (tabela->tabelaUnidades[i] != NULL)
+        {
+            UnidadeHash *ptr = tabela->tabelaUnidades[i];
+
+            while (ptr != NULL)
+            {
+                printf("\nId do bairro: %d", ptr->unidade.id);
+                printf("\nNome do bairro: %s", ptr->unidade.nome);
+
+                printf("\n");
+
+                ptr = ptr->prox;
+            }
+
+            printf ("\n");
+        }
+    }
+}
