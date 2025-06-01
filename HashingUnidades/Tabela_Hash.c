@@ -3,6 +3,8 @@
 #include <string.h>
 #include "Tabela_Hash.h"
 
+int idUnidade = 1;
+
 void Inicializar(TabHashUnidade *tabela)
 {
     for(int i = 0; i < MAXTABHASH; i++)
@@ -36,7 +38,8 @@ void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela)
     }
 
     //TODO: definir como os ids serao gerados
-    novo->unidade.id = 0;
+    //por enquando esta definido um id fixo, que acresce a cada unidade
+    novo->unidade.id = idUnidade++;
     strcpy(novo->unidade.nome, nome);
     novo->prox = NULL;
 
@@ -62,7 +65,7 @@ void ImprimirTabela(TabHashUnidade *tabela)
     printf("\n-----TABELA HASH UNIDADES-----\n");
     for (int i = 0; i < MAXTABHASH; i++)
     {
-        printf ("\n\n%d:", i);
+        printf ("\n%d:\n", i);
 
         if (tabela->tabelaUnidades[i] != NULL)
         {
@@ -70,10 +73,8 @@ void ImprimirTabela(TabHashUnidade *tabela)
 
             while (ptr != NULL)
             {
-                printf("\nId do Unidade: %d", ptr->unidade.id);
-                printf("\nNome do Unidade: %s", ptr->unidade.nome);
-
-                printf("\n");
+                printf("Id do Unidade: %d\n", ptr->unidade.id);
+                printf("Nome do Unidade: %s\n", ptr->unidade.nome);
 
                 ptr = ptr->prox;
             }
@@ -81,4 +82,23 @@ void ImprimirTabela(TabHashUnidade *tabela)
             printf ("\n");
         }
     }
+}
+
+UnidadeHash* BuscarTabela (char nome[], TabHashUnidade *tabela)
+{
+    int indice = HashUnidades(nome);
+
+    UnidadeHash *ptr = tabela->tabelaUnidades[indice];
+
+    while (ptr != NULL)
+    {
+        if (strcmp(ptr->unidade.nome, nome) == 0)
+        {
+            return ptr;
+        }
+
+        ptr = ptr->prox;
+    }
+
+    return NULL;
 }

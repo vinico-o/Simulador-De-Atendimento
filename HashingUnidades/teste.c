@@ -4,6 +4,7 @@
 int main()
 {
     TabHashUnidade tabela;
+    UnidadeHash *busca;
 
     Inicializar(&tabela);
     InserirTabelaUnidades("vinicius", &tabela);
@@ -11,6 +12,9 @@ int main()
     InserirTabelaUnidades("igor", &tabela);
     InserirTabelaUnidades("unesp", &tabela);
     InserirTabelaUnidades("vinicius", &tabela);
+
+    busca = BuscarTabela("vinicius", &tabela);
+    printf("%d\n%s", busca->unidade.id, busca->unidade.nome);
 
     ImprimirTabela(&tabela);
 
