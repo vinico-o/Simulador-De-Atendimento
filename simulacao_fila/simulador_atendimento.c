@@ -191,10 +191,12 @@ int main()
 
         tempTotal--;
         printf("Tempo %d\n",tempAtual);
-        for(int i=0;i<NUM_SERVICOS;i++)
-        {
-            imprimir_fila(&servicos[i]);
-        }
+        printf("\tPolicia: ");
+        imprimir_fila(&servicos[0]);
+        printf("\tHospital: ");
+        imprimir_fila(&servicos[1]);
+        printf("\tBombeiro: ");
+        imprimir_fila(&servicos[2]);
         printf("\n");
         tempAtual++;
     }
