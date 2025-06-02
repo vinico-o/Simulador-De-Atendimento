@@ -21,7 +21,8 @@ typedef struct TabHashUnidade
     UnidadeHash *tabelaUnidades[MAXTABHASH];
 } TabHashUnidade;
 
-void Inicializar(TabHashUnidade *tabela);
+void InicializarTabelaHashUnidades(TabHashUnidade *tabela);
 int HashUnidades(char nome[]);
 void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela);
-void ImprimirTabela(TabHashUnidade *tabela);
+void ImprimirTabelaHashUnidades(TabHashUnidade *tabela);
+UnidadeHash* BuscarTabelaHashUnidades(char nome[], TabHashUnidade *tabela);

@@ -5,7 +5,7 @@
 
 int idUnidade = 1;
 
-void Inicializar(TabHashUnidade *tabela)
+void InicializarTabelaHashUnidades(TabHashUnidade *tabela)
 {
     for(int i = 0; i < MAXTABHASH; i++)
     {
@@ -60,7 +60,7 @@ void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela)
 
 }
 
-void ImprimirTabela(TabHashUnidade *tabela)
+void ImprimirTabelaHashUnidades(TabHashUnidade *tabela)
 {
     printf("\n-----TABELA HASH UNIDADES-----\n");
     for (int i = 0; i < MAXTABHASH; i++)
@@ -84,7 +84,7 @@ void ImprimirTabela(TabHashUnidade *tabela)
     }
 }
 
-UnidadeHash* BuscarTabela (char nome[], TabHashUnidade *tabela)
+UnidadeHash* BuscarTabelaHashUnidades(char nome[], TabHashUnidade *tabela)
 {
     int indice = HashUnidades(nome);
 
