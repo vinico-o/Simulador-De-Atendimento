@@ -38,7 +38,7 @@ void Inicializar_Matriz(Matriz* matriz)
     }
 }
 
-void Inserir(Matriz* matriz, int linha, int coluna, Bairro bairro, Unidade unidade)
+void InserirMatrizCruzada(Matriz* matriz, int linha, int coluna, Bairro bairro, Unidade unidade)
 {
     Ligacao* nova = malloc(sizeof(Ligacao));
     if (!nova)
@@ -112,7 +112,7 @@ void Inserir(Matriz* matriz, int linha, int coluna, Bairro bairro, Unidade unida
     }
 }
 
-void Remover(Matriz* matriz, int linha, int coluna)
+void RemoverMatrizCruzada(Matriz* matriz, int linha, int coluna)
 {
     Ligacao *ptrLinha = matriz->listaBairros[linha];
     Ligacao *ptrColuna = matriz->listaUnidades[coluna];
@@ -160,7 +160,7 @@ void Remover(Matriz* matriz, int linha, int coluna)
     free(ptrLinha);
 }
 
-void Imprimir(Matriz *matriz)
+void ImprimirMatrizCruzada(Matriz *matriz)
 {
     printf("    Bairro   | %-17s%-17s%-17s%-17s\n", "Ambulancia", "Bombeiro", "Policia", "Hospital");
     printf("-------------+---------------------------------------------------------------------\n");
