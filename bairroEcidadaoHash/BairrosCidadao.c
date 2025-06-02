@@ -32,6 +32,19 @@ int hashBairros (char nome[])
     return soma % tamanhoMaxVetorBairros;
 }
 
+Bairro* criarBairro (char nome[])
+{
+    Bairro* novoBairro = malloc (sizeof(Bairro));
+
+    if (novoBairro != NULL){
+        strcpy (novoBairro->nome, nome);
+        return novoBairro;
+    }
+
+
+    return NULL;
+}
+
 
     // funcao de insercao na tabela hash de bairros
 void inserirTabelaBairros (char nome[],tabelaBairros *tabela)
@@ -44,36 +57,42 @@ void inserirTabelaBairros (char nome[],tabelaBairros *tabela)
         return;
     }
 
-    novoBairro->b.id = idBairros;
+    Bairro *b = criarBairro(nome);
 
-    idBairros++;
+    novoBairro->b = b;
 
-    strcpy(novoBairro->b.nome, nome);
 
-    novoBairro->prox = NULL;
+    if (b != NULL){
+     
+        novoBairro->b->id = idBairros;
 
-    if (tabela->vetorBairros[indice] == NULL){
+        idBairros++;
 
-        tabela->vetorBairros[indice] = novoBairro;
+        novoBairro->prox = NULL;
 
-    }
+        if (tabela->vetorBairros[indice] == NULL){
 
-        // tratamento de colisão
-    else {
-        BairroHash *aux = tabela->vetorBairros[indice];
+            tabela->vetorBairros[indice] = novoBairro;
 
-        while (aux->prox != NULL){
-            aux = aux->prox;
         }
 
-        aux->prox = novoBairro;
-    }
+            // tratamento de colisão
+        else {
+            BairroHash *aux = tabela->vetorBairros[indice];
 
+            while (aux->prox != NULL){
+                aux = aux->prox;
+            }
+
+            aux->prox = novoBairro;
+        }
+    }
+    
 }
 
     // funcao para buscar um bairro pelo nome
 
-BairroHash* buscarBairro (char nome[], tabelaBairros *tabela)
+Bairro* buscarBairro (char nome[], tabelaBairros *tabela)
 {
     int indice = hashBairros(nome);
 
@@ -81,9 +100,9 @@ BairroHash* buscarBairro (char nome[], tabelaBairros *tabela)
 
     while (aux != NULL)
     {
-        if (strcmp(aux->b.nome, nome) == 0){
+        if (strcmp(aux->b->nome, nome) == 0){
 
-            return aux;
+            return aux->b;
 
         }
 
@@ -106,8 +125,8 @@ void imprimirTabelaDeBairros(tabelaBairros *tabela)
             BairroHash *aux = tabela->vetorBairros[i];
 
             while (aux != NULL){
-                printf ("\nId do bairro: %d", aux->b.id);
-                printf ("\nNome do bairro: %s", aux->b.nome);
+                printf ("\nId do bairro: %d", aux->b->id);
+                printf ("\nNome do bairro: %s", aux->b->nome);
 
                 printf ("\n");
 
@@ -147,58 +166,64 @@ int hashCidadaos (char nome[])
     return soma % tamanhoMaxVetorCidadaos;
 }
 
+Cidadao* criarCidadao (char nome[], tabelaBairros *tBairros)
+{
+    Cidadao *novoCidadao = malloc (sizeof(Cidadao));
+
+    char bairro[MAXNOME];
+
+    printf ("\nInforme o cpf: ");
+    scanf ("%d", &novoCidadao->cpf);
+    getchar(); // limpa o '\n' deixado pelo scanf
+
+    printf ("\nInforme o email: ");
+    fgets(novoCidadao->email, MAXNOME, stdin);
+    novoCidadao->email[strcspn(novoCidadao->email, "\n")] = '\0'; // remove '\n'
+
+    printf ("\nInforme o nome do bairro: ");
+    fgets(bairro, MAXNOME, stdin);
+    bairro[strcspn(bairro, "\n")] = '\0'; // remove '\n'
+
+
+
+    Bairro *b = buscarBairro (bairro, tBairros);
+
+    if (b != NULL){
+
+        novoCidadao->endereco = b;
+        novoCidadao->id = idCidadao;
+        strcpy (novoCidadao->nome, nome);
+
+
+        return novoCidadao;
+    }
+    else {
+        printf ("\nBairro nao encontrado -> pessoa nao criada");
+        free (novoCidadao);
+        return NULL;
+    }
+}
+
 
     // funcao para insercao na tabela de cidadaos
 
 void inserirTabelaCidadaos (char nome[], tabelaCidadaos *tabela, tabelaBairros *tBairros)
 {
-    printf ("\n\n(CRIANDO CIDADAO)\n");                           // remover isto
+    printf ("\n(CRIANDO CIDADAO)\n");
 
-    int cpf;
-    char email[20];
-    char endereco[50];
-    char bairro[20];
+    Cidadao *novoCidadao = criarCidadao (nome, tBairros);
 
-    printf ("\nInforme o cpf: ");
-    scanf ("%d", &cpf);
+    CidadaoHash *novoCidadaoNaTabela = malloc (sizeof(CidadaoHash));
 
-    getchar();
+    novoCidadaoNaTabela->c = novoCidadao;
+    novoCidadaoNaTabela->prox = NULL;
 
-    printf ("\nInforme o email: ");
-    fgets(email, sizeof(email), stdin);
-    email[strlen(email) - 1] = '\0';        // o '\n' tava dando problema
-
-    printf ("\nInforme o endereco: ");
-    fgets(endereco, sizeof(endereco), stdin);
-    endereco[strlen(endereco) - 1] = '\0';
-
-    printf ("\nInforme o nome do bairro: ");
-    fgets(bairro, sizeof(bairro), stdin);
-    bairro[strlen(bairro) - 1] = '\0';
-
-    CidadaoHash *novoCidadao = malloc (sizeof(CidadaoHash));
-
-    if (novoCidadao == NULL){
-        printf ("\nErro ao alocar");
-        return;
-    }
-
-    novoCidadao->c.id = idCidadao;
-    novoCidadao->c.cpf = cpf;
-    strcpy (novoCidadao->c.nome, nome);
-    strcpy (novoCidadao->c.email, email);
-    strcpy (novoCidadao->c.endereco, endereco);
-    novoCidadao->prox = NULL;
-
-    BairroHash *b = buscarBairro(bairro, tBairros);
-
-    if (b != NULL){
-        novoCidadao->c.bairro = b;
+    if (novoCidadao != NULL){
 
         int indice = hashCidadaos(nome);
 
         if (tabela->vetorCidadaos[indice] == NULL){
-            tabela->vetorCidadaos[indice] = novoCidadao;
+            tabela->vetorCidadaos[indice] = novoCidadaoNaTabela;
 
 
         }
@@ -212,7 +237,7 @@ void inserirTabelaCidadaos (char nome[], tabelaCidadaos *tabela, tabelaBairros *
                 aux = aux->prox;
             }
 
-            aux->prox = novoCidadao;
+            aux->prox = novoCidadaoNaTabela;
 
 
 
@@ -221,10 +246,6 @@ void inserirTabelaCidadaos (char nome[], tabelaCidadaos *tabela, tabelaBairros *
         tabela->populacaoTotal++;
         idCidadao++;
 
-    }
-
-    else {
-        printf ("\nBairro nao encontrado -> pessoa nao criada");
     }
 }
 
@@ -242,12 +263,11 @@ void imprimirTabelaCidadaos (tabelaCidadaos *tabela)
             while (aux != NULL)
             {
 
-                printf ("\nId: %d", aux->c.id);
-                printf ("\nCpf: %d", aux->c.cpf);
-                printf ("\nNome: %s", aux->c.nome);
-                printf ("\nEmail: %s", aux->c.email);
-                printf ("\nEndereco: %s", aux->c.endereco);
-                printf ("\nNome do bairro: %s", aux->c.bairro->b.nome);
+                printf ("\nId: %d", aux->c->id);
+                printf ("\nCpf: %d", aux->c->cpf);
+                printf ("\nNome: %s", aux->c->nome);
+                printf ("\nEmail: %s", aux->c->email);
+                printf ("\nNome do bairro: %s", aux->c->endereco->nome);
 
                 printf ("\n");
 
@@ -266,7 +286,7 @@ CidadaoHash* buscarCidadao (tabelaCidadaos *tabela, char nome[])
 
     CidadaoHash *aux = tabela->vetorCidadaos[indice];
 
-    if (strcmp(aux->c.nome, nome) == 0){
+    if (strcmp(aux->c->nome, nome) == 0){
         return aux;
     }
 
@@ -274,7 +294,7 @@ CidadaoHash* buscarCidadao (tabelaCidadaos *tabela, char nome[])
     else {
         while (aux != NULL){
 
-            if (strcmp(aux->c.nome, nome)){
+            if (strcmp(aux->c->nome, nome)){
                 return aux;
             }
             

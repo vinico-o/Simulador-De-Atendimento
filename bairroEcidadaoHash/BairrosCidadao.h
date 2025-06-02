@@ -15,7 +15,7 @@ typedef struct Bairro{
 
     // no para cada 
 typedef struct BairroHash{
-    struct Bairro b;
+    struct Bairro *b;
     struct BairroHash *prox;
 } BairroHash;
 
@@ -31,13 +31,12 @@ typedef struct Cidadao{
     int cpf;
     char nome[MAXNOME];
     char email[MAXNOME];
-    char endereco[MAXNOME];
-    struct BairroHash *bairro;
+    struct Bairro *endereco;
 } Cidadao;
 
 
 typedef struct CidadaoHash{
-    struct Cidadao c;
+    struct Cidadao *c;
     struct Cidadao *prox;
 }CidadaoHash;
 
@@ -49,13 +48,3 @@ typedef struct tabelaCidadaos{
 } tabelaCidadaos;
 
 
-void inicializarTabelaBairros (tabelaBairros *tabela);
-int hashBairros (char nome[]);
-void inserirTabelaBairros (char nome[],tabelaBairros *tabela);
-BairroHash* buscarBairro (char nome[], tabelaBairros *tabela);
-void imprimirTabelaDeBairros(tabelaBairros *tabela);
-void inicializarTabelaCidadaos (tabelaCidadaos *tabela);
-int hashCidadaos (char nome[]);
-void inserirTabelaCidadaos (char nome[], tabelaCidadaos *tabela, tabelaBairros *tBairros);
-void imprimirTabelaCidadaos (tabelaCidadaos *tabela);
-CidadaoHash* buscarCidadao (tabelaCidadaos *tabela, char nome[]);
