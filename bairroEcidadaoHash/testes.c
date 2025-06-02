@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "BairrosCidadao.h"
+#include "BairrosCidadao.c"
 
 
 
@@ -14,7 +14,8 @@ int main ()
 
     inserirTabelaBairros ("aam", &tabelaB);
     inserirTabelaBairros ("aad", &tabelaB);
-
+    
+    imprimirTabelaDeBairros(&tabelaB);
 
     return 0;
 }
