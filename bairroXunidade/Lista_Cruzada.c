@@ -8,6 +8,7 @@ int qntdNomesBairro = MAXBAIRRO;
 char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};
 
 int qntdNomesUnidades = MAXUNIDADE;
+//TODO - definir as unidades que serao utilizadas
 char* nomesUnidades[] = {"Ambulancia", "Bombeiro", "Policia", "Hospital"};
 
 void GerarBairroAleatorio(Bairro* bairro, int* indice)

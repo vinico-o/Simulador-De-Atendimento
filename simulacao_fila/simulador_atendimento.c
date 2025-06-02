@@ -1,32 +1,80 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <locale.h>
 #include <time.h>
 #include "fila_din.c"
+#include "pilha.c"
 
 #define NUM_SERVICOS 3
 #define NUM_PESSOAS 1000
+#define MAXNOME 50
+#define MAXBAIRRO 5
 
 typedef struct{
-    char nomeBairro[30];
+    char nomeBairro[MAXNOME];
     int id;
     int num_servicos_no_bairro;
-    //pensei nos servi�os ir de 1 a num_servi�os, pq ai teria tipo uma ordem
+
+    //pensei nos servi�os ir de 1 a num_servi�os, pq ai teria tipo uma ordem
     // se for 3 teria tudo, 2 teria os 2 primeiros e vai...
+    //perguntar para o cua (eu acho) se o endereco da struct cidadao seria o nome do bairro
+    //e ve com ele se seria bom fazer igual fez com o bairro e deixar uma struct de cidadao generica
+    // tb ver com ele oq seria exatamente o id da struct cidadao
 }Bairro;
 typedef struct{
-    char nome[30];
-    char email[30];
-    Bairro endereco;
+    int id; //coloquei provisorio pq tem q ver com o caua oq vai fazer com essa struct
     int cpf;
+    char nome[MAXNOME];
+    char email[MAXNOME];
+    Bairro endereco;
     int servico_desejado;
+    char ocorrencia[MAXNOME];
 
-    //Essa parte de baixo � para dados estat�sticos
+    //Essa parte de baixo � para dados estat�sticos
     int chegada;
     int saida;
     int num_fila;
     int tempEspera;
 }Cidadao;
+
+int qntOcorrencia = 8;
+char* ocorrenciaPolicia[] = {
+    "Assalto", "Furto", "Homicidio", "Estelionato", 
+    "Ameaca", "Sequestro", "Embriaguez", "Receptacao"
+};
+
+char* ocorrenciaHospital[] = {
+    "Queda", "Ferimento", "Febre","Dor", 
+    "Desmaio", "Convulcao", "Infeccao", "Alergia", 
+};
+
+char* ocorrenciaBombeiro[] = {
+    "Incendio", "Acidente", "Afogamento", "Deslizamento",
+    "Resgate", "Busca", "Vazamento", "Explosao"
+};
+
+void GerarOcorrenciaAleatorio(Cidadao* pessoa)
+{
+    int indice = rand() % qntOcorrencia;
+    //se o serviço for o 1, entao sua ocorrencia é policial
+    if(pessoa->servico_desejado == 1)
+    {
+        strcpy(pessoa->ocorrencia, ocorrenciaPolicia[indice]);
+    }
+    //se o serviço for o 2, entao sua ocorrencia é hospitalar
+    if(pessoa->servico_desejado == 2)
+    {
+        strcpy(pessoa->ocorrencia, ocorrenciaHospital[indice]);
+    }
+    //se o serviço for o 3, entao sua ocorrencia é de bombeiro
+    if(pessoa->servico_desejado == 3)
+    {
+        strcpy(pessoa->ocorrencia, ocorrenciaBombeiro[indice]);
+    }
+
+}
+
 int main()
 {
     setlocale(LC_ALL,"Portuguese");
@@ -50,12 +98,19 @@ int main()
     int tempChegadaFila[NUM_SERVICOS];
     int tempSaidaFila[NUM_SERVICOS];
 
+    Pilha historico_atendimento[NUM_SERVICOS];
+
+
     for(int i=0;i<NUM_SERVICOS;i++)
     {
+        //Instruções para Fila
         inicializar(&servicos[i]);
         num_pessoas_fila[i] = 0;
         atendimentos_por_fila[i] = 0;
         tempoEsperaFila[i] = 0;
+
+        //Instruções para Pilha
+        inicializa_pilha(&historico_atendimento[i]);
     }
     for(int i=0;i<NUM_PESSOAS;i++,num_cpf++)
     {
@@ -63,8 +118,25 @@ int main()
         pessoa[i].saida = 0;
         pessoa[i].num_fila = 0;
         pessoa[i].tempEspera = 0;
-        pessoa[i].servico_desejado = rand()% NUM_SERVICOS + 1;
-        pessoa[i].endereco.id = rand()% 30 + 1;
+        pessoa[i].servico_desejado = rand()% NUM_SERVICOS + 1; //gera aleatoriamente o serviço de cada pessoa
+        pessoa[i].endereco.id = rand()% MAXBAIRRO + 1; //isso aqui vai depender do numero de bairros que vai ter
+
+        //esse for seria para definir quais servicos cada bairro tera
+        //provavelmente vai mudar por causa da lista cruzada, ver com o vinicius
+        /*
+        for(int i=0;i<MAXBAIRRO;i++)
+        {
+            if(i == pessoa[i].enderco.id)
+            {
+                peguei de exemplo o cod da função GerarBArirroAleatorio da Lista_Cruzada.c
+                strcpy(pessoa[i].enderco.nomeBairro,nomesBairros[])
+            }
+
+        
+        }
+        
+        
+        */
         for(int j=0;j<30;j++)
         {
             if(pessoa[i].endereco.id == j)
@@ -83,8 +155,8 @@ int main()
                 }
             }
         }
-        pessoa[i].endereco.num_servicos_no_bairro = rand()% NUM_SERVICOS + 1;
         pessoa[i].cpf = num_cpf;
+        GerarOcorrenciaAleatorio(&pessoa[i]);
     }
 
     chegada += rand()%4 + 1;
@@ -111,6 +183,7 @@ int main()
                 {
                     int pessoa_;
                     remover(&servicos[i],&pessoa_);
+                    push(&historico_atendimento,pessoa[pessoa_].ocorrencia);
                     pessoa[pessoa_].saida = tempAtual;
                     atendimentos_por_fila[i]++;
                 }
