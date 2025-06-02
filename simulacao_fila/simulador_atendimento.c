@@ -54,6 +54,7 @@ char* ocorrenciaBombeiro[] = {
     "Resgate", "Busca", "Vazamento", "Explosao"
 };
 
+
 void GerarOcorrenciaAleatorio(Cidadao* pessoa)
 {
     int indice = rand() % qntOcorrencia;
@@ -72,7 +73,23 @@ void GerarOcorrenciaAleatorio(Cidadao* pessoa)
     {
         strcpy(pessoa->ocorrencia, ocorrenciaBombeiro[indice]);
     }
+    
+}
+int qntNomes = 28;
+char* nomesAleatorios[] = {
+    "Laura", "Bruno", "Carla", "Diego",
+    "Eduarda", "Felipe", "Luciana", "Henrique",
+    "Bianca", "João", "Katia", "Lucas",
+    "Mariana", "Nicolas", "Olívia", "Paulo",
+    "Sílvia", "Rafael", "Sofia", "Tiago",
+    "André", "Gabriel", "Daniel", "José",
+    "Fernando", "Gustavo", "Hugo", "Igor"
+};
 
+void GerarNomeAleatorio(Cidadao* pessoa)
+{
+    int indice = rand() % qntNomes;
+    strcpy(pessoa->nome,nomesAleatorios[indice]);
 }
 
 int main()
@@ -157,6 +174,7 @@ int main()
         }
         pessoa[i].cpf = num_cpf;
         GerarOcorrenciaAleatorio(&pessoa[i]);
+        GerarNomeAleatorio(&pessoa[i]);
     }
 
     chegada += rand()%4 + 1;
@@ -183,7 +201,10 @@ int main()
                 {
                     int pessoa_;
                     remover(&servicos[i],&pessoa_);
-                    push(&historico_atendimento,pessoa[pessoa_].ocorrencia);
+                    printf("\tPessoa %d atendida!\n",pessoa_);
+                    printf("\t%d \t %s \t %s\n",pessoa[pessoa_].cpf,pessoa[pessoa_].nome,pessoa[pessoa_].ocorrencia);
+                    printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
+                    push(&historico_atendimento[i],pessoa[pessoa_].ocorrencia);
                     pessoa[pessoa_].saida = tempAtual;
                     atendimentos_por_fila[i]++;
                 }
