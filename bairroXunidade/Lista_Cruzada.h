@@ -33,8 +33,8 @@ typedef struct Matriz
 } Matriz;
 
 void Inicializar_Matriz(Matriz* matriz);
-void Inserir(Matriz* matriz, int linha, int coluna, Bairro bairro, Unidade unidade);
-void Remover(Matriz* matriz, int linha, int coluna);
-void Imprimir(Matriz *matriz);
+void InserirMatrizCruzada(Matriz* matriz, int linha, int coluna, Bairro bairro, Unidade unidade);
+void RemoverMatrizCruzada(Matriz* matriz, int linha, int coluna);
+void ImprimirMatrizCruzada(Matriz *matriz);
 void GerarBairroAleatorio(Bairro* bairro, int* indice);
 void GerarUnidadeAleatoria(Unidade* unidade, int* indice);

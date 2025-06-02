@@ -18,10 +18,10 @@ int main ()
     {   
         GerarBairroAleatorio(&bairro, &linha);
         GerarUnidadeAleatoria(&unidade, &coluna);
-        Inserir(&matriz, linha, coluna, bairro, unidade);
+        InserirMatrizCruzada(&matriz, linha, coluna, bairro, unidade);
     }
 
-    Imprimir(&matriz);
+    ImprimirMatrizCruzada(&matriz);
 
     return 0;
 }
