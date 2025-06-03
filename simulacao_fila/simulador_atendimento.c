@@ -5,11 +5,13 @@
 #include <time.h>
 #include "fila_din.c"
 #include "pilha.c"
+#include "../HashingUnidades/Tabela_Hash.c"
 
 #define NUM_SERVICOS 3
 #define NUM_PESSOAS 1000
 #define MAXNOME 50
 #define MAXBAIRRO 5
+
 
 
 typedef struct{
@@ -38,13 +40,13 @@ typedef struct{
 
 int qntOcorrencia = 8;
 char* ocorrenciaPolicia[] = {
-    "Assalto", "Furto", "Homicidio", "Estelionato", 
+    "Assalto", "Furto", "Homicidio", "Estelionato",
     "Ameaca", "Sequestro", "Embriaguez", "Receptacao"
 };
 
 char* ocorrenciaHospital[] = {
-    "Queda", "Ferimento", "Febre","Dor", 
-    "Desmaio", "Convulcao", "Infeccao", "Alergia", 
+    "Queda", "Ferimento", "Febre","Dor",
+    "Desmaio", "Convulcao", "Infeccao", "Alergia",
 };
 
 char* ocorrenciaBombeiro[] = {
@@ -72,7 +74,7 @@ void GerarOcorrenciaAleatorio(CidadaoSimulacao* pessoa)
     {
         strcpy(pessoa->ocorrencia, ocorrenciaBombeiro[indice]);
     }
-    
+
 }
 int qntNomes = 28;
 char* nomesAleatorios[] = {
@@ -85,13 +87,29 @@ char* nomesAleatorios[] = {
     "Fernando", "Gustavo", "Hugo", "Igor"
 };
 
-void GerarNomeAleatorio(CidadaoSimulacao* pessoa)
+void GerarNomeAleatorio(CidadaoSimulacao* pessoa,int *indice)
 {
-
-    int indice = rand() % qntNomes;
-    strcpy(pessoa->cidadao.nome,nomesAleatorios[indice]);
+    *indice = rand() % qntNomes;
+    strcpy(pessoa->cidadao.nome,nomesAleatorios[*indice]);
 }
+
+char* emailAleatorio[] = {
+    "laura.silva@example.com", "bruno.oliveira@example.org", "carla.souza@example.net", "diego.lima@example.com",
+    "eduarda.alves@example.org", "felipe.costa@example.net", "luciana.martins@example.com", "henrique.gomes@example.org",
+    "bianca.rocha@example.net", "joao.mendes@example.com", "katia.pereira@example.org", "lucas.santana@example.net",
+    "mariana.dias@example.com", "nicolas.campos@example.org", "olivia.barbosa@example.net", "paulo.ribeiro@example.com",
+    "silvia.ferreira@example.org", "rafael.nogueira@example.net", "sofia.teixeira@example.com", "tiago.freitas@example.org",
+    "andre.ferreira@example.org", "gabriel.nogueira@example.net", "daniel.teixeira@example.com", "jose.freitas@example.org",
+    "fernando.ferreira@example.org", "gustavo.nogueira@example.net", "hugo.teixeira@example.com", "igor.freitas@example.org"
+};
+
+void GerarEmailAleatorio(CidadaoSimulacao* pessoa,int indice)
+{
+    strcpy(pessoa->cidadao.email,emailAleatorio[indice]);
+}
+
 char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};
+char* nomesUnidades[] = {"Policia", "Hospital", "Bombeiro"};
 
 int main()
 {
@@ -130,7 +148,10 @@ int main()
         //Instruções para Pilha
         inicializa_pilha(&historico_atendimento[i]);
     }
-    printf("entra no for de inicializar pessoas");
+    
+    TabHashUnidade TabelaUnidade;
+    Unidade unidadeTemp;
+    InicializarTabelaHashUnidades(&TabelaUnidade);
     for(int i=0;i<NUM_PESSOAS;i++,num_cpf++)
     {
 
@@ -138,21 +159,28 @@ int main()
         pessoa[i].saida = 0;
         pessoa[i].num_fila = 0;
         pessoa[i].tempEspera = 0;
+        pessoa[i].cidadao.id = i+1;
         pessoa[i].servico_desejado = rand()% NUM_SERVICOS + 1; //gera aleatoriamente o serviço de cada pessoa
         pessoa[i].cidadao.endereco = malloc(sizeof(Bairro));
         pessoa[i].cidadao.endereco->id= rand()% MAXBAIRRO + 1; //isso aqui vai depender do numero de bairros que vai ter
-        
+
         //peguei de exemplo o cod da função GerarBArirroAleatorio da Lista_Cruzada.c
         int indicetemp = pessoa[i].cidadao.endereco->id;
         strcpy(pessoa[i].cidadao.endereco->nome,nomesBairros[indicetemp-1]);
-            
-        
+
+
         pessoa[i].cidadao.cpf = num_cpf;
         GerarOcorrenciaAleatorio(&pessoa[i]);
-        GerarNomeAleatorio(&pessoa[i]);
+        int indicetempNome;
+        GerarNomeAleatorio(&pessoa[i],&indicetempNome);
+        GerarEmailAleatorio(&pessoa[i],indicetempNome);
 
+
+
+        
+        
     }
-    printf("saida do for de inicializar pessoas");
+
 
     chegada += rand()%4 + 1;
     tempAtendimento += chegada + rand()%16 + 1;
@@ -178,8 +206,13 @@ int main()
                 {
                     int pessoa_;
                     remover(&servicos[i],&pessoa_);
+
+                    unidadeTemp.id = pessoa[pessoa_].servico_desejado;
+                    strcpy(unidadeTemp.nome,nomesUnidades[pessoa[pessoa_].servico_desejado-1]);
+                    InserirTabelaUnidades(unidadeTemp.nome,&TabelaUnidade);
+
                     printf("\tPessoa %d atendida!\n",pessoa_);
-                    printf("\tcpf: %d \tnome: %s \tocorrencia: %s\n",pessoa[pessoa_].cidadao.cpf,pessoa[pessoa_].cidadao.nome,pessoa[pessoa_].ocorrencia);
+                    printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao.cpf,pessoa[pessoa_].cidadao.nome,pessoa[pessoa_].ocorrencia,pessoa[pessoa_].cidadao.email);
                     printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
                     push(&historico_atendimento[i],pessoa[pessoa_].ocorrencia);
                     pessoa[pessoa_].saida = tempAtual;
@@ -202,6 +235,6 @@ int main()
     {
         free(pessoa[i].cidadao.endereco);
     }
-
+    ImprimirTabelaHashUnidades(&TabelaUnidade);
 return 0;
 }
