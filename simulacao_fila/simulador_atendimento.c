@@ -6,6 +6,7 @@
 #include "fila_din.c"
 #include "pilha.c"
 #include "../HashingUnidades/Tabela_Hash.c"
+#include "../bairroEcidadaoHash/BairrosCidadao.c"
 
 #define NUM_SERVICOS 3
 #define NUM_PESSOAS 1000
@@ -14,18 +15,6 @@
 
 
 
-typedef struct{
-    char nome[MAXNOME];
-    int id;
-}Bairro;
-
-typedef struct{
-    int id;
-    int cpf;
-    char nome[MAXNOME];
-    char email[MAXNOME];
-    Bairro *endereco;
-}Cidadao;
 
 typedef struct{
     Cidadao cidadao;
@@ -149,9 +138,24 @@ int main()
         inicializa_pilha(&historico_atendimento[i]);
     }
     
+    tabelaBairros tabelaBairro;
+    tabelaCidadaos tabelaCidadao;
     TabHashUnidade TabelaUnidade;
     Unidade unidadeTemp;
     InicializarTabelaHashUnidades(&TabelaUnidade);
+    inicializarTabelaBairros (&tabelaBairro);
+    inicializarTabelaCidadaos (&tabelaCidadao);
+
+    // gerando bairros
+    inserirTabelaBairros ("Ipanema",&tabelaBairro);
+    inserirTabelaBairros ("Marupiara",&tabelaBairro);
+    inserirTabelaBairros ("Industrial",&tabelaBairro);
+    inserirTabelaBairros ("Rosas",&tabelaBairro);
+    inserirTabelaBairros ("Aviacao",&tabelaBairro);
+
+
+
+
     for(int i=0;i<NUM_PESSOAS;i++,num_cpf++)
     {
 
@@ -161,7 +165,7 @@ int main()
         pessoa[i].tempEspera = 0;
         pessoa[i].cidadao.id = i+1;
         pessoa[i].servico_desejado = rand()% NUM_SERVICOS + 1; //gera aleatoriamente o serviço de cada pessoa
-        pessoa[i].cidadao.endereco = malloc(sizeof(Bairro));
+        pessoa[i].cidadao.endereco = malloc(sizeof(Bairro));    // ***** EU (cauan) preciso arrumar aqui! 
         pessoa[i].cidadao.endereco->id= rand()% MAXBAIRRO + 1; //isso aqui vai depender do numero de bairros que vai ter
 
         //peguei de exemplo o cod da função GerarBArirroAleatorio da Lista_Cruzada.c
@@ -236,5 +240,6 @@ int main()
         free(pessoa[i].cidadao.endereco);
     }
     ImprimirTabelaHashUnidades(&TabelaUnidade);
+    imprimirTabelaDeBairros(&tabelaBairro);
 return 0;
 }
