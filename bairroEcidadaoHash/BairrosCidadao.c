@@ -4,8 +4,8 @@
 #include "BairrosCidadao.h"
 
 
-static int idBairros = 1;   // simula o ID de bancos de dados para BAIRROS
-static int idCidadao = 1;   // simula o ID de bancos de dados para CIDADAOS
+int idBairros = 1;   // simula o ID de bancos de dados para BAIRROS
+int idCidadao = 1;   // simula o ID de bancos de dados para CIDADAOS
 
 
     // funcao de inicializacao da tabela de bairros
@@ -116,6 +116,8 @@ Bairro* buscarBairro (char nome[], tabelaBairros *tabela)
     // funcao para imprimir a tabela inteira de bairros (somente para correção de problemas)
 void imprimirTabelaDeBairros(tabelaBairros *tabela)
 {
+   printf("\n-----TABELA HASH BAIRROS-----\n");
+
     for (int i = 0; i < tamanhoMaxVetorBairros; i++)
     {
         printf ("\n\n%d:", i);

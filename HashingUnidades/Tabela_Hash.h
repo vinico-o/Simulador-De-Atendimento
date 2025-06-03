@@ -22,7 +22,7 @@ typedef struct TabHashUnidade
 } TabHashUnidade;
 
 void InicializarTabelaHashUnidades(TabHashUnidade *tabela);
-int HashUnidades(char nome[]);
-void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela);
+int HashUnidades(int id);
+void InserirTabelaUnidades(int id, char nome[], TabHashUnidade *tabela);
 void ImprimirTabelaHashUnidades(TabHashUnidade *tabela);
 UnidadeHash* BuscarTabelaHashUnidades(char nome[], TabHashUnidade *tabela);
