@@ -1,20 +1,8 @@
-#define MAXBAIRRO 5 //linha da matriz indica os bairros
-#define MAXUNIDADE 3 //coluna da matriz indica os servicos 
+#include "../struct_comum.h"
+
 #define MAXNOME 50
 
 // cada no presente na matriz é aliado a uma linha e uma coluna, demonstrando que certo bairro possui um certo servico
-
-typedef struct Bairro
-{
-    int id;
-    char nome[MAXNOME];
-} Bairro;
-
-typedef struct Unidade
-{
-    int id;
-    char nome[MAXNOME];
-} Unidade;
 
 typedef struct Ligacao
 {
@@ -33,9 +21,7 @@ typedef struct Matriz
 } Matriz;
 
 void Inicializar_Matriz(Matriz* matriz);
-void InserirMatrizCruzada(Matriz* matriz, int linha, int coluna, Bairro bairro, Unidade unidade);
 void RemoverMatrizCruzada(Matriz* matriz, int linha, int coluna);
 void ImprimirMatrizCruzada(Matriz *matriz);
-void GerarBairroAleatorio(Bairro* bairro, int* indice);
-void GerarUnidadeAleatoria(Unidade* unidade, int* indice);
+bool BuscarUnidadeBairro(Matriz* matriz, int idBairro, int idUnidade);
 void GerarMatrizAleatoria(Matriz* matriz);

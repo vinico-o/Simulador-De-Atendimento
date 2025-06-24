@@ -2,7 +2,6 @@
 #include "BairrosCidadao.c"
 
 
-
 int main ()
 {
 

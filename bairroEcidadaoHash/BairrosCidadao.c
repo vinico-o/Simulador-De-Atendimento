@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "BairrosCidadao.h"
+#include "../struct_comum.h"
 
 
 int idBairros = 1;   // simula o ID de bancos de dados para BAIRROS

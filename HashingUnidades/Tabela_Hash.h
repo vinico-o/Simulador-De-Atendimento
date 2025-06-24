@@ -1,14 +1,10 @@
 #include <stdio.h>
+#include "../struct_comum.h"
 
 #define MAXNOME 50
 #define MAXTABHASH 9
 
 //TODO: decidir quais as informacoes necessarias na estrutura unidades
-typedef struct Unidade
-{
-    int id;
-    char nome[MAXNOME];
-} Unidade;
 
 typedef struct UnidadeHash
 {

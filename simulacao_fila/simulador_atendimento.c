@@ -8,6 +8,8 @@
 #include "ArvBB.c"
 #include "../HashingUnidades/Tabela_Hash.c"
 #include "../bairroEcidadaoHash/BairrosCidadao.c"
+#include "../bairroXunidade/Lista_Cruzada.c"
+#include "../struct_comum.h"
 
 #define NUM_SERVICOS 3
 #define NUM_PESSOAS 1000
@@ -111,9 +113,6 @@ void GerarEmailAleatorio(CidadaoSimulacao* pessoa,int indice)
     strcpy(pessoa->cidadao->email,emailAleatorio[indice]);
 }
 
-char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};
-char* nomesUnidades[] = {"Policia", "Hospital", "Bombeiro"};
-
 // gerando indice para aleatorizar o bairro do cidadao
 int AleatorizarBairro()
 {
@@ -141,12 +140,17 @@ int main()
     tabelaCidadaos tabelaCidadao;
     TabHashUnidade TabelaUnidade;
     Unidade unidadeTemp;
+    Matriz matrizBairroUnidade; 
 
     //Inicalizando BST e tabelas hash
     inicializanoArvBB(&ArvOcorrencia);
     InicializarTabelaHashUnidades(&TabelaUnidade);
     inicializarTabelaBairros (&tabelaBairro);
     inicializarTabelaCidadaos (&tabelaCidadao);
+    Inicializar_Matriz(&matrizBairroUnidade);
+
+    //Gerar Relacao Bairro-Unidade Aleatoria
+    GerarMatrizAleatoria(&matrizBairroUnidade);
 
     //Instruções para Pilha
     for(int i=0;i<NUM_SERVICOS;i++)
@@ -224,7 +228,23 @@ int main()
             //Pega o id do bairro da pessoa para inserir na fila do bairro
             int idTempBairro = pessoa[num_pessoa].cidadao->endereco->id -1;
             //Insere na fila respectiva
-            inserir(&bairro[idTempBairro].servicos[fila_inserido],num_pessoa);
+            
+            //A busca verifica se aquele unidade existe do bairro da pessoa, se existir ela e inserida na fila
+            if(BuscarUnidadeBairro(&matrizBairroUnidade, idTempBairro, fila_inserido))
+            {
+                inserir(&bairro[idTempBairro].servicos[fila_inserido],num_pessoa);
+            }
+            //Caso nao exista, procura o primeiro bairro que possuir aquela unidade
+            else
+            {
+                idTempBairro = 0;
+                while(!BuscarUnidadeBairro(&matrizBairroUnidade, idTempBairro, fila_inserido) && idTempBairro != 5)
+                {
+                    idTempBairro++;
+                }
+
+                inserir(&bairro[idTempBairro].servicos[fila_inserido],num_pessoa);
+            }
             //Atualiza os dados da pessoa referentes a tempo na fila e em qual fila ela estava
             pessoa[num_pessoa].chegada = tempAtual;
             pessoa[num_pessoa].num_fila = fila_inserido;

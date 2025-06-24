@@ -1,0 +1,23 @@
+#ifndef STRUCT_COMUM_H
+#define STRUCT_COMUM_H
+#include <stdio.h>
+
+#define MAXBAIRRO 5 //linha da matriz indica os bairros
+#define MAXUNIDADE 3 //coluna da matriz indica os servicos 
+#define MAXNOME 50
+
+typedef struct Bairro
+{
+    int id;
+    char nome[MAXNOME];
+} Bairro;
+
+typedef struct Unidade
+{
+    int id;
+    char nome[MAXNOME];
+} Unidade;
+
+char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};
+char* nomesUnidades[] = {"Policia", "Hospital", "Bombeiro"};
+#endif

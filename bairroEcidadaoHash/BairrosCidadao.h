@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include "../struct_comum.h"
 
 #define MAXNOME 50
 
@@ -8,11 +9,6 @@
 #define tamanhoMaxVetorCidadaos 9
 
 // estrutura de cada bairro
-typedef struct Bairro
-{
-    int id;
-    char nome[MAXNOME];
-}  Bairro;
 
 // nó para cada bairro 
 typedef struct BairroHash

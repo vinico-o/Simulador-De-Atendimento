@@ -4,13 +4,10 @@
 #include <string.h>
 #include <stdbool.h>
 #include "Lista_Cruzada.h"
+#include "../struct_comum.h"
 
 int qntdNomesBairro = MAXBAIRRO;
-char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};
-
 int qntdNomesUnidades = MAXUNIDADE;
-//TODO - definir as unidades que serao utilizadas
-char* nomesUnidades[] = {"Policia", "Bombeiro", "Hospital"};
 
 void GerarBairroAleatorio(Bairro* bairro, int* indice)
 {
