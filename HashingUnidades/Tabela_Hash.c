@@ -3,8 +3,6 @@
 #include <string.h>
 #include "Tabela_Hash.h"
 
-int idUnidade = 1;
-
 void InicializarTabelaHashUnidades(TabHashUnidade *tabela)
 {
     for(int i = 0; i < MAXTABHASH; i++)
@@ -13,22 +11,15 @@ void InicializarTabelaHashUnidades(TabHashUnidade *tabela)
     }
 }
 
-int HashUnidades(char nome[])
+//O hashing eh feito pelo id da unidade
+int HashUnidades(int id)
 {
-    int soma = 0;
-    int tamanho = strlen(nome);
-
-    for(int i = 0; i < tamanho; i++)
-    {
-        soma += i * nome[i];
-    }
-
-    return soma % MAXTABHASH;
+    return id % MAXTABHASH;
 }
 
-void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela)
+void InserirTabelaUnidades(int id, char nome[], TabHashUnidade *tabela)
 {
-    int indice = HashUnidades(nome);
+    int indice = HashUnidades(id);
 
     UnidadeHash *novo = malloc(sizeof(UnidadeHash));
     if(novo == NULL)
@@ -39,7 +30,7 @@ void InserirTabelaUnidades(char nome[], TabHashUnidade *tabela)
 
     //TODO: definir como os ids serao gerados
     //por enquando esta definido um id fixo, que acresce a cada unidade
-    novo->unidade.id = idUnidade++;
+    novo->unidade.id = id;
     strcpy(novo->unidade.nome, nome);
     novo->prox = NULL;
 

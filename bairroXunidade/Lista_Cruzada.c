@@ -187,3 +187,20 @@ void ImprimirMatrizCruzada(Matriz *matriz)
 
     printf("\n");
 }
+
+bool BuscarUnidadeBairro(Matriz* matriz, int idBairro, int idUnidade)
+{
+    Ligacao* ptr = matriz->listaBairros[idBairro]; 
+
+    while (ptr != NULL)
+    {
+        if (ptr->coluna == idUnidade)
+        {
+            // Encontrou a unidade no bairro
+            return true;
+        }
+        ptr = ptr->proxBairro;
+    }
+
+    return false;
+}

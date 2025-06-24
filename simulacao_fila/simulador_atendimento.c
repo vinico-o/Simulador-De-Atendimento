@@ -7,6 +7,7 @@
 #include "pilha.c"
 #include "ArvBB.c"
 #include "../HashingUnidades/Tabela_Hash.c"
+#include "../bairroEcidadaoHash/BairrosCidadao.c"
 
 #define NUM_SERVICOS 3
 #define NUM_PESSOAS 1000
@@ -14,8 +15,8 @@
 #define MAXBAIRRO 5
 
 
-
 typedef struct{
+<<<<<<< HEAD
     char nome[MAXNOME];
     int id;
 }Bairro;
@@ -35,6 +36,9 @@ typedef struct{
 
 typedef struct{
     Cidadao cidadao;
+=======
+    Cidadao *cidadao;
+>>>>>>> 96ae3fa80486e4633ee502d6a57c417e7e14b55a
     int servico_desejado;
     char ocorrencia[MAXNOME];
     int idOcorrencia;
@@ -97,7 +101,7 @@ char* nomesAleatorios[] = {
 void GerarNomeAleatorio(CidadaoSimulacao* pessoa,int *indice)
 {
     *indice = rand() % qntNomes;
-    strcpy(pessoa->cidadao.nome,nomesAleatorios[*indice]);
+    strcpy(pessoa->cidadao->nome,nomesAleatorios[*indice]);
 }
 
 char* emailAleatorio[] = {
@@ -112,18 +116,25 @@ char* emailAleatorio[] = {
 
 void GerarEmailAleatorio(CidadaoSimulacao* pessoa,int indice)
 {
-    strcpy(pessoa->cidadao.email,emailAleatorio[indice]);
+    strcpy(pessoa->cidadao->email,emailAleatorio[indice]);
 }
 
 char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};
 char* nomesUnidades[] = {"Policia", "Hospital", "Bombeiro"};
+
+// gerando indice para aleatorizar o bairro do cidadao
+int AleatorizarBairro()
+{
+    return rand() % MAXBAIRRO;
+}
+
 
 int main()
 {
     setlocale(LC_ALL,"Portuguese");
     srand(time(NULL));
 
-    int tempTotal = 500;
+    int tempTotal = 200;
     int tempAtual = 0;
     int chegada = 0;
     int tempAtendimento = 0;
@@ -158,6 +169,7 @@ int main()
         inicializa_pilha(&historico_atendimento[i]);
     }
     
+<<<<<<< HEAD
     for(int i=0;i<MAXBAIRRO;i++)
     {
         // inicializando cada bairro
@@ -165,9 +177,26 @@ int main()
         bairro->bairrin.id = i;
         strcpy(bairro->bairrin.nome,nomesBairros[i-1]);
     }
+=======
+    tabelaBairros tabelaBairro;
+    tabelaCidadaos tabelaCidadao;
+>>>>>>> 96ae3fa80486e4633ee502d6a57c417e7e14b55a
     TabHashUnidade TabelaUnidade;
     Unidade unidadeTemp;
     InicializarTabelaHashUnidades(&TabelaUnidade);
+    inicializarTabelaBairros (&tabelaBairro);
+    inicializarTabelaCidadaos (&tabelaCidadao);
+
+    int idUnidade = 1;
+
+    // gerando bairros
+    inserirTabelaBairros ("Ipanema",&tabelaBairro);
+    inserirTabelaBairros ("Marupiara",&tabelaBairro);
+    inserirTabelaBairros ("Industrial",&tabelaBairro);
+    inserirTabelaBairros ("Rosas",&tabelaBairro);
+    inserirTabelaBairros ("Aviacao",&tabelaBairro);
+
+
     for(int i=0;i<NUM_PESSOAS;i++,num_cpf++)
     {
 
@@ -175,8 +204,10 @@ int main()
         pessoa[i].saida = 0;
         pessoa[i].num_fila = 0;
         pessoa[i].tempEspera = 0;
-        pessoa[i].cidadao.id = i+1;
+        pessoa[i].cidadao = malloc(sizeof(Cidadao));
+        pessoa[i].cidadao->id = i+1;
         pessoa[i].servico_desejado = rand()% NUM_SERVICOS + 1; //gera aleatoriamente o serviço de cada pessoa
+<<<<<<< HEAD
         pessoa[i].cidadao.endereco = malloc(sizeof(Bairro));
         pessoa[i].cidadao.endereco->id= rand()% MAXBAIRRO + 1; //isso aqui vai depender do numero de bairros que vai ter
         
@@ -190,6 +221,28 @@ int main()
         int indicetempNome;
         GerarNomeAleatorio(&pessoa[i],&indicetempNome);
         GerarEmailAleatorio(&pessoa[i],indicetempNome);
+=======
+    
+
+        // aleatoriza um numero para escolher o nome do bairro
+        int bairroAleatorio = AleatorizarBairro();
+
+        // linka o bairro da tabela hash com o bairro do cidadao
+        pessoa[i].cidadao->endereco = buscarBairro(nomesBairros[bairroAleatorio], &tabelaBairro);
+
+        
+        pessoa[i].cidadao->cpf = num_cpf;
+        GerarOcorrenciaAleatorio(&pessoa[i]);
+        int indicetempNome;
+        GerarNomeAleatorio(&pessoa[i],&indicetempNome);
+        GerarEmailAleatorio(&pessoa[i],indicetempNome);
+
+        
+        // inserindo na tabela
+        inserirTabelaCidadaos(pessoa[i].cidadao, &tabelaCidadao);
+
+        
+>>>>>>> 96ae3fa80486e4633ee502d6a57c417e7e14b55a
     }
 
     chegada += rand()%4 + 1;
@@ -217,13 +270,17 @@ int main()
                     int pessoa_;
                     remover(&bairro->servicos[i],&pessoa_);
 
-                    unidadeTemp.id = pessoa[pessoa_].servico_desejado;
+                    unidadeTemp.id = idUnidade++;
                     strcpy(unidadeTemp.nome,nomesUnidades[pessoa[pessoa_].servico_desejado-1]);
-                    InserirTabelaUnidades(unidadeTemp.nome,&TabelaUnidade);
+                    InserirTabelaUnidades(unidadeTemp.id, unidadeTemp.nome, &TabelaUnidade);
 
                     printf("\tPessoa %d atendida!\n",pessoa_);
+<<<<<<< HEAD
                     printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao.cpf,pessoa[pessoa_].cidadao.nome,pessoa[pessoa_].ocorrencia,pessoa[pessoa_].cidadao.email);
                     inserirnoArvBB(&ArvOcorrencia,pessoa[pessoa_].idOcorrencia);
+=======
+                    printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao->cpf,pessoa[pessoa_].cidadao->nome,pessoa[pessoa_].ocorrencia,pessoa[pessoa_].cidadao->email);
+>>>>>>> 96ae3fa80486e4633ee502d6a57c417e7e14b55a
                     printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
                     push(&historico_atendimento[i],pessoa[pessoa_].ocorrencia);
                     pessoa[pessoa_].saida = tempAtual;
@@ -235,20 +292,34 @@ int main()
 
         tempTotal--;
         printf("Tempo %d\n",tempAtual);
+<<<<<<< HEAD
         for(int i=0;i<NUM_SERVICOS;i++)
         {
             imprimir_fila(&bairro->servicos[i]);
         }
+=======
+        printf("\tPolicia: ");
+        imprimir_fila(&servicos[0]);
+        printf("\tHospital: ");
+        imprimir_fila(&servicos[1]);
+        printf("\tBombeiro: ");
+        imprimir_fila(&servicos[2]);
+>>>>>>> 96ae3fa80486e4633ee502d6a57c417e7e14b55a
         printf("\n");
         tempAtual++;
     }
-    for (int i=0;i<NUM_PESSOAS;i++)
-    {
-        free(pessoa[i].cidadao.endereco);
-    }
+    
     ImprimirTabelaHashUnidades(&TabelaUnidade);
+<<<<<<< HEAD
     //Arrumar a parte de BST
     printf("Pessoas que tiveram ocorrencias: ");
     imprimirEmOrdem(&ArvOcorrencia);
 return 0;
+=======
+    imprimirTabelaDeBairros(&tabelaBairro);
+    imprimirTabelaCidadaos (&tabelaCidadao);
+
+    
+    return 0;
+>>>>>>> 96ae3fa80486e4633ee502d6a57c417e7e14b55a
 }
