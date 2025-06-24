@@ -14,7 +14,7 @@
 #define MAXNOME 50
 #define MAXBAIRRO 5
 
-//TODO: Lembrar de ajeitar as estatisticas de cada fila, incluir no for de inicializar a fila do bairro
+//TODO: Lembrar de ajeitar as estatisticas de cada fila
 
 typedef struct{
     Bairro bairro;
@@ -164,10 +164,9 @@ int main()
             bairro[i].tempoEsperaFila[j] = 0;
             bairro[i].tempChegadaFila[j] = 0;
             bairro[i].tempSaidaFila[j] = 0;
-
         }
         bairro[i].bairro.id = i+1;
-        strcpy(bairro[i].bairro.nome,nomesBairros[i-1]);
+        strcpy(bairro[i].bairro.nome,nomesBairros[i]);
     }
 
     int idUnidade = 1;
@@ -223,13 +222,14 @@ int main()
             //Qual fila vai ser inserido
             int fila_inserido = pessoa[num_pessoa].servico_desejado - 1;
             //Pega o id do bairro da pessoa para inserir na fila do bairro
-            int idTempBairro = pessoa[num_pessoa].cidadao->endereco->id;
+            int idTempBairro = pessoa[num_pessoa].cidadao->endereco->id -1;
             //Insere na fila respectiva
             inserir(&bairro[idTempBairro].servicos[fila_inserido],num_pessoa);
             //Atualiza os dados da pessoa referentes a tempo na fila e em qual fila ela estava
             pessoa[num_pessoa].chegada = tempAtual;
             pessoa[num_pessoa].num_fila = fila_inserido;
             bairro[idTempBairro].num_pessoas_fila[fila_inserido]++;
+            bairro[idTempBairro].tempChegadaFila[fila_inserido] += tempAtual;
             //Incrementa para a proxima pessoa
             num_pessoa++;
             //Gera o tempo da nova chegada
@@ -276,10 +276,10 @@ int main()
 
                         //Dado para saber o tempo de espera da pessoa na fila
                         pessoa[pessoa_].saida = tempAtual;
-                        bairro[j].atendimentos_por_fila[i]++;
 
                         //Contabiliza o número de atendimentos por fila
                         bairro[j].atendimentos_por_fila[i]++;
+                        bairro[j].tempSaidaFila[i] += tempAtual;
                     }
                 }
             }
@@ -303,12 +303,112 @@ int main()
         }
         tempAtual++;
     }
-    printf("Pessoas que tiveram ocorrencias: \n");
+    //printf("Pessoas que tiveram ocorrencias: \n");
     //imprimirEmOrdem(&ArvOcorrencia);
     //ImprimirTabelaHashUnidades(&TabelaUnidade);
     //imprimirTabelaDeBairros(&tabelaBairro);
     //imprimirTabelaCidadaos (&tabelaCidadao);
 
+
     
+    for(int i=0;i<num_pessoa;i++)
+    {
+        if (pessoa[i].saida > pessoa[i].chegada)
+        {
+            pessoa[i].tempEspera = pessoa[i].saida - pessoa[i].chegada;
+        }
+        else
+        {
+            pessoa[i].tempEspera = 0;  
+        }
+    }
+    int maiorTempoPessoa = pessoa[0].tempEspera;
+    int indicedapessoa = 0;
+    for(int i=0;i<num_pessoa;i++)
+    {
+        if(maiorTempoPessoa<pessoa[i].tempEspera)
+        {
+            maiorTempoPessoa = pessoa[i].tempEspera;
+            indicedapessoa = i;
+            
+        }
+    }
+
+
+    for(int i=0;i<MAXBAIRRO;i++)
+    {
+        for(int j=0;j<num_pessoa;j++)
+        {
+            if(pessoa[j].cidadao->endereco->id == i+1)
+            {
+                if(pessoa[j].num_fila == 0)
+                {
+                    bairro[i].tempoEsperaFila[0] += pessoa[j].tempEspera;
+                }
+                if(pessoa[j].num_fila == 1)
+                {
+                    bairro[i].tempoEsperaFila[1] += pessoa[j].tempEspera;
+                }
+                if(pessoa[j].num_fila == 2)
+                {
+                    bairro[i].tempoEsperaFila[2] += pessoa[j].tempEspera;
+                }
+            }
+        }
+    }
+    int pessoas_atendidas =0;
+
+
+    
+    FILE *arq = fopen("estatisticas.txt", "w");
+    if (arq == NULL)
+    {
+        printf("Erro ao abrir o arquivo para escrita!\n");
+        return 1;
+    }
+
+    fprintf(arq, "======= ESTATÍSTICAS DA SIMULAÇÃO =======\n\n");
+
+    for (int i = 0; i < MAXBAIRRO; i++) {
+        fprintf(arq, "Atendimentos referentes ao bairro %s\n\n", bairro[i].bairro.nome);
+        for (int j = 0; j < NUM_SERVICOS; j++) {
+            fprintf(arq, "\tPessoas que entraram na fila %s: %d\n", nomesUnidades[j], bairro[i].num_pessoas_fila[j]);
+            fprintf(arq, "\tAtendimentos da fila de %s: %d\n", nomesUnidades[j], bairro[i].atendimentos_por_fila[j]);
+
+            if (bairro[i].atendimentos_por_fila[j] > 0) {
+                fprintf(arq, "\tTempo de espera médio da %s: %.2f\n", nomesUnidades[j], (float)bairro[i].tempoEsperaFila[j] / bairro[i].atendimentos_por_fila[j]);
+            } else {
+                fprintf(arq, "\tTempo de espera médio da %s: N/A\n", nomesUnidades[j]);
+            }
+
+            if (bairro[i].num_pessoas_fila[j] > 0) {
+                fprintf(arq, "\tTempo médio de chegada da %s: %.2f\n", nomesUnidades[j], (float)bairro[i].tempChegadaFila[j] / bairro[i].num_pessoas_fila[j]);
+            } else {
+                fprintf(arq, "\tTempo médio de chegada da %s: N/A\n", nomesUnidades[j]);
+            }
+
+            if (bairro[i].atendimentos_por_fila[j] > 0) {
+                fprintf(arq, "\tTempo médio de saída da %s: %.2f\n", nomesUnidades[j], (float)bairro[i].tempSaidaFila[j] / bairro[i].atendimentos_por_fila[j]);
+            } else {
+                fprintf(arq, "\tTempo médio de saída da %s: N/A\n", nomesUnidades[j]);
+            }
+
+            fprintf(arq, "\n");
+            pessoas_atendidas+=bairro[i].atendimentos_por_fila[j];
+        }
+        fprintf(arq, "\n");
+    }
+
+    fprintf(arq, "Numero de clientes atendidos: %d\n", pessoas_atendidas);
+
+    for (int i = 0; i <= pessoas_atendidas; i++) {
+        if (pessoa[i].tempEspera >= 0) {
+            fprintf(arq, "\nTempo de espera da pessoa %s: %d", pessoa[i].cidadao->nome, pessoa[i].tempEspera);
+        }
+    }
+
+    fprintf(arq, "\n\nMaior tempo de espera foi do %s com %d unidades de tempo\n",pessoa[indicedapessoa].cidadao->nome, maiorTempoPessoa);
+
+    fclose(arq);
     return 0;
 }
