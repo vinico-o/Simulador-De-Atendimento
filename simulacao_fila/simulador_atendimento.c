@@ -246,39 +246,19 @@ int main()
                 //Laço referente a cada fila de um bairro j
                 for(int i=0;i<NUM_SERVICOS;i++)
                 {
-                    //Caso a fila não esteja vazia ela será atendida. Sendo uma por vez de cada fila
-                    if(!vazia(&bairro[j].servicos[i]))
-                    {
-                        //Pega o numero da pessoa para poder analisar seus dados referentes ao atendimento
-                        int pessoa_;
-                        //remove a pessoa de uma fila especifica de um bairro j
-                        remover(&bairro[j].servicos[i],&pessoa_);
-                        
-                        //Comando referentes a inserção da unidade utilizada na tabela hash de Unidades
-                        unidadeTemp.id = idUnidade++;
-                        strcpy(unidadeTemp.nome,nomesUnidades[pessoa[pessoa_].servico_desejado-1]);
-                        InserirTabelaUnidades(unidadeTemp.id, unidadeTemp.nome, &TabelaUnidade);
-                        
-                        //Print dos dados da pessoa que foi retirada de sua fila
-                        printf("\tPessoa %d atendida!\n",pessoa_);
-                        printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao->cpf,pessoa[pessoa_].cidadao->nome,pessoa[pessoa_].ocorrencia,pessoa[pessoa_].cidadao->email);
-                        
-                        //Cada pessoa tem um id referente a sua ocorrencia, a partir dele conseguimos recuperar a pessoa referente a esse id, como tambem sua ocorrência
-                        //Adiciona esse id em um BST
-                        printf("ID da ocorrencia adicionada na BST!\n");
-                        inserirnoArvBB(&ArvOcorrencia,pessoa[pessoa_].idOcorrencia);
-                        
-                        //Adiciona cada ocorrencia referente a pilha referente a unidade solicitada
-                        //A pilha seria unica para cada unidade e não em relaçao ao bairro
-                        printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
-                        push(&historico_atendimento[i],pessoa[pessoa_].ocorrencia);
+                    int pessoa_;
+                    remover(&servicos[i],&pessoa_);
+                    
+                    unidadeTemp.id = idUnidade++;
+                    strcpy(unidadeTemp.nome,nomesUnidades[pessoa[pessoa_].servico_desejado-1]);
+                    InserirTabelaUnidades(unidadeTemp.id, unidadeTemp.nome, &TabelaUnidade);
 
-                        //Dado para saber o tempo de espera da pessoa na fila
-                        pessoa[pessoa_].saida = tempAtual;
-
-                        //Contabiliza o número de atendimentos por fila
-                        bairro[j].atendimentos_por_fila[i]++;
-                    }
+                    printf("\tPessoa %d atendida!\n",pessoa_);
+                    printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao.cpf,pessoa[pessoa_].cidadao.nome,pessoa[pessoa_].ocorrencia,pessoa[pessoa_].cidadao.email);
+                    printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
+                    push(&historico_atendimento[i],pessoa[pessoa_].ocorrencia);
+                    pessoa[pessoa_].saida = tempAtual;
+                    atendimentos_por_fila[i]++;
                 }
             }
             //Gera um novo tempo para atendimento
