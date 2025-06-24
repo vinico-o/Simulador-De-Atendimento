@@ -5,6 +5,7 @@
 #include <time.h>
 #include "fila_din.c"
 #include "pilha.c"
+#include "ArvBB.c"
 #include "../HashingUnidades/Tabela_Hash.c"
 
 #define NUM_SERVICOS 3
@@ -20,6 +21,11 @@ typedef struct{
 }Bairro;
 
 typedef struct{
+    Bairro bairrin;
+    Fila servicos[NUM_SERVICOS];
+}BairroSimulacao;
+
+typedef struct{
     int id;
     int cpf;
     char nome[MAXNOME];
@@ -31,6 +37,7 @@ typedef struct{
     Cidadao cidadao;
     int servico_desejado;
     char ocorrencia[MAXNOME];
+    int idOcorrencia;
     //Essa parte de baixo � para dados estat�sticos
     int chegada;
     int saida;
@@ -124,9 +131,10 @@ int main()
     int num_cpf = 1000000;
 
     CidadaoSimulacao pessoa[NUM_PESSOAS];
+    BairroSimulacao bairro[MAXBAIRRO];
     int tempoEsperaFila[NUM_SERVICOS];
 
-    Fila servicos[NUM_SERVICOS];
+
     int num_pessoas_fila[NUM_SERVICOS];
 
     int atendimentos_por_fila[NUM_SERVICOS];
@@ -135,12 +143,13 @@ int main()
     int tempSaidaFila[NUM_SERVICOS];
 
     Pilha historico_atendimento[NUM_SERVICOS];
-
+    noArvBB *ArvOcorrencia;
+    inicializanoArvBB(&ArvOcorrencia);
 
     for(int i=0;i<NUM_SERVICOS;i++)
     {
         //Instruções para Fila
-        inicializar(&servicos[i]);
+        
         num_pessoas_fila[i] = 0;
         atendimentos_por_fila[i] = 0;
         tempoEsperaFila[i] = 0;
@@ -149,6 +158,13 @@ int main()
         inicializa_pilha(&historico_atendimento[i]);
     }
     
+    for(int i=0;i<MAXBAIRRO;i++)
+    {
+        // inicializando cada bairro
+        inicializar(&bairro->servicos[i]);
+        bairro->bairrin.id = i;
+        strcpy(bairro->bairrin.nome,nomesBairros[i-1]);
+    }
     TabHashUnidade TabelaUnidade;
     Unidade unidadeTemp;
     InicializarTabelaHashUnidades(&TabelaUnidade);
@@ -163,24 +179,18 @@ int main()
         pessoa[i].servico_desejado = rand()% NUM_SERVICOS + 1; //gera aleatoriamente o serviço de cada pessoa
         pessoa[i].cidadao.endereco = malloc(sizeof(Bairro));
         pessoa[i].cidadao.endereco->id= rand()% MAXBAIRRO + 1; //isso aqui vai depender do numero de bairros que vai ter
-
+        
         //peguei de exemplo o cod da função GerarBArirroAleatorio da Lista_Cruzada.c
         int indicetemp = pessoa[i].cidadao.endereco->id;
         strcpy(pessoa[i].cidadao.endereco->nome,nomesBairros[indicetemp-1]);
-
+        
 
         pessoa[i].cidadao.cpf = num_cpf;
-        GerarOcorrenciaAleatorio(&pessoa[i]);
+        pessoa[i].idOcorrencia = i+1;
         int indicetempNome;
         GerarNomeAleatorio(&pessoa[i],&indicetempNome);
         GerarEmailAleatorio(&pessoa[i],indicetempNome);
-
-
-
-        
-        
     }
-
 
     chegada += rand()%4 + 1;
     tempAtendimento += chegada + rand()%16 + 1;
@@ -190,7 +200,7 @@ int main()
         if(chegada == tempAtual && num_pessoa < NUM_PESSOAS)
         {
             int fila_inserido = pessoa[num_pessoa].servico_desejado - 1;
-            inserir(&servicos[fila_inserido],num_pessoa);
+            inserir(&bairro->servicos[fila_inserido],num_pessoa);
             pessoa[num_pessoa].chegada = tempAtual;
             pessoa[num_pessoa].num_fila = fila_inserido;
             num_pessoa++;
@@ -202,10 +212,10 @@ int main()
         {
             for(int i=0;i<NUM_SERVICOS;i++)
             {
-                if(!vazia(&servicos[i]))
+                if(!vazia(&bairro->servicos[i]))
                 {
                     int pessoa_;
-                    remover(&servicos[i],&pessoa_);
+                    remover(&bairro->servicos[i],&pessoa_);
 
                     unidadeTemp.id = pessoa[pessoa_].servico_desejado;
                     strcpy(unidadeTemp.nome,nomesUnidades[pessoa[pessoa_].servico_desejado-1]);
@@ -213,6 +223,7 @@ int main()
 
                     printf("\tPessoa %d atendida!\n",pessoa_);
                     printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao.cpf,pessoa[pessoa_].cidadao.nome,pessoa[pessoa_].ocorrencia,pessoa[pessoa_].cidadao.email);
+                    inserirnoArvBB(&ArvOcorrencia,pessoa[pessoa_].idOcorrencia);
                     printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
                     push(&historico_atendimento[i],pessoa[pessoa_].ocorrencia);
                     pessoa[pessoa_].saida = tempAtual;
@@ -226,7 +237,7 @@ int main()
         printf("Tempo %d\n",tempAtual);
         for(int i=0;i<NUM_SERVICOS;i++)
         {
-            imprimir_fila(&servicos[i]);
+            imprimir_fila(&bairro->servicos[i]);
         }
         printf("\n");
         tempAtual++;
@@ -236,5 +247,8 @@ int main()
         free(pessoa[i].cidadao.endereco);
     }
     ImprimirTabelaHashUnidades(&TabelaUnidade);
+    //Arrumar a parte de BST
+    printf("Pessoas que tiveram ocorrencias: ");
+    imprimirEmOrdem(&ArvOcorrencia);
 return 0;
 }
