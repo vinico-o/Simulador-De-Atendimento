@@ -1,5 +1,5 @@
 #define MAXBAIRRO 5 //linha da matriz indica os bairros
-#define MAXUNIDADE 4 //coluna da matriz indica os servicos 
+#define MAXUNIDADE 3 //coluna da matriz indica os servicos 
 #define MAXNOME 50
 
 // cada no presente na matriz é aliado a uma linha e uma coluna, demonstrando que certo bairro possui um certo servico
@@ -38,3 +38,4 @@ void RemoverMatrizCruzada(Matriz* matriz, int linha, int coluna);
 void ImprimirMatrizCruzada(Matriz *matriz);
 void GerarBairroAleatorio(Bairro* bairro, int* indice);
 void GerarUnidadeAleatoria(Unidade* unidade, int* indice);
+void GerarMatrizAleatoria(Matriz* matriz);

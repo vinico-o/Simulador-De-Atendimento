@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include <string.h>
 #include <stdbool.h>
 #include "Lista_Cruzada.h"
@@ -9,7 +10,7 @@ char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"
 
 int qntdNomesUnidades = MAXUNIDADE;
 //TODO - definir as unidades que serao utilizadas
-char* nomesUnidades[] = {"Policia", "Hospital", "Bombeiro"};
+char* nomesUnidades[] = {"Policia", "Bombeiro", "Hospital"};
 
 void GerarBairroAleatorio(Bairro* bairro, int* indice)
 {
@@ -162,8 +163,8 @@ void RemoverMatrizCruzada(Matriz* matriz, int linha, int coluna)
 
 void ImprimirMatrizCruzada(Matriz *matriz)
 {
-    printf("    Bairro   | %-17s%-17s%-17s%-17s\n", "Ambulancia", "Bombeiro", "Policia", "Hospital");
-    printf("-------------+---------------------------------------------------------------------\n");
+    printf("    Bairro   | %-17s%-17s%-17s\n", "Policia", "Bombeiro", "Hospital");
+    printf("-------------+---------------------------------------------------\n");
 
     for(int i = 0; i < MAXBAIRRO; i++)
     {
@@ -203,4 +204,28 @@ bool BuscarUnidadeBairro(Matriz* matriz, int idBairro, int idUnidade)
     }
 
     return false;
+}
+
+void GerarMatrizAleatoria(Matriz* matriz)
+{
+    int numero;
+    for(int i = 0; i < MAXBAIRRO; i++)
+    {
+        for(int j = 0; j < MAXUNIDADE; j++)
+        {
+            numero = rand() % 3;
+            if(numero % 2 == 0)
+            {
+                Bairro tempBairro;
+                tempBairro.id = i;
+                strcpy(tempBairro.nome, nomesBairros[i]);
+
+                Unidade tempUnidade;
+                tempUnidade.id = j;
+                strcpy(tempUnidade.nome, nomesBairros[i]);
+
+                InserirMatrizCruzada(matriz, i, j, tempBairro, tempUnidade);
+            }
+        }
+    }
 }
