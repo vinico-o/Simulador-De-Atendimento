@@ -15,7 +15,7 @@
 
 
 typedef struct{
-    Cidadao cidadao;
+    Cidadao *cidadao;
     int servico_desejado;
     char ocorrencia[MAXNOME];
     //Essa parte de baixo � para dados estat�sticos
@@ -77,7 +77,7 @@ char* nomesAleatorios[] = {
 void GerarNomeAleatorio(CidadaoSimulacao* pessoa,int *indice)
 {
     *indice = rand() % qntNomes;
-    strcpy(pessoa->cidadao.nome,nomesAleatorios[*indice]);
+    strcpy(pessoa->cidadao->nome,nomesAleatorios[*indice]);
 }
 
 char* emailAleatorio[] = {
@@ -92,11 +92,18 @@ char* emailAleatorio[] = {
 
 void GerarEmailAleatorio(CidadaoSimulacao* pessoa,int indice)
 {
-    strcpy(pessoa->cidadao.email,emailAleatorio[indice]);
+    strcpy(pessoa->cidadao->email,emailAleatorio[indice]);
 }
 
 char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};
 char* nomesUnidades[] = {"Policia", "Hospital", "Bombeiro"};
+
+// gerando indice para aleatorizar o bairro do cidadao
+int AleatorizarBairro()
+{
+    return rand() % MAXBAIRRO;
+}
+
 
 int main()
 {
@@ -161,21 +168,27 @@ int main()
         pessoa[i].saida = 0;
         pessoa[i].num_fila = 0;
         pessoa[i].tempEspera = 0;
-        pessoa[i].cidadao.id = i+1;
+        pessoa[i].cidadao = malloc(sizeof(Cidadao));
+        pessoa[i].cidadao->id = i+1;
         pessoa[i].servico_desejado = rand()% NUM_SERVICOS + 1; //gera aleatoriamente o serviço de cada pessoa
-        pessoa[i].cidadao.endereco = malloc(sizeof(Bairro));    // ***** EU (cauan) preciso arrumar aqui! 
-        pessoa[i].cidadao.endereco->id= rand()% MAXBAIRRO + 1; //isso aqui vai depender do numero de bairros que vai ter
+    
 
-        //peguei de exemplo o cod da função GerarBArirroAleatorio da Lista_Cruzada.c
-        int indicetemp = pessoa[i].cidadao.endereco->id;
-        strcpy(pessoa[i].cidadao.endereco->nome,nomesBairros[indicetemp-1]);
+        // aleatoriza um numero para escolher o nome do bairro
+        int bairroAleatorio = AleatorizarBairro();
 
+        // linka o bairro da tabela hash com o bairro do cidadao
+        pessoa[i].cidadao->endereco = buscarBairro(nomesBairros[bairroAleatorio], &tabelaBairro);
 
-        pessoa[i].cidadao.cpf = num_cpf;
+        
+        pessoa[i].cidadao->cpf = num_cpf;
         GerarOcorrenciaAleatorio(&pessoa[i]);
         int indicetempNome;
         GerarNomeAleatorio(&pessoa[i],&indicetempNome);
         GerarEmailAleatorio(&pessoa[i],indicetempNome);
+
+        
+        // inserindo na tabela
+        inserirTabelaCidadaos(pessoa[i].cidadao, &tabelaCidadao);
 
         
     }
@@ -211,7 +224,7 @@ int main()
                     InserirTabelaUnidades(unidadeTemp.id, unidadeTemp.nome, &TabelaUnidade);
 
                     printf("\tPessoa %d atendida!\n",pessoa_);
-                    printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao.cpf,pessoa[pessoa_].cidadao.nome,pessoa[pessoa_].ocorrencia,pessoa[pessoa_].cidadao.email);
+                    printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao->cpf,pessoa[pessoa_].cidadao->nome,pessoa[pessoa_].ocorrencia,pessoa[pessoa_].cidadao->email);
                     printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
                     push(&historico_atendimento[i],pessoa[pessoa_].ocorrencia);
                     pessoa[pessoa_].saida = tempAtual;
@@ -232,12 +245,11 @@ int main()
         printf("\n");
         tempAtual++;
     }
-    for (int i=0;i<NUM_PESSOAS;i++)
-    {
-        free(pessoa[i].cidadao.endereco);
-    }
+    
     ImprimirTabelaHashUnidades(&TabelaUnidade);
     imprimirTabelaDeBairros(&tabelaBairro);
+    imprimirTabelaCidadaos (&tabelaCidadao);
 
+    
     return 0;
 }

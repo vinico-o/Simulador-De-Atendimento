@@ -4,7 +4,7 @@
 
 #define MAXNOME 50
 
-#define tamanhoMaxVetorBairros 9
+#define tamanhoMaxVetorBairros 5
 #define tamanhoMaxVetorCidadaos 9
 
     // estrutura de cada bairro
@@ -35,16 +35,17 @@ typedef struct Cidadao{
 } Cidadao;
 
 
-typedef struct CidadaoHash{
+typedef struct CidadaoHash {
     struct Cidadao *c;
-    struct Cidadao *prox;
-}CidadaoHash;
+    struct CidadaoHash *prox; 
+} CidadaoHash;
+
 
 
     // tabela hash para cidadaos
 typedef struct tabelaCidadaos{
     int populacaoTotal;
-    struct Cidadao *vetorCidadaos[tamanhoMaxVetorCidadaos];
+    struct CidadaoHash *vetorCidadaos[tamanhoMaxVetorCidadaos];
 } tabelaCidadaos;
 
 

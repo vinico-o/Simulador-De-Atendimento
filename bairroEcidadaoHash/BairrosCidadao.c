@@ -5,8 +5,6 @@
 
 
 int idBairros = 1;   // simula o ID de bancos de dados para BAIRROS
-int idCidadao = 1;   // simula o ID de bancos de dados para CIDADAOS
-
 
     // funcao de inicializacao da tabela de bairros
 void inicializarTabelaBairros (tabelaBairros *tabela)
@@ -154,21 +152,12 @@ void inicializarTabelaCidadaos (tabelaCidadaos *tabela)
     }
 }
     // funcao hash para cidadaos
-int hashCidadaos (char nome[])
+int hashCidadaos (int cpf)
 {
-    int soma = 0;
-
-    int tamanho = strlen(nome);
-
-    for (int i = 0; i < tamanho; i++)
-    {
-        soma += i * nome[i];
-    }
-
-    return soma % tamanhoMaxVetorCidadaos;
+    return cpf % tamanhoMaxVetorCidadaos;
 }
 
-Cidadao* criarCidadao (char nome[], tabelaBairros *tBairros)
+/* Cidadao* criarCidadao (char nome[], tabelaBairros *tBairros)
 {
     Cidadao *novoCidadao = malloc (sizeof(Cidadao));
 
@@ -204,78 +193,61 @@ Cidadao* criarCidadao (char nome[], tabelaBairros *tBairros)
         free (novoCidadao);
         return NULL;
     }
-}
+} */
 
 
     // funcao para insercao na tabela de cidadaos
 
-void inserirTabelaCidadaos (char nome[], tabelaCidadaos *tabela, tabelaBairros *tBairros)
-{
-    printf ("\n(CRIANDO CIDADAO)\n");
+void inserirTabelaCidadaos(Cidadao *novoCidadao, tabelaCidadaos *tabela) {
 
-    Cidadao *novoCidadao = criarCidadao (nome, tBairros);
+    int indice = hashCidadaos(novoCidadao->nome);
 
-    CidadaoHash *novoCidadaoNaTabela = malloc (sizeof(CidadaoHash));
+    CidadaoHash *novoCidadaoNaTabela = malloc(sizeof(CidadaoHash));
+    if (novoCidadaoNaTabela == NULL) {
+        printf("Erro de alocação de memória\n");
+        return;
+    }
 
     novoCidadaoNaTabela->c = novoCidadao;
     novoCidadaoNaTabela->prox = NULL;
 
-    if (novoCidadao != NULL){
-
-        int indice = hashCidadaos(nome);
-
-        if (tabela->vetorCidadaos[indice] == NULL){
-            tabela->vetorCidadaos[indice] = novoCidadaoNaTabela;
-
-
+    if (tabela->vetorCidadaos[indice] == NULL) {
+        tabela->vetorCidadaos[indice] = novoCidadaoNaTabela;
+    } else {
+        CidadaoHash *aux = tabela->vetorCidadaos[indice];
+        while (aux->prox != NULL) {
+            aux = aux->prox;
         }
-
-        else {
-
-            CidadaoHash *aux = tabela->vetorCidadaos[indice];
-
-            while (aux->prox != NULL)
-            {
-                aux = aux->prox;
-            }
-
-            aux->prox = novoCidadaoNaTabela;
-
-
-
-        }
-
-        tabela->populacaoTotal++;
-        idCidadao++;
-
+        aux->prox = novoCidadaoNaTabela;
     }
+
+    tabela->populacaoTotal++;
 }
+
 
     // funcao para imprimir os cidadaos
 
 void imprimirTabelaCidadaos (tabelaCidadaos *tabela)
 {
-    for (int i = 0; i < tamanhoMaxVetorCidadaos; i++)
-    {
-        printf ("\n\n%d: ", i);
-        if (tabela->vetorCidadaos[i] != NULL){
+    printf("\n-----TABELA HASH CIDADAOS-----\n");
 
-            CidadaoHash *aux = tabela->vetorCidadaos[i];
 
-            while (aux != NULL)
-            {
+    for (int i = 0; i < tamanhoMaxVetorCidadaos; i++) {
+        
+        printf("\n\n%d:", i);
+        
+        CidadaoHash *aux = tabela->vetorCidadaos[i];
 
-                printf ("\nId: %d", aux->c->id);
-                printf ("\nCpf: %d", aux->c->cpf);
-                printf ("\nNome: %s", aux->c->nome);
-                printf ("\nEmail: %s", aux->c->email);
-                printf ("\nNome do bairro: %s", aux->c->endereco->nome);
-
-                printf ("\n");
-
-                aux = aux->prox;
+        while (aux != NULL) 
+        {
+            if (aux->c != NULL) {
+                printf("\nID do cidadao: %d\n", aux->c->id);
+                printf("CPF: %d\n", aux->c->cpf);
+                printf("Nome: %s\n", aux->c->nome);
+                printf("Email: %s\n", aux->c->email);
+                printf("Bairro: %s\n", aux->c->endereco->nome);
             }
-
+            aux = aux->prox;
         }
     }
 }
@@ -288,22 +260,12 @@ CidadaoHash* buscarCidadao (tabelaCidadaos *tabela, char nome[])
 
     CidadaoHash *aux = tabela->vetorCidadaos[indice];
 
-    if (strcmp(aux->c->nome, nome) == 0){
-        return aux;
-    }
-
-
-    else {
-        while (aux != NULL){
-
-            if (strcmp(aux->c->nome, nome)){
-                return aux;
-            }
-            
-            aux = aux->prox;
-
+    while (aux != NULL) {
+        if (strcmp(aux->c->nome, nome) == 0) {
+            return aux;
         }
+        aux = aux->prox;
     }
-    return NULL;
 
+    return NULL;
 }
