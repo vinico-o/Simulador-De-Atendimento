@@ -7,26 +7,30 @@
 #define tamanhoMaxVetorBairros 5
 #define tamanhoMaxVetorCidadaos 9
 
-    // estrutura de cada bairro
-typedef struct Bairro{
+// estrutura de cada bairro
+typedef struct Bairro
+{
     int id;
     char nome[MAXNOME];
 }  Bairro;
 
-    // no para cada 
-typedef struct BairroHash{
+// nó para cada bairro 
+typedef struct BairroHash
+{
     struct Bairro *b;
     struct BairroHash *prox;
 } BairroHash;
 
 
-    // tabela hash para bairros
-typedef struct {
+// tabela hash para bairros
+typedef struct
+{
     struct BairroHash *vetorBairros[tamanhoMaxVetorBairros];
 } tabelaBairros;
 
-    // estrutura de cada cidadao
-typedef struct Cidadao{
+// estrutura de cada cidadão
+typedef struct Cidadao
+{
     int id;
     int cpf;
     char nome[MAXNOME];
@@ -34,16 +38,16 @@ typedef struct Cidadao{
     struct Bairro *endereco;
 } Cidadao;
 
-
-typedef struct CidadaoHash {
+// nó para cada cidadão
+typedef struct CidadaoHash
+{
     struct Cidadao *c;
     struct CidadaoHash *prox; 
 } CidadaoHash;
 
-
-
-    // tabela hash para cidadaos
-typedef struct tabelaCidadaos{
+// tabela hash para cidadãos
+typedef struct tabelaCidadaos
+{
     int populacaoTotal;
     struct CidadaoHash *vetorCidadaos[tamanhoMaxVetorCidadaos];
 } tabelaCidadaos;
