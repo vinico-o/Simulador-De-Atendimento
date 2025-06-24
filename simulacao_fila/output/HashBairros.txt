@@ -1,0 +1,32 @@
+
+-----TABELA HASH BAIRROS-----
+
+
+0:
+Id do bairro: 2
+Nome do bairro: Marupiara
+
+
+
+1:
+Id do bairro: 5
+Nome do bairro: Aviacao
+
+
+
+2:
+Id do bairro: 1
+Nome do bairro: Ipanema
+
+Id do bairro: 4
+Nome do bairro: Rosas
+
+
+
+3:
+Id do bairro: 3
+Nome do bairro: Industrial
+
+
+
+4:

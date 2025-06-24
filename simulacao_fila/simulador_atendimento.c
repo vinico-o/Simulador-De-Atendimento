@@ -323,11 +323,49 @@ int main()
         }
         tempAtual++;
     }
+
     //printf("Pessoas que tiveram ocorrencias: \n");
     //imprimirEmOrdem(&ArvOcorrencia);
     //ImprimirTabelaHashUnidades(&TabelaUnidade);
     //imprimirTabelaDeBairros(&tabelaBairro);
     //imprimirTabelaCidadaos (&tabelaCidadao);
+    FILE *bst = fopen("OcorrenciasBST.txt","w");
+    if(bst)
+    {
+        freopen("OcorrenciasBST.txt","w",stdout);
+        printf( "------- Ocorrencias na BST -------\n\n");
+        imprimirEmOrdem(&ArvOcorrencia);
+        freopen("/dev/tty", "w", stdout); 
+        fclose(bst);       
+    }
+    //Salvar a Tabela de Unidades
+    FILE *hash_unidades = fopen("HashUnidades.txt", "w");
+    if(hash_unidades)
+    {
+        freopen("HashUnidades.txt", "w", stdout);
+        ImprimirTabelaHashUnidades(&TabelaUnidade);
+        freopen("/dev/tty", "w", stdout);
+        fclose(hash_unidades);
+    }
+
+    //Salvar a Tabela de Bairros
+    FILE *bairros = fopen("HashBairros.txt", "w");
+    if(bairros)
+    {
+        freopen("HashBairros.txt", "w", stdout);
+        imprimirTabelaDeBairros(&tabelaBairro);
+        freopen("/dev/tty", "w", stdout);
+        fclose(bairros);
+    }
+
+    // Salvar a Tabela de Cidadãos
+    FILE *cidadaos = fopen("HashCidadaos.txt", "w");
+    if (cidadaos) {
+        freopen("HashCidadaos.txt", "w", stdout);
+        imprimirTabelaCidadaos(&tabelaCidadao);
+        freopen("/dev/tty", "w", stdout);
+        fclose(cidadaos);
+    }
 
 
     

@@ -148,7 +148,7 @@ noArvBB* buscaSubstArvBB(noArvBB **abb,int *elem)
             }
             else
             {
-                printf("O nó é um folha. Não há subst, apenas remova-o!\n");
+                printf("O nï¿½ ï¿½ um folha. Nï¿½o hï¿½ subst, apenas remova-o!\n");
                 return NULL;
             }
 
@@ -308,7 +308,7 @@ void imprimirEmOrdem(noArvBB **abb)
     if(aux)
     {
         imprimirEmOrdem(&(aux->esq));
-        printf("%d ",aux->elem);
+        printf("%d \n",aux->elem);
         imprimirEmOrdem(&(aux->dir));
     }
 }
