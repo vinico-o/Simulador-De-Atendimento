@@ -240,7 +240,7 @@ int main()
         int indicetempNome;
         GerarNomeAleatorio(&pessoa[i],&indicetempNome);
         GerarEmailAleatorio(&pessoa[i],indicetempNome);
-        GerarNomeAleatorioAtendente(&pessoa[i].atendimento.atendente);
+        GerarNomeAleatorioAtendente(&pessoa[i]);
         GerarOcorrenciaAleatorio(&pessoa[i]);
 
         // inserindo na tabela
