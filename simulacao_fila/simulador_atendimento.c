@@ -100,6 +100,15 @@ void GerarOcorrenciaAleatorio(CidadaoSimulacao* pessoa)
     }
 
 }
+
+const char* gravidadeNome(Gravidade g) {
+    switch (g) {
+        case ALTA: return "ALTA";
+        case MEDIA: return "MEDIA";
+        case BAIXA: return "BAIXA";
+        default: return "DESCONHECIDA";
+    }
+}
 int qntNomes = 28;
 char* nomesAleatorios[] = {
     "Laura", "Bruno", "Carla", "Diego",
@@ -349,14 +358,25 @@ int main()
     //ImprimirTabelaHashUnidades(&TabelaUnidade);
     //imprimirTabelaDeBairros(&tabelaBairro);
     //imprimirTabelaCidadaos (&tabelaCidadao);
-    FILE *bst = fopen("OcorrenciasBST.txt","w");
-    if(bst)
-    {
-        freopen("OcorrenciasBST.txt","w",stdout);
-        printf( "------- Ocorrencias na BST -------\n\n");
-        imprimirEmOrdem(&ArvOcorrencia);
-        freopen("/dev/tty", "w", stdout); 
-        fclose(bst);       
+    FILE *bst = fopen("OcorrenciasBST.txt", "w");
+    if (bst) {
+        fprintf(bst, "------- Ocorrencias na BST -------\n\n");
+
+        for (int i = 0; i < num_pessoa; i++) {
+            noArvBB *temp = buscanoArvBB(&ArvOcorrencia, i);
+            if (temp) {
+                for (int j = 0; j < NUM_PESSOAS; j++) {
+                    if (pessoa[j].atendimento.idOcorrencia == temp->elem) {
+                        fprintf(bst, "Dados da ocorrência %d:\n", temp->elem);
+                        fprintf(bst, "\tID: %d\n", pessoa[j].atendimento.idOcorrencia);
+                        fprintf(bst, "\tNivel: %s\n", gravidadeNome(pessoa[j].atendimento.nivel));
+                        fprintf(bst, "\tOcorrência: %s\n\n\n", pessoa[j].atendimento.ocorrencia);
+                    }
+                }
+            }
+        }
+
+        fclose(bst);
     }
     //Salvar a Tabela de Unidades
     FILE *hash_unidades = fopen("HashUnidades.txt", "w");

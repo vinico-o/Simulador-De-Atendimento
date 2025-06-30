@@ -5,6 +5,7 @@
 0:
 ID do cidadao: 9
 CPF: 1000008
+<<<<<<< HEAD
 Nome: Carla
 Email: carla.souza@example.net
 Bairro: Marupiara
@@ -37,22 +38,67 @@ ID do cidadao: 54
 CPF: 1000053
 Nome: Hugo
 Email: hugo.teixeira@example.com
+=======
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 18
+CPF: 1000017
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Marupiara
+
+ID do cidadao: 27
+CPF: 1000026
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Rosas
+
+ID do cidadao: 36
+CPF: 1000035
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Ipanema
+
+ID do cidadao: 45
+CPF: 1000044
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Rosas
+
+ID do cidadao: 54
+CPF: 1000053
+Nome: Bruno
+Email: bruno.oliveira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 63
 CPF: 1000062
+<<<<<<< HEAD
 Nome: Sílvia
 Email: silvia.ferreira@example.org
+=======
+Nome: Rafael
+Email: rafael.nogueira@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 72
 CPF: 1000071
+<<<<<<< HEAD
 Nome: Mariana
 Email: mariana.dias@example.com
+=======
+Nome: João
+Email: joao.mendes@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 81
 CPF: 1000080
+<<<<<<< HEAD
 Nome: Igor
 Email: igor.freitas@example.org
 Bairro: Aviacao
@@ -116,11 +162,77 @@ CPF: 1000170
 Nome: Bianca
 Email: bianca.rocha@example.net
 Bairro: Industrial
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Marupiara
+
+ID do cidadao: 90
+CPF: 1000089
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Industrial
+
+ID do cidadao: 99
+CPF: 1000098
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 108
+CPF: 1000107
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 117
+CPF: 1000116
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Marupiara
+
+ID do cidadao: 126
+CPF: 1000125
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Industrial
+
+ID do cidadao: 135
+CPF: 1000134
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 144
+CPF: 1000143
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 153
+CPF: 1000152
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Industrial
+
+ID do cidadao: 162
+CPF: 1000161
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Aviacao
+
+ID do cidadao: 171
+CPF: 1000170
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 180
 CPF: 1000179
 Nome: Eduarda
 Email: eduarda.alves@example.org
+<<<<<<< HEAD
 Bairro: Rosas
 
 ID do cidadao: 189
@@ -145,6 +257,104 @@ ID do cidadao: 216
 CPF: 1000215
 Nome: Carla
 Email: carla.souza@example.net
+=======
+Bairro: Marupiara
+
+ID do cidadao: 189
+CPF: 1000188
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 198
+CPF: 1000197
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 207
+CPF: 1000206
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Ipanema
+
+ID do cidadao: 216
+CPF: 1000215
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Ipanema
+
+ID do cidadao: 225
+CPF: 1000224
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 234
+CPF: 1000233
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 243
+CPF: 1000242
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Industrial
+
+ID do cidadao: 252
+CPF: 1000251
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Aviacao
+
+ID do cidadao: 261
+CPF: 1000260
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 270
+CPF: 1000269
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 279
+CPF: 1000278
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 288
+CPF: 1000287
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 297
+CPF: 1000296
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 306
+CPF: 1000305
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 315
+CPF: 1000314
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 324
+CPF: 1000323
+Nome: Daniel
+Email: daniel.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 225
@@ -221,6 +431,7 @@ Bairro: Ipanema
 
 ID do cidadao: 333
 CPF: 1000332
+<<<<<<< HEAD
 Nome: Hugo
 Email: hugo.teixeira@example.com
 Bairro: Aviacao
@@ -259,16 +470,62 @@ ID do cidadao: 387
 CPF: 1000386
 Nome: Eduarda
 Email: eduarda.alves@example.org
+=======
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Industrial
+
+ID do cidadao: 342
+CPF: 1000341
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 351
+CPF: 1000350
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 360
+CPF: 1000359
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Marupiara
+
+ID do cidadao: 369
+CPF: 1000368
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 378
+CPF: 1000377
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 387
+CPF: 1000386
+Nome: Laura
+Email: laura.silva@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 396
 CPF: 1000395
+<<<<<<< HEAD
 Nome: Gustavo
 Email: gustavo.nogueira@example.net
+=======
+Nome: Fernando
+Email: fernando.ferreira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 405
 CPF: 1000404
+<<<<<<< HEAD
 Nome: Henrique
 Email: henrique.gomes@example.org
 Bairro: Ipanema
@@ -284,37 +541,167 @@ CPF: 1000422
 Nome: Daniel
 Email: daniel.teixeira@example.com
 Bairro: Aviacao
+=======
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 414
+CPF: 1000413
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Ipanema
+
+ID do cidadao: 423
+CPF: 1000422
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 432
 CPF: 1000431
 Nome: Tiago
 Email: tiago.freitas@example.org
+<<<<<<< HEAD
 Bairro: Ipanema
 
 ID do cidadao: 441
 CPF: 1000440
 Nome: Rafael
 Email: rafael.nogueira@example.net
+=======
+Bairro: Aviacao
+
+ID do cidadao: 441
+CPF: 1000440
+Nome: Laura
+Email: laura.silva@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 450
 CPF: 1000449
+<<<<<<< HEAD
 Nome: Mariana
 Email: mariana.dias@example.com
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 459
 CPF: 1000458
-Nome: Diego
-Email: diego.lima@example.com
-Bairro: Rosas
+<<<<<<< HEAD
+=======
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Marupiara
 
 ID do cidadao: 468
 CPF: 1000467
 Nome: Carla
 Email: carla.souza@example.net
+Bairro: Marupiara
+
+ID do cidadao: 477
+CPF: 1000476
+Nome: Sofia
+Email: sofia.teixeira@example.com
 Bairro: Industrial
 
+ID do cidadao: 486
+CPF: 1000485
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 495
+CPF: 1000494
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 504
+CPF: 1000503
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Ipanema
+
+ID do cidadao: 513
+CPF: 1000512
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Ipanema
+
+ID do cidadao: 522
+CPF: 1000521
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 531
+CPF: 1000530
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Rosas
+
+<<<<<<< HEAD
+ID do cidadao: 468
+CPF: 1000467
+=======
+ID do cidadao: 540
+CPF: 1000539
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Aviacao
+
+ID do cidadao: 549
+CPF: 1000548
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 558
+CPF: 1000557
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 567
+CPF: 1000566
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 576
+CPF: 1000575
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
+
+ID do cidadao: 585
+CPF: 1000584
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Industrial
+
+ID do cidadao: 594
+CPF: 1000593
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 603
+CPF: 1000602
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Industrial
+
+<<<<<<< HEAD
 ID do cidadao: 477
 CPF: 1000476
 Nome: Daniel
@@ -655,24 +1042,288 @@ ID do cidadao: 981
 CPF: 1000980
 Nome: Rafael
 Email: rafael.nogueira@example.net
+=======
+ID do cidadao: 612
+CPF: 1000611
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 621
+CPF: 1000620
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Industrial
+
+ID do cidadao: 630
+CPF: 1000629
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Marupiara
+
+ID do cidadao: 639
+CPF: 1000638
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 648
+CPF: 1000647
+Nome: Mariana
+Email: mariana.dias@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
+
+ID do cidadao: 657
+CPF: 1000656
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 666
+CPF: 1000665
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Rosas
+
+ID do cidadao: 675
+CPF: 1000674
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Industrial
+
+ID do cidadao: 684
+CPF: 1000683
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 693
+CPF: 1000692
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Industrial
+
+ID do cidadao: 702
+CPF: 1000701
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Ipanema
+
+ID do cidadao: 711
+CPF: 1000710
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Marupiara
+
+ID do cidadao: 720
+CPF: 1000719
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 729
+CPF: 1000728
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 738
+CPF: 1000737
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 747
+CPF: 1000746
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Marupiara
+
+ID do cidadao: 756
+CPF: 1000755
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 765
+CPF: 1000764
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 774
+CPF: 1000773
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 783
+CPF: 1000782
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Rosas
+
+ID do cidadao: 792
+CPF: 1000791
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 801
+CPF: 1000800
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 810
+CPF: 1000809
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Industrial
+
+ID do cidadao: 819
+CPF: 1000818
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 828
+CPF: 1000827
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Rosas
+
+ID do cidadao: 837
+CPF: 1000836
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Aviacao
+
+ID do cidadao: 846
+CPF: 1000845
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 855
+CPF: 1000854
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 864
+CPF: 1000863
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Marupiara
+
+ID do cidadao: 873
+CPF: 1000872
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 882
+CPF: 1000881
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 891
+CPF: 1000890
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Ipanema
+
+ID do cidadao: 900
+CPF: 1000899
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 909
+CPF: 1000908
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 918
+CPF: 1000917
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Marupiara
+
+ID do cidadao: 927
+CPF: 1000926
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 936
+CPF: 1000935
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 945
+CPF: 1000944
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 954
+CPF: 1000953
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 963
+CPF: 1000962
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Aviacao
+
+ID do cidadao: 972
+CPF: 1000971
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Industrial
+
+ID do cidadao: 981
+CPF: 1000980
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Aviacao
 
 ID do cidadao: 990
 CPF: 1000989
+<<<<<<< HEAD
 Nome: Sofia
 Email: sofia.teixeira@example.com
+=======
+Nome: Lucas
+Email: lucas.santana@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 999
 CPF: 1000998
+<<<<<<< HEAD
 Nome: João
 Email: joao.mendes@example.com
 Bairro: Marupiara
+=======
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Rosas
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 
 1:
 ID do cidadao: 1
 CPF: 1000000
+<<<<<<< HEAD
 Nome: Carla
 Email: carla.souza@example.net
 Bairro: Rosas
@@ -741,10 +1392,81 @@ ID do cidadao: 100
 CPF: 1000099
 Nome: Igor
 Email: igor.freitas@example.org
+=======
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 10
+CPF: 1000009
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
+
+ID do cidadao: 19
+CPF: 1000018
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 28
+CPF: 1000027
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Industrial
+
+ID do cidadao: 37
+CPF: 1000036
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Ipanema
+
+ID do cidadao: 46
+CPF: 1000045
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 55
+CPF: 1000054
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 64
+CPF: 1000063
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Industrial
+
+ID do cidadao: 73
+CPF: 1000072
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Ipanema
+
+ID do cidadao: 82
+CPF: 1000081
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
+
+ID do cidadao: 91
+CPF: 1000090
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 100
+CPF: 1000099
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 109
 CPF: 1000108
+<<<<<<< HEAD
 Nome: Katia
 Email: katia.pereira@example.org
 Bairro: Ipanema
@@ -765,10 +1487,33 @@ ID do cidadao: 136
 CPF: 1000135
 Nome: Daniel
 Email: daniel.teixeira@example.com
+=======
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Aviacao
+
+ID do cidadao: 118
+CPF: 1000117
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 127
+CPF: 1000126
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Aviacao
+
+ID do cidadao: 136
+CPF: 1000135
+Nome: Bruno
+Email: bruno.oliveira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 145
 CPF: 1000144
+<<<<<<< HEAD
 Nome: Paulo
 Email: paulo.ribeiro@example.com
 Bairro: Rosas
@@ -879,10 +1624,123 @@ ID do cidadao: 307
 CPF: 1000306
 Nome: Rafael
 Email: rafael.nogueira@example.net
+=======
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+
+ID do cidadao: 154
+CPF: 1000153
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Industrial
+
+ID do cidadao: 163
+CPF: 1000162
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Rosas
+
+ID do cidadao: 172
+CPF: 1000171
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 181
+CPF: 1000180
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Marupiara
+
+ID do cidadao: 190
+CPF: 1000189
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 199
+CPF: 1000198
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Ipanema
+
+ID do cidadao: 208
+CPF: 1000207
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 217
+CPF: 1000216
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 226
+CPF: 1000225
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Marupiara
+
+ID do cidadao: 235
+CPF: 1000234
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Ipanema
+
+ID do cidadao: 244
+CPF: 1000243
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 253
+CPF: 1000252
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Industrial
+
+ID do cidadao: 262
+CPF: 1000261
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Rosas
+
+ID do cidadao: 271
+CPF: 1000270
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 280
+CPF: 1000279
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 289
+CPF: 1000288
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 298
+CPF: 1000297
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 307
+CPF: 1000306
+Nome: Bianca
+Email: bianca.rocha@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 316
 CPF: 1000315
+<<<<<<< HEAD
 Nome: Hugo
 Email: hugo.teixeira@example.com
 Bairro: Ipanema
@@ -952,21 +1810,102 @@ CPF: 1000414
 Nome: Nicolas
 Email: nicolas.campos@example.org
 Bairro: Industrial
+=======
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 325
+CPF: 1000324
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 334
+CPF: 1000333
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Rosas
+
+ID do cidadao: 343
+CPF: 1000342
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 352
+CPF: 1000351
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Ipanema
+
+ID do cidadao: 361
+CPF: 1000360
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 370
+CPF: 1000369
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 379
+CPF: 1000378
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 388
+CPF: 1000387
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Ipanema
+
+ID do cidadao: 397
+CPF: 1000396
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 406
+CPF: 1000405
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Industrial
+
+ID do cidadao: 415
+CPF: 1000414
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 424
 CPF: 1000423
 Nome: Eduarda
 Email: eduarda.alves@example.org
+<<<<<<< HEAD
 Bairro: Rosas
 
 ID do cidadao: 433
 CPF: 1000432
 Nome: André
 Email: andre.ferreira@example.org
+=======
+Bairro: Marupiara
+
+ID do cidadao: 433
+CPF: 1000432
+Nome: José
+Email: jose.freitas@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 442
 CPF: 1000441
+<<<<<<< HEAD
 Nome: Lucas
 Email: lucas.santana@example.net
 Bairro: Industrial
@@ -987,10 +1926,33 @@ ID do cidadao: 469
 CPF: 1000468
 Nome: Bianca
 Email: bianca.rocha@example.net
+=======
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 451
+CPF: 1000450
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 460
+CPF: 1000459
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 469
+CPF: 1000468
+Nome: Daniel
+Email: daniel.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 478
 CPF: 1000477
+<<<<<<< HEAD
 Nome: José
 Email: jose.freitas@example.org
 Bairro: Ipanema
@@ -1003,10 +1965,13 @@ Bairro: Ipanema
 
 ID do cidadao: 496
 CPF: 1000495
+=======
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: Bruno
 Email: bruno.oliveira@example.org
 Bairro: Rosas
 
+<<<<<<< HEAD
 ID do cidadao: 505
 CPF: 1000504
 Nome: Olívia
@@ -1029,10 +1994,47 @@ ID do cidadao: 532
 CPF: 1000531
 Nome: Henrique
 Email: henrique.gomes@example.org
+=======
+ID do cidadao: 487
+CPF: 1000486
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 496
+CPF: 1000495
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 505
+CPF: 1000504
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 514
+CPF: 1000513
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 523
+CPF: 1000522
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Ipanema
+
+ID do cidadao: 532
+CPF: 1000531
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 541
 CPF: 1000540
+<<<<<<< HEAD
 Nome: Gabriel
 Email: gabriel.nogueira@example.net
 Bairro: Aviacao
@@ -1077,16 +2079,68 @@ ID do cidadao: 604
 CPF: 1000603
 Nome: José
 Email: jose.freitas@example.org
+=======
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 550
+CPF: 1000549
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 559
+CPF: 1000558
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 568
+CPF: 1000567
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 577
+CPF: 1000576
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Ipanema
+
+ID do cidadao: 586
+CPF: 1000585
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 595
+CPF: 1000594
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 604
+CPF: 1000603
+Nome: Laura
+Email: laura.silva@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 613
 CPF: 1000612
+<<<<<<< HEAD
 Nome: Laura
 Email: laura.silva@example.com
+=======
+Nome: Lucas
+Email: lucas.santana@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 622
 CPF: 1000621
+<<<<<<< HEAD
 Nome: Bruno
 Email: bruno.oliveira@example.org
 Bairro: Aviacao
@@ -1125,12 +2179,53 @@ ID do cidadao: 676
 CPF: 1000675
 Nome: Bianca
 Email: bianca.rocha@example.net
+=======
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 631
+CPF: 1000630
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 640
+CPF: 1000639
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 649
+CPF: 1000648
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Ipanema
+
+ID do cidadao: 658
+CPF: 1000657
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Rosas
+
+ID do cidadao: 667
+CPF: 1000666
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Aviacao
+
+ID do cidadao: 676
+CPF: 1000675
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 685
 CPF: 1000684
 Nome: Eduarda
 Email: eduarda.alves@example.org
+<<<<<<< HEAD
 Bairro: Rosas
 
 ID do cidadao: 694
@@ -1149,10 +2244,31 @@ ID do cidadao: 712
 CPF: 1000711
 Nome: Eduarda
 Email: eduarda.alves@example.org
+=======
+Bairro: Marupiara
+
+ID do cidadao: 694
+CPF: 1000693
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Ipanema
+
+ID do cidadao: 703
+CPF: 1000702
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 712
+CPF: 1000711
+Nome: Bianca
+Email: bianca.rocha@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 721
 CPF: 1000720
+<<<<<<< HEAD
 Nome: Hugo
 Email: hugo.teixeira@example.com
 Bairro: Industrial
@@ -1161,10 +2277,21 @@ ID do cidadao: 730
 CPF: 1000729
 Nome: Fernando
 Email: fernando.ferreira@example.org
+=======
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 730
+CPF: 1000729
+Nome: Daniel
+Email: daniel.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 739
 CPF: 1000738
+<<<<<<< HEAD
 Nome: Daniel
 Email: daniel.teixeira@example.com
 Bairro: Rosas
@@ -1306,13 +2433,97 @@ CPF: 1000945
 Nome: Diego
 Email: diego.lima@example.com
 Bairro: Industrial
+=======
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
 
-ID do cidadao: 955
-CPF: 1000954
+ID do cidadao: 748
+CPF: 1000747
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 757
+CPF: 1000756
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Marupiara
+
+ID do cidadao: 766
+CPF: 1000765
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 775
+CPF: 1000774
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 784
+CPF: 1000783
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 793
+CPF: 1000792
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Rosas
+
+ID do cidadao: 802
+CPF: 1000801
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 811
+CPF: 1000810
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Rosas
+
+ID do cidadao: 820
+CPF: 1000819
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 829
+CPF: 1000828
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 838
+CPF: 1000837
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Marupiara
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 847
+CPF: 1000846
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 856
+CPF: 1000855
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 865
+CPF: 1000864
 Nome: Diego
 Email: diego.lima@example.com
 Bairro: Ipanema
 
+<<<<<<< HEAD
 ID do cidadao: 964
 CPF: 1000963
 Nome: André
@@ -1330,9 +2541,89 @@ CPF: 1000981
 Nome: Henrique
 Email: henrique.gomes@example.org
 Bairro: Rosas
+=======
+ID do cidadao: 874
+CPF: 1000873
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Industrial
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 883
+CPF: 1000882
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Industrial
+
+ID do cidadao: 892
+CPF: 1000891
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+
+ID do cidadao: 901
+CPF: 1000900
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 910
+CPF: 1000909
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Rosas
+
+ID do cidadao: 919
+CPF: 1000918
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Ipanema
+
+ID do cidadao: 928
+CPF: 1000927
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Ipanema
+
+ID do cidadao: 937
+CPF: 1000936
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Ipanema
+
+ID do cidadao: 946
+CPF: 1000945
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 955
+CPF: 1000954
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Aviacao
+
+ID do cidadao: 964
+CPF: 1000963
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 973
+CPF: 1000972
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 982
+CPF: 1000981
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
 
 ID do cidadao: 991
 CPF: 1000990
+<<<<<<< HEAD
 Nome: Rafael
 Email: rafael.nogueira@example.net
 Bairro: Ipanema
@@ -1341,12 +2632,23 @@ ID do cidadao: 1000
 CPF: 1000999
 Nome: Gabriel
 Email: gabriel.nogueira@example.net
+=======
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Marupiara
+
+ID do cidadao: 1000
+CPF: 1000999
+Nome: Bruno
+Email: bruno.oliveira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 
 2:
 ID do cidadao: 2
 CPF: 1000001
+<<<<<<< HEAD
 Nome: Bruno
 Email: bruno.oliveira@example.org
 Bairro: Marupiara
@@ -1463,16 +2765,140 @@ ID do cidadao: 173
 CPF: 1000172
 Nome: Olívia
 Email: olivia.barbosa@example.net
+=======
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 11
+CPF: 1000010
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Aviacao
+
+ID do cidadao: 20
+CPF: 1000019
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 29
+CPF: 1000028
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 38
+CPF: 1000037
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 47
+CPF: 1000046
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 56
+CPF: 1000055
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 65
+CPF: 1000064
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 74
+CPF: 1000073
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Ipanema
+
+ID do cidadao: 83
+CPF: 1000082
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 92
+CPF: 1000091
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 101
+CPF: 1000100
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Rosas
+
+ID do cidadao: 110
+CPF: 1000109
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 119
+CPF: 1000118
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 128
+CPF: 1000127
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 137
+CPF: 1000136
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 146
+CPF: 1000145
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Aviacao
+
+ID do cidadao: 155
+CPF: 1000154
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 164
+CPF: 1000163
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Marupiara
+
+ID do cidadao: 173
+CPF: 1000172
+Nome: Felipe
+Email: felipe.costa@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 182
 CPF: 1000181
+<<<<<<< HEAD
 Nome: Carla
 Email: carla.souza@example.net
+=======
+Nome: Olívia
+Email: olivia.barbosa@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 191
 CPF: 1000190
+<<<<<<< HEAD
 Nome: André
 Email: andre.ferreira@example.org
 Bairro: Industrial
@@ -1560,9 +2986,99 @@ CPF: 1000316
 Nome: Daniel
 Email: daniel.teixeira@example.com
 Bairro: Rosas
+=======
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+
+ID do cidadao: 200
+CPF: 1000199
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 209
+CPF: 1000208
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Industrial
+
+ID do cidadao: 218
+CPF: 1000217
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 227
+CPF: 1000226
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 236
+CPF: 1000235
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 245
+CPF: 1000244
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 254
+CPF: 1000253
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Rosas
+
+ID do cidadao: 263
+CPF: 1000262
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Ipanema
+
+ID do cidadao: 272
+CPF: 1000271
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 281
+CPF: 1000280
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 290
+CPF: 1000289
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Ipanema
+
+ID do cidadao: 299
+CPF: 1000298
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 308
+CPF: 1000307
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 317
+CPF: 1000316
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Rosas
 
 ID do cidadao: 326
 CPF: 1000325
+<<<<<<< HEAD
 Nome: Daniel
 Email: daniel.teixeira@example.com
 Bairro: Industrial
@@ -1583,10 +3099,33 @@ ID do cidadao: 353
 CPF: 1000352
 Nome: Olívia
 Email: olivia.barbosa@example.net
+=======
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Rosas
+
+ID do cidadao: 335
+CPF: 1000334
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 344
+CPF: 1000343
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 353
+CPF: 1000352
+Nome: Hugo
+Email: hugo.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 362
 CPF: 1000361
+<<<<<<< HEAD
 Nome: Diego
 Email: diego.lima@example.com
 Bairro: Rosas
@@ -1643,10 +3182,69 @@ ID do cidadao: 443
 CPF: 1000442
 Nome: Paulo
 Email: paulo.ribeiro@example.com
+=======
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 371
+CPF: 1000370
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 380
+CPF: 1000379
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 389
+CPF: 1000388
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 398
+CPF: 1000397
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 407
+CPF: 1000406
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Rosas
+
+ID do cidadao: 416
+CPF: 1000415
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Rosas
+
+ID do cidadao: 425
+CPF: 1000424
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 434
+CPF: 1000433
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Rosas
+
+ID do cidadao: 443
+CPF: 1000442
+Nome: Luciana
+Email: luciana.martins@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 452
 CPF: 1000451
+<<<<<<< HEAD
 Nome: Gustavo
 Email: gustavo.nogueira@example.net
 Bairro: Rosas
@@ -1812,6 +3410,371 @@ CPF: 1000694
 Nome: André
 Email: andre.ferreira@example.org
 Bairro: Industrial
+=======
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Industrial
+
+ID do cidadao: 461
+CPF: 1000460
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Ipanema
+
+ID do cidadao: 470
+CPF: 1000469
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 479
+CPF: 1000478
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 488
+CPF: 1000487
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 497
+CPF: 1000496
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Industrial
+
+ID do cidadao: 506
+CPF: 1000505
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 515
+CPF: 1000514
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Ipanema
+
+ID do cidadao: 524
+CPF: 1000523
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 533
+CPF: 1000532
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Marupiara
+
+ID do cidadao: 542
+CPF: 1000541
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Rosas
+
+ID do cidadao: 551
+CPF: 1000550
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 560
+CPF: 1000559
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 569
+CPF: 1000568
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 578
+CPF: 1000577
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 587
+CPF: 1000586
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 596
+CPF: 1000595
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 605
+CPF: 1000604
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 614
+CPF: 1000613
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Industrial
+
+ID do cidadao: 623
+CPF: 1000622
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Industrial
+
+ID do cidadao: 632
+CPF: 1000631
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Rosas
+
+ID do cidadao: 641
+CPF: 1000640
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Aviacao
+
+ID do cidadao: 650
+CPF: 1000649
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Ipanema
+
+ID do cidadao: 659
+CPF: 1000658
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Aviacao
+
+ID do cidadao: 668
+CPF: 1000667
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 677
+CPF: 1000676
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 686
+CPF: 1000685
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 695
+CPF: 1000694
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 704
+CPF: 1000703
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 713
+CPF: 1000712
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 722
+CPF: 1000721
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 731
+CPF: 1000730
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 740
+CPF: 1000739
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 749
+CPF: 1000748
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 758
+CPF: 1000757
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+
+ID do cidadao: 767
+CPF: 1000766
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 776
+CPF: 1000775
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Marupiara
+
+ID do cidadao: 785
+CPF: 1000784
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 794
+CPF: 1000793
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Aviacao
+
+ID do cidadao: 803
+CPF: 1000802
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 812
+CPF: 1000811
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 821
+CPF: 1000820
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 830
+CPF: 1000829
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 839
+CPF: 1000838
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Aviacao
+
+ID do cidadao: 848
+CPF: 1000847
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 857
+CPF: 1000856
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 866
+CPF: 1000865
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Aviacao
+
+ID do cidadao: 875
+CPF: 1000874
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Marupiara
+
+ID do cidadao: 884
+CPF: 1000883
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 893
+CPF: 1000892
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 902
+CPF: 1000901
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 911
+CPF: 1000910
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 920
+CPF: 1000919
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 929
+CPF: 1000928
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Aviacao
+
+ID do cidadao: 938
+CPF: 1000937
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 947
+CPF: 1000946
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 956
+CPF: 1000955
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 965
+CPF: 1000964
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 974
+CPF: 1000973
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 983
+CPF: 1000982
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 992
+CPF: 1000991
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Rosas
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 704
 CPF: 1000703
@@ -2015,6 +3978,7 @@ Bairro: Rosas
 3:
 ID do cidadao: 3
 CPF: 1000002
+<<<<<<< HEAD
 Nome: Paulo
 Email: paulo.ribeiro@example.com
 Bairro: Marupiara
@@ -2023,10 +3987,21 @@ ID do cidadao: 12
 CPF: 1000011
 Nome: Bianca
 Email: bianca.rocha@example.net
+=======
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 12
+CPF: 1000011
+Nome: Henrique
+Email: henrique.gomes@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 21
 CPF: 1000020
+<<<<<<< HEAD
 Nome: Sílvia
 Email: silvia.ferreira@example.org
 Bairro: Aviacao
@@ -2042,11 +4017,29 @@ CPF: 1000038
 Nome: Luciana
 Email: luciana.martins@example.com
 Bairro: Marupiara
+=======
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Marupiara
+
+ID do cidadao: 30
+CPF: 1000029
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 39
+CPF: 1000038
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
 
 ID do cidadao: 48
 CPF: 1000047
 Nome: Olívia
 Email: olivia.barbosa@example.net
+<<<<<<< HEAD
 Bairro: Marupiara
 
 ID do cidadao: 57
@@ -2060,6 +4053,21 @@ CPF: 1000065
 Nome: João
 Email: joao.mendes@example.com
 Bairro: Ipanema
+=======
+Bairro: Rosas
+
+ID do cidadao: 57
+CPF: 1000056
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 66
+CPF: 1000065
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Rosas
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 75
 CPF: 1000074
@@ -2069,6 +4077,7 @@ Bairro: Aviacao
 
 ID do cidadao: 84
 CPF: 1000083
+<<<<<<< HEAD
 Nome: Olívia
 Email: olivia.barbosa@example.net
 Bairro: Aviacao
@@ -2083,10 +4092,27 @@ ID do cidadao: 102
 CPF: 1000101
 Nome: Hugo
 Email: hugo.teixeira@example.com
+=======
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 93
+CPF: 1000092
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 102
+CPF: 1000101
+Nome: Nicolas
+Email: nicolas.campos@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 111
 CPF: 1000110
+<<<<<<< HEAD
 Nome: Sofia
 Email: sofia.teixeira@example.com
 Bairro: Aviacao
@@ -2113,10 +4139,39 @@ ID do cidadao: 147
 CPF: 1000146
 Nome: Rafael
 Email: rafael.nogueira@example.net
+=======
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 120
+CPF: 1000119
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Rosas
+
+ID do cidadao: 129
+CPF: 1000128
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 138
+CPF: 1000137
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 147
+CPF: 1000146
+Nome: Fernando
+Email: fernando.ferreira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 156
 CPF: 1000155
+<<<<<<< HEAD
 Nome: Fernando
 Email: fernando.ferreira@example.org
 Bairro: Aviacao
@@ -2192,9 +4247,87 @@ CPF: 1000263
 Nome: Felipe
 Email: felipe.costa@example.net
 Bairro: Marupiara
+=======
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Industrial
+
+ID do cidadao: 165
+CPF: 1000164
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 174
+CPF: 1000173
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 183
+CPF: 1000182
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 192
+CPF: 1000191
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Rosas
+
+ID do cidadao: 201
+CPF: 1000200
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 210
+CPF: 1000209
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 219
+CPF: 1000218
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 228
+CPF: 1000227
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 237
+CPF: 1000236
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 246
+CPF: 1000245
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 255
+CPF: 1000254
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Rosas
+
+ID do cidadao: 264
+CPF: 1000263
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
 
 ID do cidadao: 273
 CPF: 1000272
+<<<<<<< HEAD
 Nome: Igor
 Email: igor.freitas@example.org
 Bairro: Marupiara
@@ -2207,10 +4340,199 @@ Bairro: Industrial
 
 ID do cidadao: 291
 CPF: 1000290
+=======
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Rosas
+
+ID do cidadao: 282
+CPF: 1000281
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Marupiara
+
+ID do cidadao: 291
+CPF: 1000290
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Marupiara
+
+ID do cidadao: 300
+CPF: 1000299
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 309
+CPF: 1000308
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Ipanema
+
+ID do cidadao: 318
+CPF: 1000317
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 327
+CPF: 1000326
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Rosas
+
+ID do cidadao: 336
+CPF: 1000335
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 345
+CPF: 1000344
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 354
+CPF: 1000353
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 363
+CPF: 1000362
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 372
+CPF: 1000371
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 381
+CPF: 1000380
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 390
+CPF: 1000389
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 399
+CPF: 1000398
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Industrial
+
+ID do cidadao: 408
+CPF: 1000407
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 417
+CPF: 1000416
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 426
+CPF: 1000425
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 435
+CPF: 1000434
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 444
+CPF: 1000443
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Ipanema
+
+ID do cidadao: 453
+CPF: 1000452
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 462
+CPF: 1000461
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 471
+CPF: 1000470
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 480
+CPF: 1000479
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 489
+CPF: 1000488
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Industrial
+
+ID do cidadao: 498
+CPF: 1000497
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Aviacao
+
+ID do cidadao: 507
+CPF: 1000506
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 516
+CPF: 1000515
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 525
+CPF: 1000524
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 534
+CPF: 1000533
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 543
+CPF: 1000542
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Industrial
+
+ID do cidadao: 552
+CPF: 1000551
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: Felipe
 Email: felipe.costa@example.net
 Bairro: Rosas
 
+<<<<<<< HEAD
 ID do cidadao: 300
 CPF: 1000299
 Nome: Daniel
@@ -2677,12 +4999,307 @@ ID do cidadao: 993
 CPF: 1000992
 Nome: José
 Email: jose.freitas@example.org
+=======
+ID do cidadao: 561
+CPF: 1000560
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Rosas
+
+ID do cidadao: 570
+CPF: 1000569
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 579
+CPF: 1000578
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Ipanema
+
+ID do cidadao: 588
+CPF: 1000587
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 597
+CPF: 1000596
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 606
+CPF: 1000605
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Ipanema
+
+ID do cidadao: 615
+CPF: 1000614
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Rosas
+
+ID do cidadao: 624
+CPF: 1000623
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 633
+CPF: 1000632
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 642
+CPF: 1000641
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 651
+CPF: 1000650
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Aviacao
+
+ID do cidadao: 660
+CPF: 1000659
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 669
+CPF: 1000668
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 678
+CPF: 1000677
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 687
+CPF: 1000686
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 696
+CPF: 1000695
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Rosas
+
+ID do cidadao: 705
+CPF: 1000704
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Ipanema
+
+ID do cidadao: 714
+CPF: 1000713
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 723
+CPF: 1000722
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Industrial
+
+ID do cidadao: 732
+CPF: 1000731
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Aviacao
+
+ID do cidadao: 741
+CPF: 1000740
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Industrial
+
+ID do cidadao: 750
+CPF: 1000749
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 759
+CPF: 1000758
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Aviacao
+
+ID do cidadao: 768
+CPF: 1000767
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 777
+CPF: 1000776
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 786
+CPF: 1000785
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 795
+CPF: 1000794
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Aviacao
+
+ID do cidadao: 804
+CPF: 1000803
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 813
+CPF: 1000812
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 822
+CPF: 1000821
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Rosas
+
+ID do cidadao: 831
+CPF: 1000830
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 840
+CPF: 1000839
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Industrial
+
+ID do cidadao: 849
+CPF: 1000848
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Marupiara
+
+ID do cidadao: 858
+CPF: 1000857
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Ipanema
+
+ID do cidadao: 867
+CPF: 1000866
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+
+ID do cidadao: 876
+CPF: 1000875
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 885
+CPF: 1000884
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 894
+CPF: 1000893
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Industrial
+
+ID do cidadao: 903
+CPF: 1000902
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 912
+CPF: 1000911
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 921
+CPF: 1000920
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 930
+CPF: 1000929
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 939
+CPF: 1000938
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 948
+CPF: 1000947
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 957
+CPF: 1000956
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 966
+CPF: 1000965
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 975
+CPF: 1000974
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Ipanema
+
+ID do cidadao: 984
+CPF: 1000983
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Industrial
+
+ID do cidadao: 993
+CPF: 1000992
+Nome: Daniel
+Email: daniel.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 
 4:
 ID do cidadao: 4
 CPF: 1000003
+<<<<<<< HEAD
 Nome: Sofia
 Email: sofia.teixeira@example.com
 Bairro: Aviacao
@@ -2709,10 +5326,39 @@ ID do cidadao: 40
 CPF: 1000039
 Nome: Diego
 Email: diego.lima@example.com
+=======
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Ipanema
+
+ID do cidadao: 13
+CPF: 1000012
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 22
+CPF: 1000021
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Ipanema
+
+ID do cidadao: 31
+CPF: 1000030
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 40
+CPF: 1000039
+Nome: Carla
+Email: carla.souza@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 49
 CPF: 1000048
+<<<<<<< HEAD
 Nome: Gabriel
 Email: gabriel.nogueira@example.net
 Bairro: Marupiara
@@ -2721,10 +5367,21 @@ ID do cidadao: 58
 CPF: 1000057
 Nome: Mariana
 Email: mariana.dias@example.com
+=======
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Ipanema
+
+ID do cidadao: 58
+CPF: 1000057
+Nome: Bruno
+Email: bruno.oliveira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 67
 CPF: 1000066
+<<<<<<< HEAD
 Nome: Bianca
 Email: bianca.rocha@example.net
 Bairro: Industrial
@@ -2733,10 +5390,21 @@ ID do cidadao: 76
 CPF: 1000075
 Nome: Igor
 Email: igor.freitas@example.org
+=======
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Rosas
+
+ID do cidadao: 76
+CPF: 1000075
+Nome: Fernando
+Email: fernando.ferreira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 85
 CPF: 1000084
+<<<<<<< HEAD
 Nome: João
 Email: joao.mendes@example.com
 Bairro: Industrial
@@ -2781,10 +5449,57 @@ ID do cidadao: 148
 CPF: 1000147
 Nome: Diego
 Email: diego.lima@example.com
+=======
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Rosas
+
+ID do cidadao: 94
+CPF: 1000093
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Rosas
+
+ID do cidadao: 103
+CPF: 1000102
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 112
+CPF: 1000111
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 121
+CPF: 1000120
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Ipanema
+
+ID do cidadao: 130
+CPF: 1000129
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Aviacao
+
+ID do cidadao: 139
+CPF: 1000138
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 148
+CPF: 1000147
+Nome: Carla
+Email: carla.souza@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 157
 CPF: 1000156
+<<<<<<< HEAD
 Nome: Lucas
 Email: lucas.santana@example.net
 Bairro: Marupiara
@@ -2799,22 +5514,49 @@ ID do cidadao: 175
 CPF: 1000174
 Nome: João
 Email: joao.mendes@example.com
+=======
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 166
+CPF: 1000165
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 175
+CPF: 1000174
+Nome: Sofia
+Email: sofia.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 184
 CPF: 1000183
+<<<<<<< HEAD
 Nome: Katia
 Email: katia.pereira@example.org
+=======
+Nome: Tiago
+Email: tiago.freitas@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 193
 CPF: 1000192
+<<<<<<< HEAD
 Nome: José
 Email: jose.freitas@example.org
+=======
+Nome: Daniel
+Email: daniel.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 202
 CPF: 1000201
+<<<<<<< HEAD
 Nome: Bianca
 Email: bianca.rocha@example.net
 Bairro: Ipanema
@@ -3202,6 +5944,515 @@ CPF: 1000777
 Nome: Eduarda
 Email: eduarda.alves@example.org
 Bairro: Rosas
+=======
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 211
+CPF: 1000210
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 220
+CPF: 1000219
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 229
+CPF: 1000228
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Industrial
+
+ID do cidadao: 238
+CPF: 1000237
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 247
+CPF: 1000246
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Rosas
+
+ID do cidadao: 256
+CPF: 1000255
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 265
+CPF: 1000264
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 274
+CPF: 1000273
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 283
+CPF: 1000282
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 292
+CPF: 1000291
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 301
+CPF: 1000300
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Marupiara
+
+ID do cidadao: 310
+CPF: 1000309
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 319
+CPF: 1000318
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Ipanema
+
+ID do cidadao: 328
+CPF: 1000327
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 337
+CPF: 1000336
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 346
+CPF: 1000345
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Industrial
+
+ID do cidadao: 355
+CPF: 1000354
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Aviacao
+
+ID do cidadao: 364
+CPF: 1000363
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 373
+CPF: 1000372
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Rosas
+
+ID do cidadao: 382
+CPF: 1000381
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 391
+CPF: 1000390
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Ipanema
+
+ID do cidadao: 400
+CPF: 1000399
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Ipanema
+
+ID do cidadao: 409
+CPF: 1000408
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Marupiara
+
+ID do cidadao: 418
+CPF: 1000417
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Industrial
+
+ID do cidadao: 427
+CPF: 1000426
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 436
+CPF: 1000435
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 445
+CPF: 1000444
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Marupiara
+
+ID do cidadao: 454
+CPF: 1000453
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 463
+CPF: 1000462
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Industrial
+
+ID do cidadao: 472
+CPF: 1000471
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 481
+CPF: 1000480
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 490
+CPF: 1000489
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 499
+CPF: 1000498
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 508
+CPF: 1000507
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 517
+CPF: 1000516
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 526
+CPF: 1000525
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+
+ID do cidadao: 535
+CPF: 1000534
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Rosas
+
+ID do cidadao: 544
+CPF: 1000543
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 553
+CPF: 1000552
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 562
+CPF: 1000561
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 571
+CPF: 1000570
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 580
+CPF: 1000579
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Industrial
+
+ID do cidadao: 589
+CPF: 1000588
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Marupiara
+
+ID do cidadao: 598
+CPF: 1000597
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Industrial
+
+ID do cidadao: 607
+CPF: 1000606
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 616
+CPF: 1000615
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Ipanema
+
+ID do cidadao: 625
+CPF: 1000624
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 634
+CPF: 1000633
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Marupiara
+
+ID do cidadao: 643
+CPF: 1000642
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Industrial
+
+ID do cidadao: 652
+CPF: 1000651
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Rosas
+
+ID do cidadao: 661
+CPF: 1000660
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 670
+CPF: 1000669
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 679
+CPF: 1000678
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Ipanema
+
+ID do cidadao: 688
+CPF: 1000687
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 697
+CPF: 1000696
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 706
+CPF: 1000705
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Rosas
+
+ID do cidadao: 715
+CPF: 1000714
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Aviacao
+
+ID do cidadao: 724
+CPF: 1000723
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 733
+CPF: 1000732
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Rosas
+
+ID do cidadao: 742
+CPF: 1000741
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Aviacao
+
+ID do cidadao: 751
+CPF: 1000750
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 760
+CPF: 1000759
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Ipanema
+
+ID do cidadao: 769
+CPF: 1000768
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 778
+CPF: 1000777
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 787
+CPF: 1000786
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Ipanema
+
+ID do cidadao: 796
+CPF: 1000795
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 805
+CPF: 1000804
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Industrial
+
+ID do cidadao: 814
+CPF: 1000813
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 823
+CPF: 1000822
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Ipanema
+
+ID do cidadao: 832
+CPF: 1000831
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 841
+CPF: 1000840
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Industrial
+
+ID do cidadao: 850
+CPF: 1000849
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Rosas
+
+ID do cidadao: 859
+CPF: 1000858
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 868
+CPF: 1000867
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 877
+CPF: 1000876
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 886
+CPF: 1000885
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 895
+CPF: 1000894
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Rosas
+
+ID do cidadao: 904
+CPF: 1000903
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 913
+CPF: 1000912
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Ipanema
+
+ID do cidadao: 922
+CPF: 1000921
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 931
+CPF: 1000930
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 940
+CPF: 1000939
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 949
+CPF: 1000948
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 958
+CPF: 1000957
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 787
 CPF: 1000786
@@ -3325,12 +6576,18 @@ Bairro: Industrial
 
 ID do cidadao: 967
 CPF: 1000966
+<<<<<<< HEAD
 Nome: Luciana
 Email: luciana.martins@example.com
+=======
+Nome: Diego
+Email: diego.lima@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 976
 CPF: 1000975
+<<<<<<< HEAD
 Nome: Carla
 Email: carla.souza@example.net
 Bairro: Industrial
@@ -3346,11 +6603,29 @@ CPF: 1000993
 Nome: Diego
 Email: diego.lima@example.com
 Bairro: Industrial
+=======
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
+
+ID do cidadao: 985
+CPF: 1000984
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Industrial
+
+ID do cidadao: 994
+CPF: 1000993
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 
 5:
 ID do cidadao: 5
 CPF: 1000004
+<<<<<<< HEAD
 Nome: Gustavo
 Email: gustavo.nogueira@example.net
 Bairro: Rosas
@@ -3420,15 +6695,92 @@ CPF: 1000103
 Nome: Hugo
 Email: hugo.teixeira@example.com
 Bairro: Marupiara
+=======
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Ipanema
+
+ID do cidadao: 14
+CPF: 1000013
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Ipanema
+
+ID do cidadao: 23
+CPF: 1000022
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Rosas
+
+ID do cidadao: 32
+CPF: 1000031
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 41
+CPF: 1000040
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 50
+CPF: 1000049
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 59
+CPF: 1000058
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Industrial
+
+ID do cidadao: 68
+CPF: 1000067
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 77
+CPF: 1000076
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 86
+CPF: 1000085
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Marupiara
+
+ID do cidadao: 95
+CPF: 1000094
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Industrial
+
+ID do cidadao: 104
+CPF: 1000103
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Ipanema
 
 ID do cidadao: 113
 CPF: 1000112
+<<<<<<< HEAD
 Nome: Katia
 Email: katia.pereira@example.org
+=======
+Nome: José
+Email: jose.freitas@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 122
 CPF: 1000121
+<<<<<<< HEAD
 Nome: Gabriel
 Email: gabriel.nogueira@example.net
 Bairro: Rosas
@@ -3495,10 +6847,43 @@ Bairro: Industrial
 
 ID do cidadao: 221
 CPF: 1000220
+=======
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 131
+CPF: 1000130
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Ipanema
+
+ID do cidadao: 140
+CPF: 1000139
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 149
+CPF: 1000148
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Ipanema
+
+ID do cidadao: 158
+CPF: 1000157
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Industrial
+
+ID do cidadao: 167
+CPF: 1000166
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: José
 Email: jose.freitas@example.org
 Bairro: Ipanema
 
+<<<<<<< HEAD
 ID do cidadao: 230
 CPF: 1000229
 Nome: Laura
@@ -3522,6 +6907,67 @@ CPF: 1000256
 Nome: Luciana
 Email: luciana.martins@example.com
 Bairro: Ipanema
+=======
+ID do cidadao: 176
+CPF: 1000175
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Aviacao
+
+ID do cidadao: 185
+CPF: 1000184
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 194
+CPF: 1000193
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 203
+CPF: 1000202
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 212
+CPF: 1000211
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
+
+ID do cidadao: 221
+CPF: 1000220
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 230
+CPF: 1000229
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 239
+CPF: 1000238
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 248
+CPF: 1000247
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+
+ID do cidadao: 257
+CPF: 1000256
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Rosas
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 266
 CPF: 1000265
@@ -3531,6 +6977,7 @@ Bairro: Ipanema
 
 ID do cidadao: 275
 CPF: 1000274
+<<<<<<< HEAD
 Nome: Luciana
 Email: luciana.martins@example.com
 Bairro: Industrial
@@ -3539,10 +6986,21 @@ ID do cidadao: 284
 CPF: 1000283
 Nome: André
 Email: andre.ferreira@example.org
+=======
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Rosas
+
+ID do cidadao: 284
+CPF: 1000283
+Nome: Henrique
+Email: henrique.gomes@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 293
 CPF: 1000292
+<<<<<<< HEAD
 Nome: Felipe
 Email: felipe.costa@example.net
 Bairro: Rosas
@@ -3593,10 +7051,63 @@ ID do cidadao: 365
 CPF: 1000364
 Nome: Mariana
 Email: mariana.dias@example.com
+=======
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 302
+CPF: 1000301
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 311
+CPF: 1000310
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Marupiara
+
+ID do cidadao: 320
+CPF: 1000319
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Rosas
+
+ID do cidadao: 329
+CPF: 1000328
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
+
+ID do cidadao: 338
+CPF: 1000337
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Ipanema
+
+ID do cidadao: 347
+CPF: 1000346
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+
+ID do cidadao: 356
+CPF: 1000355
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 365
+CPF: 1000364
+Nome: Henrique
+Email: henrique.gomes@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 374
 CPF: 1000373
+<<<<<<< HEAD
 Nome: Nicolas
 Email: nicolas.campos@example.org
 Bairro: Industrial
@@ -3735,24 +7246,178 @@ Bairro: Industrial
 
 ID do cidadao: 581
 CPF: 1000580
+=======
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+
+ID do cidadao: 383
+CPF: 1000382
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 392
+CPF: 1000391
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: Sofia
 Email: sofia.teixeira@example.com
-Bairro: Industrial
+Bairro: Aviacao
 
+<<<<<<< HEAD
 ID do cidadao: 590
 CPF: 1000589
 Nome: Mariana
 Email: mariana.dias@example.com
 Bairro: Industrial
+=======
+ID do cidadao: 401
+CPF: 1000400
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 410
+CPF: 1000409
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 419
+CPF: 1000418
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+
+ID do cidadao: 428
+CPF: 1000427
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 437
+CPF: 1000436
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 446
+CPF: 1000445
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 455
+CPF: 1000454
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 464
+CPF: 1000463
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 473
+CPF: 1000472
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 482
+CPF: 1000481
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Rosas
+
+ID do cidadao: 491
+CPF: 1000490
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 500
+CPF: 1000499
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Industrial
+
+ID do cidadao: 509
+CPF: 1000508
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 518
+CPF: 1000517
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 527
+CPF: 1000526
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 536
+CPF: 1000535
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 545
+CPF: 1000544
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Aviacao
+
+ID do cidadao: 554
+CPF: 1000553
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Ipanema
+
+ID do cidadao: 563
+CPF: 1000562
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
+
+ID do cidadao: 572
+CPF: 1000571
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Ipanema
+
+ID do cidadao: 581
+CPF: 1000580
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
+
+ID do cidadao: 590
+CPF: 1000589
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Aviacao
 
 ID do cidadao: 599
 CPF: 1000598
+<<<<<<< HEAD
 Nome: Nicolas
 Email: nicolas.campos@example.org
+=======
+Nome: Katia
+Email: katia.pereira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 608
 CPF: 1000607
+<<<<<<< HEAD
 Nome: André
 Email: andre.ferreira@example.org
 Bairro: Rosas
@@ -3785,16 +7450,56 @@ ID do cidadao: 653
 CPF: 1000652
 Nome: Igor
 Email: igor.freitas@example.org
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Rosas
+
+ID do cidadao: 617
+CPF: 1000616
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Aviacao
+
+ID do cidadao: 626
+CPF: 1000625
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 635
+CPF: 1000634
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Marupiara
+
+ID do cidadao: 644
+CPF: 1000643
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 653
+CPF: 1000652
+Nome: Eduarda
+Email: eduarda.alves@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 662
 CPF: 1000661
+<<<<<<< HEAD
 Nome: Nicolas
 Email: nicolas.campos@example.org
+=======
+Nome: Hugo
+Email: hugo.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 671
 CPF: 1000670
+<<<<<<< HEAD
 Nome: Olívia
 Email: olivia.barbosa@example.net
 Bairro: Aviacao
@@ -3803,10 +7508,21 @@ ID do cidadao: 680
 CPF: 1000679
 Nome: Diego
 Email: diego.lima@example.com
+=======
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Rosas
+
+ID do cidadao: 680
+CPF: 1000679
+Nome: Katia
+Email: katia.pereira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 689
 CPF: 1000688
+<<<<<<< HEAD
 Nome: Eduarda
 Email: eduarda.alves@example.org
 Bairro: Aviacao
@@ -3828,6 +7544,29 @@ CPF: 1000715
 Nome: Paulo
 Email: paulo.ribeiro@example.com
 Bairro: Aviacao
+=======
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 698
+CPF: 1000697
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Marupiara
+
+ID do cidadao: 707
+CPF: 1000706
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 716
+CPF: 1000715
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 725
 CPF: 1000724
@@ -3837,6 +7576,7 @@ Bairro: Rosas
 
 ID do cidadao: 734
 CPF: 1000733
+<<<<<<< HEAD
 Nome: Fernando
 Email: fernando.ferreira@example.org
 Bairro: Rosas
@@ -3863,10 +7603,39 @@ ID do cidadao: 770
 CPF: 1000769
 Nome: Hugo
 Email: hugo.teixeira@example.com
+=======
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 743
+CPF: 1000742
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Industrial
+
+ID do cidadao: 752
+CPF: 1000751
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Rosas
+
+ID do cidadao: 761
+CPF: 1000760
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Ipanema
+
+ID do cidadao: 770
+CPF: 1000769
+Nome: Fernando
+Email: fernando.ferreira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 779
 CPF: 1000778
+<<<<<<< HEAD
 Nome: Igor
 Email: igor.freitas@example.org
 Bairro: Ipanema
@@ -3899,10 +7668,45 @@ ID do cidadao: 824
 CPF: 1000823
 Nome: Eduarda
 Email: eduarda.alves@example.org
+=======
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 788
+CPF: 1000787
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+
+ID do cidadao: 797
+CPF: 1000796
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Rosas
+
+ID do cidadao: 806
+CPF: 1000805
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 815
+CPF: 1000814
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 824
+CPF: 1000823
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 833
 CPF: 1000832
+<<<<<<< HEAD
 Nome: Eduarda
 Email: eduarda.alves@example.org
 Bairro: Ipanema
@@ -3939,10 +7743,79 @@ Bairro: Aviacao
 
 ID do cidadao: 887
 CPF: 1000886
-Nome: Gabriel
-Email: gabriel.nogueira@example.net
+=======
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 842
+CPF: 1000841
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Aviacao
+
+ID do cidadao: 851
+CPF: 1000850
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 860
+CPF: 1000859
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Rosas
+
+ID do cidadao: 869
+CPF: 1000868
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 878
+CPF: 1000877
+Nome: André
+Email: andre.ferreira@example.org
 Bairro: Industrial
 
+ID do cidadao: 887
+CPF: 1000886
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 896
+CPF: 1000895
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 905
+CPF: 1000904
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 914
+CPF: 1000913
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 923
+CPF: 1000922
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 932
+CPF: 1000931
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Industrial
+
+<<<<<<< HEAD
 ID do cidadao: 896
 CPF: 1000895
 Nome: Tiago
@@ -3977,10 +7850,17 @@ ID do cidadao: 941
 CPF: 1000940
 Nome: Hugo
 Email: hugo.teixeira@example.com
+=======
+ID do cidadao: 941
+CPF: 1000940
+Nome: João
+Email: joao.mendes@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 950
 CPF: 1000949
+<<<<<<< HEAD
 Nome: Gabriel
 Email: gabriel.nogueira@example.net
 Bairro: Marupiara
@@ -4014,11 +7894,47 @@ CPF: 1000994
 Nome: Mariana
 Email: mariana.dias@example.com
 Bairro: Aviacao
+=======
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Industrial
+
+ID do cidadao: 959
+CPF: 1000958
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 968
+CPF: 1000967
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 977
+CPF: 1000976
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 986
+CPF: 1000985
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
+
+ID do cidadao: 995
+CPF: 1000994
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Rosas
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 
 6:
 ID do cidadao: 6
 CPF: 1000005
+<<<<<<< HEAD
 Nome: Bruno
 Email: bruno.oliveira@example.org
 Bairro: Aviacao
@@ -4027,10 +7943,21 @@ ID do cidadao: 15
 CPF: 1000014
 Nome: Fernando
 Email: fernando.ferreira@example.org
+=======
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 15
+CPF: 1000014
+Nome: Nicolas
+Email: nicolas.campos@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 24
 CPF: 1000023
+<<<<<<< HEAD
 Nome: Daniel
 Email: daniel.teixeira@example.com
 Bairro: Ipanema
@@ -4046,6 +7973,101 @@ CPF: 1000041
 Nome: Olívia
 Email: olivia.barbosa@example.net
 Bairro: Ipanema
+=======
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 33
+CPF: 1000032
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Industrial
+
+ID do cidadao: 42
+CPF: 1000041
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 51
+CPF: 1000050
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Ipanema
+
+ID do cidadao: 60
+CPF: 1000059
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Marupiara
+
+ID do cidadao: 69
+CPF: 1000068
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 78
+CPF: 1000077
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 87
+CPF: 1000086
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 96
+CPF: 1000095
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Industrial
+
+ID do cidadao: 105
+CPF: 1000104
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 114
+CPF: 1000113
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Rosas
+
+ID do cidadao: 123
+CPF: 1000122
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Industrial
+
+ID do cidadao: 132
+CPF: 1000131
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 141
+CPF: 1000140
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 150
+CPF: 1000149
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 159
+CPF: 1000158
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 51
 CPF: 1000050
@@ -4127,6 +8149,7 @@ Bairro: Ipanema
 
 ID do cidadao: 168
 CPF: 1000167
+<<<<<<< HEAD
 Nome: Sofia
 Email: sofia.teixeira@example.com
 Bairro: Ipanema
@@ -4217,10 +8240,19 @@ Bairro: Rosas
 
 ID do cidadao: 303
 CPF: 1000302
+=======
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Industrial
+
+ID do cidadao: 177
+CPF: 1000176
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: Bianca
 Email: bianca.rocha@example.net
 Bairro: Ipanema
 
+<<<<<<< HEAD
 ID do cidadao: 312
 CPF: 1000311
 Nome: Igor
@@ -4400,9 +8432,275 @@ CPF: 1000572
 Nome: Felipe
 Email: felipe.costa@example.net
 Bairro: Marupiara
+=======
+ID do cidadao: 186
+CPF: 1000185
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 195
+CPF: 1000194
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+
+ID do cidadao: 204
+CPF: 1000203
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 213
+CPF: 1000212
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 222
+CPF: 1000221
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Industrial
+
+ID do cidadao: 231
+CPF: 1000230
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 240
+CPF: 1000239
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 249
+CPF: 1000248
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 258
+CPF: 1000257
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 267
+CPF: 1000266
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Ipanema
+
+ID do cidadao: 276
+CPF: 1000275
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 285
+CPF: 1000284
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 294
+CPF: 1000293
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 303
+CPF: 1000302
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Rosas
+
+ID do cidadao: 312
+CPF: 1000311
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Industrial
+
+ID do cidadao: 321
+CPF: 1000320
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 330
+CPF: 1000329
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Ipanema
+
+ID do cidadao: 339
+CPF: 1000338
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Aviacao
+
+ID do cidadao: 348
+CPF: 1000347
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 357
+CPF: 1000356
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 366
+CPF: 1000365
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 375
+CPF: 1000374
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 384
+CPF: 1000383
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 393
+CPF: 1000392
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 402
+CPF: 1000401
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 411
+CPF: 1000410
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 420
+CPF: 1000419
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 429
+CPF: 1000428
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 438
+CPF: 1000437
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Marupiara
+
+ID do cidadao: 447
+CPF: 1000446
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Aviacao
+
+ID do cidadao: 456
+CPF: 1000455
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Rosas
+
+ID do cidadao: 465
+CPF: 1000464
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Marupiara
+
+ID do cidadao: 474
+CPF: 1000473
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Ipanema
+
+ID do cidadao: 483
+CPF: 1000482
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 492
+CPF: 1000491
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Marupiara
+
+ID do cidadao: 501
+CPF: 1000500
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Industrial
+
+ID do cidadao: 510
+CPF: 1000509
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 519
+CPF: 1000518
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Industrial
+
+ID do cidadao: 528
+CPF: 1000527
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Industrial
+
+ID do cidadao: 537
+CPF: 1000536
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Industrial
+
+ID do cidadao: 546
+CPF: 1000545
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Industrial
+
+ID do cidadao: 555
+CPF: 1000554
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 564
+CPF: 1000563
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 573
+CPF: 1000572
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
 
 ID do cidadao: 582
 CPF: 1000581
+<<<<<<< HEAD
 Nome: Bruno
 Email: bruno.oliveira@example.org
 Bairro: Marupiara
@@ -4418,6 +8716,35 @@ CPF: 1000599
 Nome: João
 Email: joao.mendes@example.com
 Bairro: Ipanema
+=======
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Industrial
+
+ID do cidadao: 591
+CPF: 1000590
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Aviacao
+
+ID do cidadao: 600
+CPF: 1000599
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 609
+CPF: 1000608
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Marupiara
+
+ID do cidadao: 618
+CPF: 1000617
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 609
 CPF: 1000608
@@ -4433,6 +8760,7 @@ Bairro: Aviacao
 
 ID do cidadao: 627
 CPF: 1000626
+<<<<<<< HEAD
 Nome: Sílvia
 Email: silvia.ferreira@example.org
 Bairro: Marupiara
@@ -4441,10 +8769,21 @@ ID do cidadao: 636
 CPF: 1000635
 Nome: Lucas
 Email: lucas.santana@example.net
+=======
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 636
+CPF: 1000635
+Nome: Bianca
+Email: bianca.rocha@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 645
 CPF: 1000644
+<<<<<<< HEAD
 Nome: Olívia
 Email: olivia.barbosa@example.net
 Bairro: Aviacao
@@ -4472,11 +8811,41 @@ CPF: 1000680
 Nome: João
 Email: joao.mendes@example.com
 Bairro: Ipanema
+=======
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 654
+CPF: 1000653
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 663
+CPF: 1000662
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 672
+CPF: 1000671
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Aviacao
+
+ID do cidadao: 681
+CPF: 1000680
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 690
 CPF: 1000689
 Nome: Bianca
 Email: bianca.rocha@example.net
+<<<<<<< HEAD
 Bairro: Ipanema
 
 ID do cidadao: 699
@@ -4550,9 +8919,85 @@ CPF: 1000797
 Nome: Bruno
 Email: bruno.oliveira@example.org
 Bairro: Marupiara
+=======
+Bairro: Aviacao
+
+ID do cidadao: 699
+CPF: 1000698
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 708
+CPF: 1000707
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 717
+CPF: 1000716
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 726
+CPF: 1000725
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 735
+CPF: 1000734
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Aviacao
+
+ID do cidadao: 744
+CPF: 1000743
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Rosas
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 753
+CPF: 1000752
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 762
+CPF: 1000761
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 771
+CPF: 1000770
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Rosas
+
+ID do cidadao: 780
+CPF: 1000779
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 789
+CPF: 1000788
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Rosas
+
+ID do cidadao: 798
+CPF: 1000797
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Marupiara
 
 ID do cidadao: 807
 CPF: 1000806
+<<<<<<< HEAD
 Nome: Lucas
 Email: lucas.santana@example.net
 Bairro: Aviacao
@@ -4567,16 +9012,33 @@ ID do cidadao: 825
 CPF: 1000824
 Nome: Bianca
 Email: bianca.rocha@example.net
+=======
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 816
+CPF: 1000815
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 825
+CPF: 1000824
+Nome: Carla
+Email: carla.souza@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 834
 CPF: 1000833
-Nome: Katia
-Email: katia.pereira@example.org
+Nome: Igor
+Email: igor.freitas@example.org
 Bairro: Marupiara
 
 ID do cidadao: 843
 CPF: 1000842
+<<<<<<< HEAD
 Nome: Paulo
 Email: paulo.ribeiro@example.com
 Bairro: Aviacao
@@ -4598,15 +9060,39 @@ CPF: 1000869
 Nome: João
 Email: joao.mendes@example.com
 Bairro: Ipanema
+=======
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Industrial
+
+ID do cidadao: 852
+CPF: 1000851
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Industrial
+
+ID do cidadao: 861
+CPF: 1000860
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Rosas
+
+ID do cidadao: 870
+CPF: 1000869
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Marupiara
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 879
 CPF: 1000878
-Nome: Felipe
-Email: felipe.costa@example.net
-Bairro: Ipanema
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Industrial
 
 ID do cidadao: 888
 CPF: 1000887
+<<<<<<< HEAD
 Nome: Eduarda
 Email: eduarda.alves@example.org
 Bairro: Aviacao
@@ -4622,6 +9108,71 @@ CPF: 1000905
 Nome: Eduarda
 Email: eduarda.alves@example.org
 Bairro: Rosas
+=======
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Industrial
+
+ID do cidadao: 897
+CPF: 1000896
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Industrial
+
+ID do cidadao: 906
+CPF: 1000905
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Industrial
+
+ID do cidadao: 915
+CPF: 1000914
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Rosas
+
+ID do cidadao: 924
+CPF: 1000923
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 933
+CPF: 1000932
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Aviacao
+
+ID do cidadao: 942
+CPF: 1000941
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 951
+CPF: 1000950
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Rosas
+
+ID do cidadao: 960
+CPF: 1000959
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 969
+CPF: 1000968
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Rosas
+
+ID do cidadao: 978
+CPF: 1000977
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Industrial
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 915
 CPF: 1000914
@@ -4673,20 +9224,32 @@ Bairro: Marupiara
 
 ID do cidadao: 987
 CPF: 1000986
+<<<<<<< HEAD
 Nome: Mariana
 Email: mariana.dias@example.com
+=======
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 996
 CPF: 1000995
+<<<<<<< HEAD
 Nome: Igor
 Email: igor.freitas@example.org
 Bairro: Industrial
+=======
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 
 7:
 ID do cidadao: 7
 CPF: 1000006
+<<<<<<< HEAD
 Nome: Rafael
 Email: rafael.nogueira@example.net
 Bairro: Industrial
@@ -4696,15 +9259,27 @@ CPF: 1000015
 Nome: Laura
 Email: laura.silva@example.com
 Bairro: Industrial
+=======
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Marupiara
+
+ID do cidadao: 16
+CPF: 1000015
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 25
 CPF: 1000024
-Nome: Sílvia
-Email: silvia.ferreira@example.org
-Bairro: Industrial
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Ipanema
 
 ID do cidadao: 34
 CPF: 1000033
+<<<<<<< HEAD
 Nome: Felipe
 Email: felipe.costa@example.net
 Bairro: Rosas
@@ -4743,10 +9318,51 @@ ID do cidadao: 88
 CPF: 1000087
 Nome: Mariana
 Email: mariana.dias@example.com
+=======
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 43
+CPF: 1000042
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Industrial
+
+ID do cidadao: 52
+CPF: 1000051
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Aviacao
+
+ID do cidadao: 61
+CPF: 1000060
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 70
+CPF: 1000069
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 79
+CPF: 1000078
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Industrial
+
+ID do cidadao: 88
+CPF: 1000087
+Nome: Olívia
+Email: olivia.barbosa@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 97
 CPF: 1000096
+<<<<<<< HEAD
 Nome: Carla
 Email: carla.souza@example.net
 Bairro: Industrial
@@ -4761,10 +9377,27 @@ ID do cidadao: 115
 CPF: 1000114
 Nome: Diego
 Email: diego.lima@example.com
+=======
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 106
+CPF: 1000105
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 115
+CPF: 1000114
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 124
 CPF: 1000123
+<<<<<<< HEAD
 Nome: Sílvia
 Email: silvia.ferreira@example.org
 Bairro: Marupiara
@@ -4804,21 +9437,72 @@ CPF: 1000177
 Nome: Olívia
 Email: olivia.barbosa@example.net
 Bairro: Aviacao
+=======
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Rosas
+
+ID do cidadao: 133
+CPF: 1000132
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Industrial
+
+ID do cidadao: 142
+CPF: 1000141
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Industrial
+
+ID do cidadao: 151
+CPF: 1000150
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Rosas
+
+ID do cidadao: 160
+CPF: 1000159
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 169
+CPF: 1000168
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 178
+CPF: 1000177
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Marupiara
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 187
 CPF: 1000186
 Nome: Diego
 Email: diego.lima@example.com
+<<<<<<< HEAD
 Bairro: Marupiara
 
 ID do cidadao: 196
 CPF: 1000195
 Nome: André
 Email: andre.ferreira@example.org
+=======
+Bairro: Rosas
+
+ID do cidadao: 196
+CPF: 1000195
+Nome: Bianca
+Email: bianca.rocha@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 205
 CPF: 1000204
+<<<<<<< HEAD
 Nome: Mariana
 Email: mariana.dias@example.com
 Bairro: Industrial
@@ -4843,10 +9527,13 @@ Bairro: Marupiara
 
 ID do cidadao: 241
 CPF: 1000240
+=======
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: Luciana
 Email: luciana.martins@example.com
 Bairro: Aviacao
 
+<<<<<<< HEAD
 ID do cidadao: 250
 CPF: 1000249
 Nome: Laura
@@ -4863,10 +9550,53 @@ ID do cidadao: 268
 CPF: 1000267
 Nome: Diego
 Email: diego.lima@example.com
+=======
+ID do cidadao: 214
+CPF: 1000213
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 223
+CPF: 1000222
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 232
+CPF: 1000231
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Marupiara
+
+ID do cidadao: 241
+CPF: 1000240
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 250
+CPF: 1000249
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Ipanema
+
+ID do cidadao: 259
+CPF: 1000258
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Ipanema
+
+ID do cidadao: 268
+CPF: 1000267
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 277
 CPF: 1000276
+<<<<<<< HEAD
 Nome: Rafael
 Email: rafael.nogueira@example.net
 Bairro: Rosas
@@ -4923,10 +9653,69 @@ ID do cidadao: 358
 CPF: 1000357
 Nome: Daniel
 Email: daniel.teixeira@example.com
+=======
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Ipanema
+
+ID do cidadao: 286
+CPF: 1000285
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Rosas
+
+ID do cidadao: 295
+CPF: 1000294
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Industrial
+
+ID do cidadao: 304
+CPF: 1000303
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Marupiara
+
+ID do cidadao: 313
+CPF: 1000312
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 322
+CPF: 1000321
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+
+ID do cidadao: 331
+CPF: 1000330
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 340
+CPF: 1000339
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 349
+CPF: 1000348
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 358
+CPF: 1000357
+Nome: Laura
+Email: laura.silva@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 367
 CPF: 1000366
+<<<<<<< HEAD
 Nome: Diego
 Email: diego.lima@example.com
 Bairro: Rosas
@@ -4935,10 +9724,21 @@ ID do cidadao: 376
 CPF: 1000375
 Nome: Sílvia
 Email: silvia.ferreira@example.org
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Marupiara
+
+ID do cidadao: 376
+CPF: 1000375
+Nome: Daniel
+Email: daniel.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 385
 CPF: 1000384
+<<<<<<< HEAD
 Nome: Bianca
 Email: bianca.rocha@example.net
 Bairro: Ipanema
@@ -4960,11 +9760,35 @@ CPF: 1000411
 Nome: Fernando
 Email: fernando.ferreira@example.org
 Bairro: Aviacao
+=======
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 394
+CPF: 1000393
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Ipanema
+
+ID do cidadao: 403
+CPF: 1000402
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Ipanema
+
+ID do cidadao: 412
+CPF: 1000411
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 421
 CPF: 1000420
 Nome: Nicolas
 Email: nicolas.campos@example.org
+<<<<<<< HEAD
 Bairro: Industrial
 
 ID do cidadao: 430
@@ -5067,10 +9891,115 @@ ID do cidadao: 574
 CPF: 1000573
 Nome: Gabriel
 Email: gabriel.nogueira@example.net
+=======
+Bairro: Marupiara
+
+ID do cidadao: 430
+CPF: 1000429
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 439
+CPF: 1000438
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Ipanema
+
+ID do cidadao: 448
+CPF: 1000447
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 457
+CPF: 1000456
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 466
+CPF: 1000465
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 475
+CPF: 1000474
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Ipanema
+
+ID do cidadao: 484
+CPF: 1000483
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 493
+CPF: 1000492
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 502
+CPF: 1000501
+Nome: Bianca
+Email: bianca.rocha@example.net
+Bairro: Ipanema
+
+ID do cidadao: 511
+CPF: 1000510
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 520
+CPF: 1000519
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Rosas
+
+ID do cidadao: 529
+CPF: 1000528
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+
+ID do cidadao: 538
+CPF: 1000537
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 547
+CPF: 1000546
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 556
+CPF: 1000555
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Aviacao
+
+ID do cidadao: 565
+CPF: 1000564
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 574
+CPF: 1000573
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 583
 CPF: 1000582
+<<<<<<< HEAD
 Nome: Olívia
 Email: olivia.barbosa@example.net
 Bairro: Aviacao
@@ -5086,11 +10015,29 @@ CPF: 1000600
 Nome: Hugo
 Email: hugo.teixeira@example.com
 Bairro: Aviacao
+=======
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 592
+CPF: 1000591
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Marupiara
+
+ID do cidadao: 601
+CPF: 1000600
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Industrial
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 610
 CPF: 1000609
 Nome: Laura
 Email: laura.silva@example.com
+<<<<<<< HEAD
 Bairro: Marupiara
 
 ID do cidadao: 619
@@ -5113,6 +10060,18 @@ Bairro: Ipanema
 
 ID do cidadao: 646
 CPF: 1000645
+=======
+Bairro: Ipanema
+
+ID do cidadao: 619
+CPF: 1000618
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 628
+CPF: 1000627
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: Carla
 Email: carla.souza@example.net
 Bairro: Rosas
@@ -5123,8 +10082,27 @@ Nome: Gabriel
 Email: gabriel.nogueira@example.net
 Bairro: Industrial
 
+ID do cidadao: 637
+CPF: 1000636
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Rosas
+
+ID do cidadao: 646
+CPF: 1000645
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Aviacao
+
+ID do cidadao: 655
+CPF: 1000654
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Ipanema
+
 ID do cidadao: 664
 CPF: 1000663
+<<<<<<< HEAD
 Nome: Fernando
 Email: fernando.ferreira@example.org
 Bairro: Ipanema
@@ -5134,6 +10112,41 @@ CPF: 1000672
 Nome: Hugo
 Email: hugo.teixeira@example.com
 Bairro: Rosas
+=======
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Marupiara
+
+ID do cidadao: 673
+CPF: 1000672
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Marupiara
+
+ID do cidadao: 682
+CPF: 1000681
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 691
+CPF: 1000690
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Rosas
+
+ID do cidadao: 700
+CPF: 1000699
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 709
+CPF: 1000708
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 682
 CPF: 1000681
@@ -5161,6 +10174,7 @@ Bairro: Industrial
 
 ID do cidadao: 718
 CPF: 1000717
+<<<<<<< HEAD
 Nome: Daniel
 Email: daniel.teixeira@example.com
 Bairro: Rosas
@@ -5169,10 +10183,21 @@ ID do cidadao: 727
 CPF: 1000726
 Nome: Eduarda
 Email: eduarda.alves@example.org
+=======
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Ipanema
+
+ID do cidadao: 727
+CPF: 1000726
+Nome: José
+Email: jose.freitas@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 736
 CPF: 1000735
+<<<<<<< HEAD
 Nome: Lucas
 Email: lucas.santana@example.net
 Bairro: Marupiara
@@ -5187,16 +10212,38 @@ ID do cidadao: 754
 CPF: 1000753
 Nome: Olívia
 Email: olivia.barbosa@example.net
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Ipanema
+
+ID do cidadao: 745
+CPF: 1000744
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 754
+CPF: 1000753
+Nome: Katia
+Email: katia.pereira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 763
 CPF: 1000762
+<<<<<<< HEAD
 Nome: Luciana
 Email: luciana.martins@example.com
+=======
+Nome: José
+Email: jose.freitas@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 772
 CPF: 1000771
+<<<<<<< HEAD
 Nome: Lucas
 Email: lucas.santana@example.net
 Bairro: Rosas
@@ -5273,20 +10320,104 @@ Nome: Nicolas
 Email: nicolas.campos@example.org
 Bairro: Ipanema
 
-ID do cidadao: 889
-CPF: 1000888
+=======
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 781
+CPF: 1000780
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Industrial
+
+ID do cidadao: 790
+CPF: 1000789
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Marupiara
+
+ID do cidadao: 799
+CPF: 1000798
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 808
+CPF: 1000807
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 817
+CPF: 1000816
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 826
+CPF: 1000825
 Nome: Eduarda
 Email: eduarda.alves@example.org
+Bairro: Aviacao
+
+ID do cidadao: 835
+CPF: 1000834
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 844
+CPF: 1000843
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 853
+CPF: 1000852
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 862
+CPF: 1000861
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 871
+CPF: 1000870
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 880
+CPF: 1000879
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Aviacao
+
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+ID do cidadao: 889
+CPF: 1000888
+Nome: Carla
+Email: carla.souza@example.net
 Bairro: Industrial
 
 ID do cidadao: 898
 CPF: 1000897
+<<<<<<< HEAD
 Nome: Daniel
 Email: daniel.teixeira@example.com
+=======
+Nome: Nicolas
+Email: nicolas.campos@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 907
 CPF: 1000906
+<<<<<<< HEAD
 Nome: Henrique
 Email: henrique.gomes@example.org
 Bairro: Rosas
@@ -5302,9 +10433,27 @@ CPF: 1000924
 Nome: Paulo
 Email: paulo.ribeiro@example.com
 Bairro: Marupiara
+=======
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 916
+CPF: 1000915
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Industrial
+
+ID do cidadao: 925
+CPF: 1000924
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Ipanema
 
 ID do cidadao: 934
 CPF: 1000933
+<<<<<<< HEAD
 Nome: Sílvia
 Email: silvia.ferreira@example.org
 Bairro: Industrial
@@ -5343,18 +10492,65 @@ ID do cidadao: 988
 CPF: 1000987
 Nome: Tiago
 Email: tiago.freitas@example.org
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Rosas
+
+ID do cidadao: 943
+CPF: 1000942
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Ipanema
+
+ID do cidadao: 952
+CPF: 1000951
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Aviacao
+
+ID do cidadao: 961
+CPF: 1000960
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Industrial
+
+ID do cidadao: 970
+CPF: 1000969
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Ipanema
+
+ID do cidadao: 979
+CPF: 1000978
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 988
+CPF: 1000987
+Nome: Lucas
+Email: lucas.santana@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 997
 CPF: 1000996
+<<<<<<< HEAD
 Nome: Rafael
 Email: rafael.nogueira@example.net
 Bairro: Marupiara
+=======
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Industrial
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 
 8:
 ID do cidadao: 8
 CPF: 1000007
+<<<<<<< HEAD
 Nome: Carla
 Email: carla.souza@example.net
 Bairro: Marupiara
@@ -5363,10 +10559,21 @@ ID do cidadao: 17
 CPF: 1000016
 Nome: José
 Email: jose.freitas@example.org
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Ipanema
+
+ID do cidadao: 17
+CPF: 1000016
+Nome: Carla
+Email: carla.souza@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 26
 CPF: 1000025
+<<<<<<< HEAD
 Nome: Gustavo
 Email: gustavo.nogueira@example.net
 Bairro: Marupiara
@@ -5375,10 +10582,21 @@ ID do cidadao: 35
 CPF: 1000034
 Nome: Igor
 Email: igor.freitas@example.org
+=======
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Industrial
+
+ID do cidadao: 35
+CPF: 1000034
+Nome: Olívia
+Email: olivia.barbosa@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 44
 CPF: 1000043
+<<<<<<< HEAD
 Nome: Tiago
 Email: tiago.freitas@example.org
 Bairro: Ipanema
@@ -5393,28 +10611,60 @@ ID do cidadao: 62
 CPF: 1000061
 Nome: Gustavo
 Email: gustavo.nogueira@example.net
+=======
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 53
+CPF: 1000052
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 62
+CPF: 1000061
+Nome: Daniel
+Email: daniel.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 71
 CPF: 1000070
+<<<<<<< HEAD
 Nome: Tiago
 Email: tiago.freitas@example.org
+=======
+Nome: Bruno
+Email: bruno.oliveira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 80
 CPF: 1000079
+<<<<<<< HEAD
 Nome: Gustavo
 Email: gustavo.nogueira@example.net
+=======
+Nome: Olívia
+Email: olivia.barbosa@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 89
 CPF: 1000088
+<<<<<<< HEAD
 Nome: Katia
 Email: katia.pereira@example.org
+=======
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 98
 CPF: 1000097
+<<<<<<< HEAD
 Nome: José
 Email: jose.freitas@example.org
 Bairro: Aviacao
@@ -5423,22 +10673,43 @@ ID do cidadao: 107
 CPF: 1000106
 Nome: Olívia
 Email: olivia.barbosa@example.net
+=======
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Ipanema
+
+ID do cidadao: 107
+CPF: 1000106
+Nome: Katia
+Email: katia.pereira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 116
 CPF: 1000115
+<<<<<<< HEAD
 Nome: Fernando
 Email: fernando.ferreira@example.org
+=======
+Nome: Rafael
+Email: rafael.nogueira@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Rosas
 
 ID do cidadao: 125
 CPF: 1000124
+<<<<<<< HEAD
 Nome: Rafael
 Email: rafael.nogueira@example.net
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
 
 ID do cidadao: 134
 CPF: 1000133
+<<<<<<< HEAD
 Nome: José
 Email: jose.freitas@example.org
 Bairro: Rosas
@@ -5469,10 +10740,61 @@ Bairro: Ipanema
 
 ID do cidadao: 179
 CPF: 1000178
+=======
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 143
+CPF: 1000142
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Rosas
+
+ID do cidadao: 152
+CPF: 1000151
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Industrial
+
+ID do cidadao: 161
+CPF: 1000160
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Marupiara
+
+ID do cidadao: 170
+CPF: 1000169
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Industrial
+
+ID do cidadao: 179
+CPF: 1000178
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 188
+CPF: 1000187
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Marupiara
+
+ID do cidadao: 197
+CPF: 1000196
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Industrial
+
+ID do cidadao: 206
+CPF: 1000205
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: Fernando
 Email: fernando.ferreira@example.org
 Bairro: Rosas
 
+<<<<<<< HEAD
 ID do cidadao: 188
 CPF: 1000187
 Nome: Luciana
@@ -5487,10 +10809,15 @@ Bairro: Marupiara
 
 ID do cidadao: 206
 CPF: 1000205
+=======
+ID do cidadao: 215
+CPF: 1000214
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: Henrique
 Email: henrique.gomes@example.org
 Bairro: Ipanema
 
+<<<<<<< HEAD
 ID do cidadao: 215
 CPF: 1000214
 Nome: Luciana
@@ -5507,10 +10834,23 @@ ID do cidadao: 233
 CPF: 1000232
 Nome: Gustavo
 Email: gustavo.nogueira@example.net
+=======
+ID do cidadao: 224
+CPF: 1000223
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 233
+CPF: 1000232
+Nome: Igor
+Email: igor.freitas@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 242
 CPF: 1000241
+<<<<<<< HEAD
 Nome: Felipe
 Email: felipe.costa@example.net
 Bairro: Marupiara
@@ -5519,10 +10859,21 @@ ID do cidadao: 251
 CPF: 1000250
 Nome: Olívia
 Email: olivia.barbosa@example.net
+=======
+Nome: Luciana
+Email: luciana.martins@example.com
+Bairro: Rosas
+
+ID do cidadao: 251
+CPF: 1000250
+Nome: Nicolas
+Email: nicolas.campos@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 260
 CPF: 1000259
+<<<<<<< HEAD
 Nome: Laura
 Email: laura.silva@example.com
 Bairro: Ipanema
@@ -5561,10 +10912,51 @@ ID do cidadao: 314
 CPF: 1000313
 Nome: Felipe
 Email: felipe.costa@example.net
+=======
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+
+ID do cidadao: 269
+CPF: 1000268
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Ipanema
+
+ID do cidadao: 278
+CPF: 1000277
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Marupiara
+
+ID do cidadao: 287
+CPF: 1000286
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Rosas
+
+ID do cidadao: 296
+CPF: 1000295
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+
+ID do cidadao: 305
+CPF: 1000304
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 314
+CPF: 1000313
+Nome: Rafael
+Email: rafael.nogueira@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 323
 CPF: 1000322
+<<<<<<< HEAD
 Nome: Hugo
 Email: hugo.teixeira@example.com
 Bairro: Marupiara
@@ -5591,10 +10983,39 @@ ID do cidadao: 359
 CPF: 1000358
 Nome: Olívia
 Email: olivia.barbosa@example.net
+=======
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Aviacao
+
+ID do cidadao: 332
+CPF: 1000331
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Ipanema
+
+ID do cidadao: 341
+CPF: 1000340
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 350
+CPF: 1000349
+Nome: Lucas
+Email: lucas.santana@example.net
+Bairro: Aviacao
+
+ID do cidadao: 359
+CPF: 1000358
+Nome: Katia
+Email: katia.pereira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 368
 CPF: 1000367
+<<<<<<< HEAD
 Nome: Laura
 Email: laura.silva@example.com
 Bairro: Aviacao
@@ -5625,10 +11046,13 @@ Bairro: Industrial
 
 ID do cidadao: 413
 CPF: 1000412
+=======
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome: Olívia
 Email: olivia.barbosa@example.net
 Bairro: Marupiara
 
+<<<<<<< HEAD
 ID do cidadao: 422
 CPF: 1000421
 Nome: Gustavo
@@ -5694,9 +11118,107 @@ CPF: 1000511
 Nome: Mariana
 Email: mariana.dias@example.com
 Bairro: Industrial
+=======
+ID do cidadao: 377
+CPF: 1000376
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 386
+CPF: 1000385
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Rosas
+
+ID do cidadao: 395
+CPF: 1000394
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Ipanema
+
+ID do cidadao: 404
+CPF: 1000403
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 413
+CPF: 1000412
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 422
+CPF: 1000421
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Ipanema
+
+ID do cidadao: 431
+CPF: 1000430
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 440
+CPF: 1000439
+Nome: Nicolas
+Email: nicolas.campos@example.org
+Bairro: Rosas
+
+ID do cidadao: 449
+CPF: 1000448
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 458
+CPF: 1000457
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Industrial
+
+ID do cidadao: 467
+CPF: 1000466
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Ipanema
+
+ID do cidadao: 476
+CPF: 1000475
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Ipanema
+
+ID do cidadao: 485
+CPF: 1000484
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Aviacao
+
+ID do cidadao: 494
+CPF: 1000493
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Marupiara
+
+ID do cidadao: 503
+CPF: 1000502
+Nome: Katia
+Email: katia.pereira@example.org
+Bairro: Rosas
+
+ID do cidadao: 512
+CPF: 1000511
+Nome: Sílvia
+Email: silvia.ferreira@example.org
+Bairro: Aviacao
 
 ID do cidadao: 521
 CPF: 1000520
+<<<<<<< HEAD
 Nome: Hugo
 Email: hugo.teixeira@example.com
 Bairro: Industrial
@@ -5705,22 +11227,38 @@ ID do cidadao: 530
 CPF: 1000529
 Nome: Sílvia
 Email: silvia.ferreira@example.org
+=======
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 530
+CPF: 1000529
+Nome: Katia
+Email: katia.pereira@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 539
 CPF: 1000538
-Nome: Nicolas
-Email: nicolas.campos@example.org
-Bairro: Aviacao
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Marupiara
 
 ID do cidadao: 548
 CPF: 1000547
+<<<<<<< HEAD
 Nome: José
 Email: jose.freitas@example.org
+=======
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 557
 CPF: 1000556
+<<<<<<< HEAD
 Nome: Carla
 Email: carla.souza@example.net
 Bairro: Industrial
@@ -5735,10 +11273,27 @@ ID do cidadao: 575
 CPF: 1000574
 Nome: Carla
 Email: carla.souza@example.net
+=======
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 566
+CPF: 1000565
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 575
+CPF: 1000574
+Nome: Rafael
+Email: rafael.nogueira@example.net
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 584
 CPF: 1000583
+<<<<<<< HEAD
 Nome: Gabriel
 Email: gabriel.nogueira@example.net
 Bairro: Aviacao
@@ -5771,10 +11326,45 @@ ID do cidadao: 629
 CPF: 1000628
 Nome: Luciana
 Email: luciana.martins@example.com
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Ipanema
+
+ID do cidadao: 593
+CPF: 1000592
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Rosas
+
+ID do cidadao: 602
+CPF: 1000601
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Rosas
+
+ID do cidadao: 611
+CPF: 1000610
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Industrial
+
+ID do cidadao: 620
+CPF: 1000619
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 629
+CPF: 1000628
+Nome: Sofia
+Email: sofia.teixeira@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 638
 CPF: 1000637
+<<<<<<< HEAD
 Nome: Paulo
 Email: paulo.ribeiro@example.com
 Bairro: Rosas
@@ -5881,10 +11471,119 @@ Nome: Fernando
 Email: fernando.ferreira@example.org
 Bairro: Marupiara
 
+=======
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Marupiara
+
+ID do cidadao: 647
+CPF: 1000646
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Rosas
+
+ID do cidadao: 656
+CPF: 1000655
+Nome: Diego
+Email: diego.lima@example.com
+Bairro: Aviacao
+
+ID do cidadao: 665
+CPF: 1000664
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 674
+CPF: 1000673
+Nome: Eduarda
+Email: eduarda.alves@example.org
+Bairro: Rosas
+
+ID do cidadao: 683
+CPF: 1000682
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Aviacao
+
+ID do cidadao: 692
+CPF: 1000691
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Marupiara
+
+ID do cidadao: 701
+CPF: 1000700
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 710
+CPF: 1000709
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 719
+CPF: 1000718
+Nome: Felipe
+Email: felipe.costa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 728
+CPF: 1000727
+Nome: Tiago
+Email: tiago.freitas@example.org
+Bairro: Aviacao
+
+ID do cidadao: 737
+CPF: 1000736
+Nome: Fernando
+Email: fernando.ferreira@example.org
+Bairro: Industrial
+
+ID do cidadao: 746
+CPF: 1000745
+Nome: Bruno
+Email: bruno.oliveira@example.org
+Bairro: Ipanema
+
+ID do cidadao: 755
+CPF: 1000754
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Ipanema
+
+ID do cidadao: 764
+CPF: 1000763
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 773
+CPF: 1000772
+Nome: Henrique
+Email: henrique.gomes@example.org
+Bairro: Marupiara
+
+ID do cidadao: 782
+CPF: 1000781
+Nome: Mariana
+Email: mariana.dias@example.com
+Bairro: Aviacao
+
+ID do cidadao: 791
+CPF: 1000790
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Rosas
+
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 ID do cidadao: 800
 CPF: 1000799
 Nome: Eduarda
 Email: eduarda.alves@example.org
+<<<<<<< HEAD
 Bairro: Ipanema
 
 ID do cidadao: 809
@@ -5903,12 +11602,33 @@ ID do cidadao: 827
 CPF: 1000826
 Nome: Rafael
 Email: rafael.nogueira@example.net
+=======
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Marupiara
+
+ID do cidadao: 809
+CPF: 1000808
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+Bairro: Marupiara
+
+ID do cidadao: 818
+CPF: 1000817
+Nome: Igor
+Email: igor.freitas@example.org
+Bairro: Industrial
+
+ID do cidadao: 827
+CPF: 1000826
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Ipanema
 
 ID do cidadao: 836
 CPF: 1000835
 Nome: Diego
 Email: diego.lima@example.com
+<<<<<<< HEAD
 Bairro: Industrial
 
 ID do cidadao: 845
@@ -5940,18 +11660,68 @@ CPF: 1000880
 Nome: Bruno
 Email: bruno.oliveira@example.org
 Bairro: Rosas
+=======
+Bairro: Rosas
+
+ID do cidadao: 845
+CPF: 1000844
+Nome: André
+Email: andre.ferreira@example.org
+Bairro: Marupiara
+
+ID do cidadao: 854
+CPF: 1000853
+Nome: Gabriel
+Email: gabriel.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 863
+CPF: 1000862
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 872
+CPF: 1000871
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+
+ID do cidadao: 881
+CPF: 1000880
+Nome: José
+Email: jose.freitas@example.org
+Bairro: Rosas
 
 ID do cidadao: 890
 CPF: 1000889
+<<<<<<< HEAD
 Nome: Laura
 Email: laura.silva@example.com
+=======
+Nome: Eduarda
+Email: eduarda.alves@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Industrial
 
 ID do cidadao: 899
 CPF: 1000898
+<<<<<<< HEAD
 Nome: Fernando
 Email: fernando.ferreira@example.org
 Bairro: Industrial
+=======
+Nome: Daniel
+Email: daniel.teixeira@example.com
+Bairro: Aviacao
+
+ID do cidadao: 908
+CPF: 1000907
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Aviacao
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 
 ID do cidadao: 908
 CPF: 1000907
@@ -5961,6 +11731,7 @@ Bairro: Ipanema
 
 ID do cidadao: 917
 CPF: 1000916
+<<<<<<< HEAD
 Nome: Eduarda
 Email: eduarda.alves@example.org
 Bairro: Industrial
@@ -5969,10 +11740,21 @@ ID do cidadao: 926
 CPF: 1000925
 Nome: Sofia
 Email: sofia.teixeira@example.com
+=======
+Nome: Olívia
+Email: olivia.barbosa@example.net
+Bairro: Aviacao
+
+ID do cidadao: 926
+CPF: 1000925
+Nome: Eduarda
+Email: eduarda.alves@example.org
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Ipanema
 
 ID do cidadao: 935
 CPF: 1000934
+<<<<<<< HEAD
 Nome: Rafael
 Email: rafael.nogueira@example.net
 Bairro: Aviacao
@@ -6005,10 +11787,45 @@ ID do cidadao: 980
 CPF: 1000979
 Nome: Rafael
 Email: rafael.nogueira@example.net
+=======
+Nome: Hugo
+Email: hugo.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 944
+CPF: 1000943
+Nome: Sofia
+Email: sofia.teixeira@example.com
+Bairro: Ipanema
+
+ID do cidadao: 953
+CPF: 1000952
+Nome: Gustavo
+Email: gustavo.nogueira@example.net
+Bairro: Ipanema
+
+ID do cidadao: 962
+CPF: 1000961
+Nome: Laura
+Email: laura.silva@example.com
+Bairro: Industrial
+
+ID do cidadao: 971
+CPF: 1000970
+Nome: Carla
+Email: carla.souza@example.net
+Bairro: Aviacao
+
+ID do cidadao: 980
+CPF: 1000979
+Nome: Paulo
+Email: paulo.ribeiro@example.com
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Bairro: Aviacao
 
 ID do cidadao: 989
 CPF: 1000988
+<<<<<<< HEAD
 Nome: José
 Email: jose.freitas@example.org
 Bairro: Aviacao
@@ -6018,3 +11835,14 @@ CPF: 1000997
 Nome: Tiago
 Email: tiago.freitas@example.org
 Bairro: Rosas
+=======
+Nome: João
+Email: joao.mendes@example.com
+Bairro: Marupiara
+
+ID do cidadao: 998
+CPF: 1000997
+Nome: Rafael
+Email: rafael.nogueira@example.net
+Bairro: Ipanema
+>>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
