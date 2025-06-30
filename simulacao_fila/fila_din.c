@@ -64,7 +64,6 @@ void remover(Fila* fila,int* elem)
 
     if(!percorreFilaAtual)
     {
-        printf("Elemento nao esta na fila!\n");
         return;
     }
     if(!percorreFilaAnt)

@@ -337,17 +337,23 @@ int main()
     
                         
                         //Print dos dados da pessoa que foi retirada de sua fila
-                        printf("\tPessoa %d atendida!\n",pessoa_);
-                        printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao->cpf,pessoa[pessoa_].cidadao->nome,pessoa[pessoa_].atendimento.ocorrencia,pessoa[pessoa_].cidadao->email);
-                        
                         //Cada pessoa tem um id referente a sua ocorrencia, a partir dele conseguimos recuperar a pessoa referente a esse id, como tambem sua ocorrência
                         //Adiciona esse id em um BST
-                        printf("ID da ocorrencia adicionada na BST!\n");
+                        printf("\t\t=========================================\n");
+                        printf("\t\t     Pessoa Atendida com Sucesso\n");
+                        printf("\t\t=========================================\n");
+                        printf("\t\t  Pessoa ID:  %d\n", pessoa_);
+                        printf("\t\t   CPF:       %d\n", pessoa[pessoa_].cidadao->cpf);
+                        printf("\t\t   Nome:      %s\n", pessoa[pessoa_].cidadao->nome);
+                        printf("\t\t   E-mail:    %s\n", pessoa[pessoa_].cidadao->email);
+                        printf("\t\t-----------------------------------------\n");
+                        printf("\t\t  Ocorrencia Atendida:\n");
+                        printf("\t\t   ID:        %d\n", pessoa[pessoa_].atendimento.idOcorrencia);
+                        printf("\t\t   Tipo:      %s\n", pessoa[pessoa_].atendimento.ocorrencia);
+                        printf("\t\t   Gravidade: %s\n", gravidadeNome(pessoa[pessoa_].atendimento.nivel));
+                        printf("\t\t=========================================\n\n");
                         inserirnoArvBB(&ArvOcorrencia,pessoa[pessoa_].atendimento.idOcorrencia);
                         
-                        //Adiciona cada ocorrencia referente a pilha referente a unidade solicitada
-                        //A pilha seria unica para cada unidade e não em relaçao ao bairro
-                        printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
                         Ocorrencia atendPilha = pessoa[pessoa_].atendimento;
 
 
@@ -370,14 +376,15 @@ int main()
         tempTotal--;
         //Printa as filas de cada tempo
         printf("Tempo %d\n",tempAtual);
-        for(int i=0;i<MAXBAIRRO;i++)
+        for (int i = 0; i < MAXBAIRRO; i++)
         {
-            printf("\tPolicia: ");
-            imprimir_fila(&bairro[i].servicos[0]);
-            printf("\tHospital: ");
-            imprimir_fila(&bairro[i].servicos[1]);
-            printf("\tBombeiro: ");
-            imprimir_fila(&bairro[i].servicos[2]);
+            printf("\t Bairro: %s\n", bairro[i].bairro.nome);
+
+            for (int j = 0; j < 3; j++)
+            {
+                printf("\t  -> %-10s: ", nomesUnidades[j]); // Alinha os nomes dos serviços
+                imprimir_fila(&bairro[i].servicos[j]);
+            }
             printf("\n");
         }
         tempAtual++;

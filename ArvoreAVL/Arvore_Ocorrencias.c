@@ -116,7 +116,6 @@ void Inserir_Arvore_AVL(NoAVL** raiz, Ocorrencia ocorrencia)
         NoAVL* novo = CriarNo(ocorrencia);
         if(novo == NULL)
         {
-            printf("Erro ao alocar na memoria!");
             return;
         }
 
@@ -136,7 +135,6 @@ void Inserir_Arvore_AVL(NoAVL** raiz, Ocorrencia ocorrencia)
         }
         else
         {
-            printf("O no ja existe!\n");
             return;
         }
 
@@ -191,7 +189,6 @@ void Remover_Arvore_AVL(NoAVL** raiz, int idOcorrencia)
 {
     if((*raiz) == NULL)
     {
-        printf("Impossivel remover de Arvore Vazia");
         return;
     }
 

@@ -20,7 +20,6 @@ void inserirnoArvBB(noArvBB **abb,int elem)
     if(verif_vazianoArvBB(*abb))
     {
         *abb = newNo;
-        printf("Elemento inserido com sucesso! %d\n",elem);
         return;
     }
     else
@@ -28,7 +27,6 @@ void inserirnoArvBB(noArvBB **abb,int elem)
         noArvBB *aux = *abb;
         if(aux->elem == elem)
         {
-            printf("Elemento ja contido na arvore!\n");
             free(newNo);
             return;
         }
@@ -37,7 +35,6 @@ void inserirnoArvBB(noArvBB **abb,int elem)
             if(!aux->esq)
             {
                 aux->esq = newNo;
-                printf("Elemento inserido com sucesso! %d\n",elem);
                 return;
             }
             else
@@ -51,7 +48,6 @@ void inserirnoArvBB(noArvBB **abb,int elem)
             if(!aux->dir)
             {
                 aux->dir = newNo;
-                printf("Elemento inserido com sucesso! %d\n",elem);
                 return;
             }
             else
@@ -66,7 +62,6 @@ noArvBB* buscanoArvBB(noArvBB **abb,int elem)
 {
     if(verif_vazianoArvBB(*abb))
     {
-        printf("Arvore esta vazia!\n");
         return NULL;
     }
     else
@@ -107,7 +102,6 @@ noArvBB* buscaSubstArvBB(noArvBB **abb,int *elem)
 {
     if(verif_vazianoArvBB(*abb))
     {
-        printf("Arvore esta vazia!\n");
         return NULL;
     }
     else
@@ -115,7 +109,6 @@ noArvBB* buscaSubstArvBB(noArvBB **abb,int *elem)
         noArvBB *aux =  *abb;
         if(aux->elem==*elem)
         {
-            printf("Elemento esta na arvore!\n");
             //agora q eu achei o elem que quero remover vou procurar um substituto para remover ele
             //se pa que eu vou 1 para esq do elem e dps full dir para achar
             //TODO fazer indo 1 para dir do elem e dps full esq para achar, caso nao tenha nada a esq e algo a dir.
@@ -148,7 +141,6 @@ noArvBB* buscaSubstArvBB(noArvBB **abb,int *elem)
             }
             else
             {
-                printf("O n� � um folha. N�o h� subst, apenas remova-o!\n");
                 return NULL;
             }
 
@@ -157,7 +149,6 @@ noArvBB* buscaSubstArvBB(noArvBB **abb,int *elem)
         {
             if(!aux->esq)
             {
-                printf("Elemento nao esta na arvore!\n");
                 return NULL;
             }
             else
@@ -169,7 +160,6 @@ noArvBB* buscaSubstArvBB(noArvBB **abb,int *elem)
         {
             if(!aux->dir)
             {
-                printf("Elemento nao esta na arvore!");
                 return NULL;
             }
             else
@@ -184,7 +174,6 @@ noArvBB* buscaAntecessorArvBB(noArvBB **abb,int elem,noArvBB *antaux)
 {
     if(verif_vazianoArvBB(*abb))
     {
-        printf("Arvore esta vazia!\n");
         return NULL;
     }
     else
@@ -198,7 +187,6 @@ noArvBB* buscaAntecessorArvBB(noArvBB **abb,int elem,noArvBB *antaux)
         {
             if(!aux->esq)
             {
-                printf("Elemento nao esta na arvore!\n");
                 return NULL;
             }
             else
@@ -210,7 +198,6 @@ noArvBB* buscaAntecessorArvBB(noArvBB **abb,int elem,noArvBB *antaux)
         {
             if(!aux->dir)
             {
-                printf("Elemento nao esta na arvore!\n");
                 return NULL;
             }
             else
@@ -224,7 +211,6 @@ void removerNoArvBB(noArvBB **abb,int *elem)
 {
     if(verif_vazianoArvBB(*abb))
     {
-        printf("Arvore esta vazia!\n");
         return;
     }
     else
@@ -232,7 +218,6 @@ void removerNoArvBB(noArvBB **abb,int *elem)
         noArvBB *remocao = buscanoArvBB(abb,*elem);
         if(!remocao)
         {
-            printf("Elemento nao encontrado!\n");
             return;
         }
         noArvBB *ant = buscaAntecessorArvBB(abb,*elem,NULL);
