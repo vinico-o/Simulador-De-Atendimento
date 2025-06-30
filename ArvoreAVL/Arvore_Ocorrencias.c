@@ -2,14 +2,24 @@
 #include <stdlib.h>
 #include "Arvore_Ocorrencias.h"
 
-void Inicializar_Arvore_AVL(No** raiz)
+void Inicializar_Arvore_AVL(NoAVL** raiz)
 {
     (*raiz) = NULL;
 }
 
-No* CriarNo(Ocorrencia ocorrencia)
+int Arvore_AVL_Vazia(NoAVL** raiz)
 {
-    No* novo = malloc(sizeof(No));
+    if(*raiz == NULL)
+    {
+        return 1;
+    }
+
+    return 0;
+}
+
+NoAVL* CriarNo(Ocorrencia ocorrencia)
+{
+    NoAVL* novo = malloc(sizeof(NoAVL));
     if(novo == NULL)
     {
         return NULL;
@@ -22,7 +32,7 @@ No* CriarNo(Ocorrencia ocorrencia)
     return novo;
 }
 
-int Altura(No* raiz)
+int Altura(NoAVL* raiz)
 {
     if(raiz == NULL)
     {
@@ -43,7 +53,7 @@ int Altura(No* raiz)
 
 }
 
-int CalcularFatorBalanceamento(No* raiz)
+int CalcularFatorBalanceamento(NoAVL* raiz)
 {
     if (raiz == NULL) {
         return 0;
@@ -52,7 +62,7 @@ int CalcularFatorBalanceamento(No* raiz)
     return fatorBalanceamento;
 }
 
-void PreOrdem(No* raiz)
+void PreOrdem(NoAVL* raiz)
 {
     if(raiz != NULL)
     {
@@ -62,7 +72,7 @@ void PreOrdem(No* raiz)
     }
 }
 
-void EmOrdem(No* raiz)
+void EmOrdem(NoAVL* raiz)
 {
     if(raiz != NULL)
     {
@@ -72,7 +82,7 @@ void EmOrdem(No* raiz)
     }
 }
 
-void PosOrdem(No* raiz)
+void PosOrdem(NoAVL* raiz)
 {
     if(raiz != NULL)
     {
@@ -82,28 +92,28 @@ void PosOrdem(No* raiz)
     }
 }
 
-void RotacaoEsquerda(No** raiz)
+void RotacaoEsquerda(NoAVL** raiz)
 {
-    No* aux = (*raiz)->direita;
+    NoAVL* aux = (*raiz)->direita;
     (*raiz)->direita = aux->esquerda;
     aux->esquerda = (*raiz);
     *raiz = aux;
 }
 
-void RotacaoDireita(No** raiz)
+void RotacaoDireita(NoAVL** raiz)
 {
-    No* aux = (*raiz)->esquerda;
+    NoAVL* aux = (*raiz)->esquerda;
     (*raiz)->esquerda = aux->direita;
     aux->direita = (*raiz);
     *raiz = aux;
 }
 
-void Inserir_Arvore_AVL(No** raiz, Ocorrencia ocorrencia)
+void Inserir_Arvore_AVL(NoAVL** raiz, Ocorrencia ocorrencia)
 {
     //Arvore nula
     if((*raiz) == NULL)
     {
-        No* novo = CriarNo(ocorrencia);
+        NoAVL* novo = CriarNo(ocorrencia);
         if(novo == NULL)
         {
             printf("Erro ao alocar na memoria!");
@@ -166,9 +176,9 @@ void Inserir_Arvore_AVL(No** raiz, Ocorrencia ocorrencia)
     }
 }
 
-No* MaiorDosMenores(No* raiz)
+NoAVL* MaiorDosMenores(NoAVL* raiz)
 {
-    No* aux = raiz->esquerda;
+    NoAVL* aux = raiz->esquerda;
     while(aux->direita != NULL)
     {
         aux = aux->direita;
@@ -177,7 +187,7 @@ No* MaiorDosMenores(No* raiz)
     return aux;
 }
 
-void Remover_Arvore_AVL(No** raiz, int idOcorrencia)
+void Remover_Arvore_AVL(NoAVL** raiz, int idOcorrencia)
 {
     if((*raiz) == NULL)
     {
@@ -195,7 +205,7 @@ void Remover_Arvore_AVL(No** raiz, int idOcorrencia)
     }
     else //encontramos o no a ser removido
     {
-        No* aux;
+        NoAVL* aux;
         //Se o no possuir duas subarvores
         if((*raiz)->direita != NULL && (*raiz)->esquerda != NULL)
         {
@@ -258,7 +268,7 @@ int CompararOcorrencias(Ocorrencia atual, Ocorrencia melhor)
     return 0;
 }
 
-void BuscarOcorrenciaPrioritaria(No* raiz, Ocorrencia* melhor)
+void BuscarOcorrenciaPrioritaria(NoAVL* raiz, Ocorrencia* melhor)
 {
     if (raiz == NULL)
     {
@@ -274,7 +284,7 @@ void BuscarOcorrenciaPrioritaria(No* raiz, Ocorrencia* melhor)
     BuscarOcorrenciaPrioritaria(raiz->direita, melhor);
 }
 
-void ObterOcorrenciaPrioritaria(No* raiz, Ocorrencia* resultado)
+void ObterOcorrenciaPrioritaria(NoAVL* raiz, Ocorrencia* resultado)
 {
     if (raiz == NULL)
     {

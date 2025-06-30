@@ -8,32 +8,53 @@ Atendimentos referentes ao bairro Ipanema
 	Tempo médio de chegada da Policia: N/A
 	Tempo médio de saída da Policia: N/A
 
-	Pessoas que entraram na fila Hospital: 38
-	Atendimentos da fila de Hospital: 22
-	Tempo de espera médio da Hospital: 8,27
-	Tempo médio de chegada da Hospital: 107,26
-	Tempo médio de saída da Hospital: 112,36
+	Pessoas que entraram na fila Hospital: 12
+	Atendimentos da fila de Hospital: 18
+	Tempo de espera médio da Hospital: 0,00
+	Tempo médio de chegada da Hospital: 93,75
+	Tempo médio de saída da Hospital: 109,83
 
-	Pessoas que entraram na fila Bombeiro: 36
-	Atendimentos da fila de Bombeiro: 21
-	Tempo de espera médio da Bombeiro: 16,81
-	Tempo médio de chegada da Bombeiro: 95,92
-	Tempo médio de saída da Bombeiro: 117,57
+	Pessoas que entraram na fila Bombeiro: 28
+	Atendimentos da fila de Bombeiro: 0
+	Tempo de espera médio da Bombeiro: N/A
+	Tempo médio de chegada da Bombeiro: 100,36
+	Tempo médio de saída da Bombeiro: N/A
 
 
 Atendimentos referentes ao bairro Marupiara
 
-	Pessoas que entraram na fila Policia: 41
-	Atendimentos da fila de Policia: 21
-	Tempo de espera médio da Policia: 17,14
-	Tempo médio de chegada da Policia: 102,59
-	Tempo médio de saída da Policia: 117,57
+	Pessoas que entraram na fila Policia: 35
+	Atendimentos da fila de Policia: 18
+	Tempo de espera médio da Policia: 0,61
+	Tempo médio de chegada da Policia: 107,91
+	Tempo médio de saída da Policia: 109,83
 
-	Pessoas que entraram na fila Hospital: 11
-	Atendimentos da fila de Hospital: 11
-	Tempo de espera médio da Hospital: 8,82
-	Tempo médio de chegada da Hospital: 88,91
-	Tempo médio de saída da Hospital: 97,73
+	Pessoas que entraram na fila Hospital: 0
+	Atendimentos da fila de Hospital: 0
+	Tempo de espera médio da Hospital: N/A
+	Tempo médio de chegada da Hospital: N/A
+	Tempo médio de saída da Hospital: N/A
+
+	Pessoas que entraram na fila Bombeiro: 9
+	Atendimentos da fila de Bombeiro: 17
+	Tempo de espera médio da Bombeiro: 11,24
+	Tempo médio de chegada da Bombeiro: 67,00
+	Tempo médio de saída da Bombeiro: 114,76
+
+
+Atendimentos referentes ao bairro Industrial
+
+	Pessoas que entraram na fila Policia: 0
+	Atendimentos da fila de Policia: 0
+	Tempo de espera médio da Policia: N/A
+	Tempo médio de chegada da Policia: N/A
+	Tempo médio de saída da Policia: N/A
+
+	Pessoas que entraram na fila Hospital: 12
+	Atendimentos da fila de Hospital: 17
+	Tempo de espera médio da Hospital: 18,88
+	Tempo médio de chegada da Hospital: 100,00
+	Tempo médio de saída da Hospital: 114,76
 
 	Pessoas que entraram na fila Bombeiro: 0
 	Atendimentos da fila de Bombeiro: 0
@@ -42,39 +63,18 @@ Atendimentos referentes ao bairro Marupiara
 	Tempo médio de saída da Bombeiro: N/A
 
 
-Atendimentos referentes ao bairro Industrial
-
-	Pessoas que entraram na fila Policia: 4
-	Atendimentos da fila de Policia: 4
-	Tempo de espera médio da Policia: 2,75
-	Tempo médio de chegada da Policia: 72,50
-	Tempo médio de saída da Policia: 75,25
-
-	Pessoas que entraram na fila Hospital: 0
-	Atendimentos da fila de Hospital: 0
-	Tempo de espera médio da Hospital: N/A
-	Tempo médio de chegada da Hospital: N/A
-	Tempo médio de saída da Hospital: N/A
-
-	Pessoas que entraram na fila Bombeiro: 4
-	Atendimentos da fila de Bombeiro: 4
-	Tempo de espera médio da Bombeiro: 6,75
-	Tempo médio de chegada da Bombeiro: 139,50
-	Tempo médio de saída da Bombeiro: 146,25
-
-
 Atendimentos referentes ao bairro Rosas
 
-	Pessoas que entraram na fila Policia: 0
+	Pessoas que entraram na fila Policia: 10
 	Atendimentos da fila de Policia: 0
 	Tempo de espera médio da Policia: N/A
-	Tempo médio de chegada da Policia: N/A
+	Tempo médio de chegada da Policia: 87,70
 	Tempo médio de saída da Policia: N/A
 
-	Pessoas que entraram na fila Hospital: 0
+	Pessoas que entraram na fila Hospital: 6
 	Atendimentos da fila de Hospital: 0
 	Tempo de espera médio da Hospital: N/A
-	Tempo médio de chegada da Hospital: N/A
+	Tempo médio de chegada da Hospital: 83,00
 	Tempo médio de saída da Hospital: N/A
 
 	Pessoas que entraram na fila Bombeiro: 0
@@ -92,104 +92,91 @@ Atendimentos referentes ao bairro Aviacao
 	Tempo médio de chegada da Policia: N/A
 	Tempo médio de saída da Policia: N/A
 
-	Pessoas que entraram na fila Hospital: 0
+	Pessoas que entraram na fila Hospital: 12
 	Atendimentos da fila de Hospital: 0
 	Tempo de espera médio da Hospital: N/A
-	Tempo médio de chegada da Hospital: N/A
+	Tempo médio de chegada da Hospital: 122,25
 	Tempo médio de saída da Hospital: N/A
 
-	Pessoas que entraram na fila Bombeiro: 0
+	Pessoas que entraram na fila Bombeiro: 10
 	Atendimentos da fila de Bombeiro: 0
 	Tempo de espera médio da Bombeiro: N/A
-	Tempo médio de chegada da Bombeiro: N/A
+	Tempo médio de chegada da Bombeiro: 82,10
 	Tempo médio de saída da Bombeiro: N/A
 
 
-Numero de clientes atendidos: 83
+Numero de clientes atendidos: 70
 
-Tempo de espera da pessoa Bianca: 0
-Tempo de espera da pessoa Tiago: 1
-Tempo de espera da pessoa Mariana: 0
-Tempo de espera da pessoa João: 12
-Tempo de espera da pessoa José: 26
-Tempo de espera da pessoa Luciana: 8
-Tempo de espera da pessoa Luciana: 23
-Tempo de espera da pessoa José: 5
-Tempo de espera da pessoa Diego: 32
-Tempo de espera da pessoa Henrique: 2
-Tempo de espera da pessoa Sílvia: 30
-Tempo de espera da pessoa Gustavo: 15
-Tempo de espera da pessoa João: 14
-Tempo de espera da pessoa Gustavo: 36
-Tempo de espera da pessoa Gabriel: 25
-Tempo de espera da pessoa Katia: 33
-Tempo de espera da pessoa João: 32
-Tempo de espera da pessoa André: 42
-Tempo de espera da pessoa André: 19
-Tempo de espera da pessoa Igor: 39
-Tempo de espera da pessoa Rafael: 40
-Tempo de espera da pessoa Olívia: 39
-Tempo de espera da pessoa Henrique: 35
-Tempo de espera da pessoa Gustavo: 48
-Tempo de espera da pessoa Daniel: 34
-Tempo de espera da pessoa Gabriel: 44
-Tempo de espera da pessoa Olívia: 52
-Tempo de espera da pessoa Rafael: 50
-Tempo de espera da pessoa Paulo: 3
-Tempo de espera da pessoa Mariana: 55
-Tempo de espera da pessoa Laura: 54
-Tempo de espera da pessoa Mariana: 9
-Tempo de espera da pessoa Eduarda: 34
-Tempo de espera da pessoa Lucas: 65
-Tempo de espera da pessoa Felipe: 64
-Tempo de espera da pessoa Sílvia: 40
-Tempo de espera da pessoa Rafael: 75
-Tempo de espera da pessoa Carla: 74
-Tempo de espera da pessoa André: 81
-Tempo de espera da pessoa João: 84
-Tempo de espera da pessoa André: 91
-Tempo de espera da pessoa Olívia: 75
-Tempo de espera da pessoa Hugo: 3
-Tempo de espera da pessoa Bianca: 90
-Tempo de espera da pessoa Diego: 33
-Tempo de espera da pessoa José: 73
-Tempo de espera da pessoa Henrique: 81
-Tempo de espera da pessoa Sofia: 91
-Tempo de espera da pessoa Olívia: 82
-Tempo de espera da pessoa Felipe: 40
-Tempo de espera da pessoa Eduarda: 87
-Tempo de espera da pessoa Tiago: 97
-Tempo de espera da pessoa Laura: 101
-Tempo de espera da pessoa Eduarda: 105
-Tempo de espera da pessoa Gabriel: 93
-Tempo de espera da pessoa Sílvia: 109
-Tempo de espera da pessoa Fernando: 7
-Tempo de espera da pessoa Felipe: 113
-Tempo de espera da pessoa Nicolas: 0
-Tempo de espera da pessoa Luciana: 39
-Tempo de espera da pessoa Lucas: 89
-Tempo de espera da pessoa Luciana: 44
-Tempo de espera da pessoa Igor: 47
-Tempo de espera da pessoa Rafael: 54
-Tempo de espera da pessoa Fernando: 87
-Tempo de espera da pessoa Felipe: 0
-Tempo de espera da pessoa Henrique: 54
-Tempo de espera da pessoa Nicolas: 60
-Tempo de espera da pessoa Lucas: 71
-Tempo de espera da pessoa Bruno: 0
-Tempo de espera da pessoa Fernando: 86
-Tempo de espera da pessoa Diego: 0
-Tempo de espera da pessoa Nicolas: 70
-Tempo de espera da pessoa João: 2
-Tempo de espera da pessoa Fernando: 0
-Tempo de espera da pessoa Olívia: 70
-Tempo de espera da pessoa Henrique: 83
-Tempo de espera da pessoa Daniel: 11
-Tempo de espera da pessoa Gabriel: 0
-Tempo de espera da pessoa Henrique: 16
+Tempo de espera da pessoa Katia: 0
+Tempo de espera da pessoa André: 0
+Tempo de espera da pessoa Sofia: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa Laura: 0
+Tempo de espera da pessoa Igor: 0
+Tempo de espera da pessoa Bianca: 191
+Tempo de espera da pessoa Bruno: 190
 Tempo de espera da pessoa Carla: 0
-Tempo de espera da pessoa Hugo: 70
+Tempo de espera da pessoa Fernando: 0
+Tempo de espera da pessoa Laura: 11
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa Felipe: 0
+Tempo de espera da pessoa Luciana: 0
+Tempo de espera da pessoa Sofia: 0
+Tempo de espera da pessoa Gustavo: 0
+Tempo de espera da pessoa Igor: 0
+Tempo de espera da pessoa Hugo: 0
+Tempo de espera da pessoa Luciana: 0
+Tempo de espera da pessoa Henrique: 0
+Tempo de espera da pessoa Katia: 169
+Tempo de espera da pessoa Bruno: 0
+Tempo de espera da pessoa Laura: 0
+Tempo de espera da pessoa Henrique: 9
+Tempo de espera da pessoa Katia: 0
+Tempo de espera da pessoa Bruno: 0
+Tempo de espera da pessoa Sílvia: 0
+Tempo de espera da pessoa Luciana: 0
+Tempo de espera da pessoa Hugo: 0
 Tempo de espera da pessoa Olívia: 0
+Tempo de espera da pessoa Carla: 0
+Tempo de espera da pessoa Olívia: 0
+Tempo de espera da pessoa Fernando: 0
+Tempo de espera da pessoa Igor: 152
+Tempo de espera da pessoa Carla: 0
+Tempo de espera da pessoa Henrique: 0
+Tempo de espera da pessoa Laura: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa Mariana: 0
+Tempo de espera da pessoa Rafael: 0
+Tempo de espera da pessoa Luciana: 0
+Tempo de espera da pessoa Carla: 0
+Tempo de espera da pessoa Diego: 0
+Tempo de espera da pessoa Olívia: 0
+Tempo de espera da pessoa Sofia: 0
+Tempo de espera da pessoa Henrique: 0
+Tempo de espera da pessoa Olívia: 0
+Tempo de espera da pessoa Igor: 0
+Tempo de espera da pessoa Sílvia: 0
+Tempo de espera da pessoa André: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa André: 0
+Tempo de espera da pessoa Henrique: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa José: 0
+Tempo de espera da pessoa Lucas: 0
+Tempo de espera da pessoa Lucas: 0
+Tempo de espera da pessoa Tiago: 0
+Tempo de espera da pessoa Rafael: 0
+Tempo de espera da pessoa Bruno: 0
 Tempo de espera da pessoa Daniel: 0
+Tempo de espera da pessoa Henrique: 0
+Tempo de espera da pessoa Henrique: 0
+Tempo de espera da pessoa Gustavo: 0
+Tempo de espera da pessoa Luciana: 0
+Tempo de espera da pessoa Bruno: 0
+Tempo de espera da pessoa Sofia: 0
+Tempo de espera da pessoa Daniel: 0
+Tempo de espera da pessoa Mariana: 0
+Tempo de espera da pessoa Diego: 0
+Tempo de espera da pessoa Laura: 0
 
-Maior tempo de espera foi do Felipe com 113 unidades de tempo
+Maior tempo de espera foi do Bianca com 191 unidades de tempo

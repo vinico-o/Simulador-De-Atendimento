@@ -1,21 +1,21 @@
 #include "../struct_comum.h"
 
-typedef struct No
+typedef struct NoAVL
 {
     Ocorrencia ocorrencia;
-    struct No* direita;
-    struct No* esquerda;
-} No;
+    struct NoAVL* direita;
+    struct NoAVL* esquerda;
+} NoAVL;
 
-void Inicializar_Arvore_AVL(No** raiz);
-No* CriarNo(Ocorrencia ocorrencia);
-void Inserir_Arvore_AVL(No** raiz, Ocorrencia ocorrencia);
-void Remover_Arvore_AVL(No** raiz, int idOcorrencia);
-void PreOrdem(No* raiz);
-void EmOrdem(No* raiz);
-void PosOrdem(No* raiz);
-int Altura(No* raiz);
-int CalcularFatorBalanceamento(No* raiz);
-void RotacaoEsquerda(No** raiz);
-void RotacaoDireita(No** raiz);
-void BuscarOcorrenciaPrioritaria(No* raiz, Ocorrencia* melhor);
+void Inicializar_Arvore_AVL(NoAVL** raiz);
+NoAVL* CriarNo(Ocorrencia ocorrencia);
+void Inserir_Arvore_AVL(NoAVL** raiz, Ocorrencia ocorrencia);
+void Remover_Arvore_AVL(NoAVL** raiz, int idOcorrencia);
+void PreOrdem(NoAVL* raiz);
+void EmOrdem(NoAVL* raiz);
+void PosOrdem(NoAVL* raiz);
+int Altura(NoAVL* raiz);
+int CalcularFatorBalanceamento(NoAVL* raiz);
+void RotacaoEsquerda(NoAVL** raiz);
+void RotacaoDireita(NoAVL** raiz);
+void BuscarOcorrenciaPrioritaria(NoAVL* raiz, Ocorrencia* melhor);

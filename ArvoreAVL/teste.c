@@ -15,7 +15,7 @@ void ImprimirOcorrencia(Ocorrencia o) {
 }
 
 // Impressão em ordem com detalhes
-void ImprimirEmOrdem(No* raiz) {
+void ImprimirEmOrdem(NoAVL* raiz) {
     if (raiz != NULL) {
         ImprimirEmOrdem(raiz->esquerda);
         ImprimirOcorrencia(raiz->ocorrencia);
@@ -24,7 +24,7 @@ void ImprimirEmOrdem(No* raiz) {
 }
 
 int main() {
-    No* raiz;
+    NoAVL* raiz;
     Ocorrencia resultado;
     Inicializar_Arvore_AVL(&raiz);
     srand(time(NULL)); // inicializa gerador de aleatórios

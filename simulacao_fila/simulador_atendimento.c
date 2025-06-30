@@ -9,6 +9,7 @@
 #include "../HashingUnidades/Tabela_Hash.c"
 #include "../bairroEcidadaoHash/BairrosCidadao.c"
 #include "../bairroXunidade/Lista_Cruzada.c"
+#include "../ArvoreAVL/Arvore_Ocorrencias.c"
 #include "../struct_comum.h"
 
 #define NUM_SERVICOS 3
@@ -26,7 +27,7 @@
 typedef struct{
     Bairro bairro;
     Fila servicos[NUM_SERVICOS];
-
+    NoAVL* arvoreOcorrencias[NUM_SERVICOS];
     //Estatisticas referentes a fila
     int tempoEsperaFila[NUM_SERVICOS];
     int num_pessoas_fila[NUM_SERVICOS];
@@ -196,6 +197,7 @@ int main()
         for(int j=0;j<NUM_SERVICOS;j++)
         {
             inicializar(&bairro[i].servicos[j]);
+            Inicializar_Arvore_AVL(&bairro[i].arvoreOcorrencias[j]);
             bairro[i].atendimentos_por_fila[j] = 0;
             bairro[i].num_pessoas_fila[j] = 0;
             bairro[i].tempoEsperaFila[j] = 0;
@@ -267,10 +269,12 @@ int main()
             if(BuscarUnidadeBairro(&matrizBairroUnidade, idTempBairro, fila_inserido))
             {
                 inserir(&bairro[idTempBairro].servicos[fila_inserido],num_pessoa);
+                Inserir_Arvore_AVL(&bairro[idTempBairro].arvoreOcorrencias[fila_inserido], pessoa[num_pessoa].atendimento);                
             }
             //Caso nao exista, procura o primeiro bairro que possuir aquela unidade
             else
             {
+                //TODO: ver método melhor de verificar bairro disponível para inserção
                 idTempBairro = 0;
                 while(!BuscarUnidadeBairro(&matrizBairroUnidade, idTempBairro, fila_inserido) && idTempBairro != 5)
                 {
@@ -278,6 +282,7 @@ int main()
                 }
 
                 inserir(&bairro[idTempBairro].servicos[fila_inserido],num_pessoa);
+                Inserir_Arvore_AVL(&bairro[idTempBairro].arvoreOcorrencias[fila_inserido], pessoa[num_pessoa].atendimento);
             }
             //Atualiza os dados da pessoa referentes a tempo na fila e em qual fila ela estava
             pessoa[num_pessoa].chegada = tempAtual;
@@ -300,13 +305,15 @@ int main()
                 //Laço referente a cada fila de um bairro j
                 for(int i=0;i<NUM_SERVICOS;i++)
                 {
-                    if(!vazia(&bairro[j].servicos[i]))
+                    if(!vazia(&bairro[j].servicos[i]) && !Arvore_AVL_Vazia(&bairro[i].arvoreOcorrencias[j]))
                     {
+                        Ocorrencia buscaOcorrencia;
+                        ObterOcorrenciaPrioritaria(bairro[i].arvoreOcorrencias[j], &buscaOcorrencia);
                         //Pega o numero da pessoa para poder analisar seus dados referentes ao atendimento
-                        int pessoa_;
+                        int pessoa_ = buscaOcorrencia.idOcorrencia;
                         //remove a pessoa de uma fila especifica de um bairro j
                         remover(&bairro[j].servicos[i],&pessoa_);
-    
+                        Remover_Arvore_AVL(&bairro[j].arvoreOcorrencias[i], buscaOcorrencia.idOcorrencia);
                         
                         //Comando referentes a inserção da unidade utilizada na tabela hash de Unidades
                         unidadeTemp.id = idUnidade++;
@@ -439,6 +446,15 @@ int main()
         }
 
 
+    }
+
+    FILE *matrizCruzada = fopen("MatrizCruzada.txt", "w");
+    if(matrizCruzada)
+    {
+        freopen("MatrizCruzada.txt", "w", stdout);
+        ImprimirMatrizCruzada(&matrizBairroUnidade);
+        freopen("/dev/tty", "w", stdout);
+        fclose(matrizCruzada);
     }
     
     for(int i=0;i<num_pessoa;i++)

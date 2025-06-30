@@ -3,193 +3,167 @@
 
 0:
 Id do Unidade: 9
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 18
 Nome do Unidade: Policia
 Id do Unidade: 27
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 36
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 45
 Nome do Unidade: Hospital
 Id do Unidade: 54
-Nome do Unidade: Hospital
+Nome do Unidade: Policia
 Id do Unidade: 63
 Nome do Unidade: Bombeiro
-Id do Unidade: 72
-Nome do Unidade: Bombeiro
-Id do Unidade: 81
-Nome do Unidade: Hospital
 
 
 1:
 Id do Unidade: 1
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 10
-Nome do Unidade: Hospital
+Nome do Unidade: Policia
 Id do Unidade: 19
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 28
-Nome do Unidade: Bombeiro
-Id do Unidade: 37
-Nome do Unidade: Bombeiro
-Id do Unidade: 46
 Nome do Unidade: Hospital
+Id do Unidade: 37
+Nome do Unidade: Hospital
+Id do Unidade: 46
+Nome do Unidade: Policia
 Id do Unidade: 55
 Nome do Unidade: Bombeiro
 Id do Unidade: 64
-Nome do Unidade: Policia
-Id do Unidade: 73
-Nome do Unidade: Policia
-Id do Unidade: 82
-Nome do Unidade: Bombeiro
+Nome do Unidade: Hospital
 
 
 2:
 Id do Unidade: 2
 Nome do Unidade: Policia
 Id do Unidade: 11
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 20
 Nome do Unidade: Hospital
 Id do Unidade: 29
-Nome do Unidade: Policia
-Id do Unidade: 38
 Nome do Unidade: Hospital
+Id do Unidade: 38
+Nome do Unidade: Policia
 Id do Unidade: 47
 Nome do Unidade: Bombeiro
 Id do Unidade: 56
-Nome do Unidade: Policia
-Id do Unidade: 65
-Nome do Unidade: Policia
-Id do Unidade: 74
 Nome do Unidade: Hospital
-Id do Unidade: 83
-Nome do Unidade: Policia
+Id do Unidade: 65
+Nome do Unidade: Hospital
 
 
 3:
 Id do Unidade: 3
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 12
-Nome do Unidade: Bombeiro
-Id do Unidade: 21
-Nome do Unidade: Bombeiro
-Id do Unidade: 30
 Nome do Unidade: Hospital
+Id do Unidade: 21
+Nome do Unidade: Hospital
+Id do Unidade: 30
+Nome do Unidade: Policia
 Id do Unidade: 39
 Nome do Unidade: Bombeiro
 Id do Unidade: 48
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 57
 Nome do Unidade: Hospital
 Id do Unidade: 66
-Nome do Unidade: Bombeiro
-Id do Unidade: 75
-Nome do Unidade: Bombeiro
+Nome do Unidade: Policia
 
 
 4:
 Id do Unidade: 4
-Nome do Unidade: Bombeiro
+Nome do Unidade: Hospital
 Id do Unidade: 13
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 22
 Nome do Unidade: Policia
 Id do Unidade: 31
 Nome do Unidade: Bombeiro
 Id do Unidade: 40
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 49
 Nome do Unidade: Hospital
 Id do Unidade: 58
-Nome do Unidade: Bombeiro
-Id do Unidade: 67
-Nome do Unidade: Hospital
-Id do Unidade: 76
 Nome do Unidade: Policia
+Id do Unidade: 67
+Nome do Unidade: Bombeiro
 
 
 5:
 Id do Unidade: 5
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 14
-Nome do Unidade: Hospital
-Id do Unidade: 23
-Nome do Unidade: Hospital
-Id do Unidade: 32
 Nome do Unidade: Policia
+Id do Unidade: 23
+Nome do Unidade: Bombeiro
+Id do Unidade: 32
+Nome do Unidade: Hospital
 Id do Unidade: 41
 Nome do Unidade: Hospital
 Id do Unidade: 50
-Nome do Unidade: Hospital
+Nome do Unidade: Policia
 Id do Unidade: 59
-Nome do Unidade: Hospital
-Id do Unidade: 68
 Nome do Unidade: Bombeiro
-Id do Unidade: 77
+Id do Unidade: 68
 Nome do Unidade: Hospital
 
 
 6:
 Id do Unidade: 6
-Nome do Unidade: Hospital
-Id do Unidade: 15
 Nome do Unidade: Policia
+Id do Unidade: 15
+Nome do Unidade: Bombeiro
 Id do Unidade: 24
 Nome do Unidade: Hospital
 Id do Unidade: 33
-Nome do Unidade: Policia
-Id do Unidade: 42
 Nome do Unidade: Hospital
+Id do Unidade: 42
+Nome do Unidade: Policia
 Id do Unidade: 51
 Nome do Unidade: Bombeiro
 Id do Unidade: 60
-Nome do Unidade: Bombeiro
+Nome do Unidade: Hospital
 Id do Unidade: 69
-Nome do Unidade: Policia
-Id do Unidade: 78
-Nome do Unidade: Bombeiro
+Nome do Unidade: Hospital
 
 
 7:
 Id do Unidade: 7
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 16
 Nome do Unidade: Hospital
 Id do Unidade: 25
-Nome do Unidade: Bombeiro
-Id do Unidade: 34
 Nome do Unidade: Hospital
+Id do Unidade: 34
+Nome do Unidade: Policia
 Id do Unidade: 43
 Nome do Unidade: Bombeiro
 Id do Unidade: 52
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 61
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 70
-Nome do Unidade: Bombeiro
-Id do Unidade: 79
 Nome do Unidade: Policia
 
 
 8:
 Id do Unidade: 8
-Nome do Unidade: Bombeiro
+Nome do Unidade: Hospital
 Id do Unidade: 17
-Nome do Unidade: Bombeiro
+Nome do Unidade: Hospital
 Id do Unidade: 26
 Nome do Unidade: Policia
 Id do Unidade: 35
 Nome do Unidade: Bombeiro
 Id do Unidade: 44
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 53
 Nome do Unidade: Hospital
 Id do Unidade: 62
-Nome do Unidade: Hospital
-Id do Unidade: 71
-Nome do Unidade: Hospital
-Id do Unidade: 80
-Nome do Unidade: Hospital
+Nome do Unidade: Policia
 

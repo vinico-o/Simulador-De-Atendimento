@@ -1,0 +1,8 @@
+    Bairro   | Policia          Bombeiro         Hospital         
+-------------+---------------------------------------------------
+Ipanema      |                | [BID:00 UID01] | [BID:00 UID02] |
+Marupiara    | [BID:01 UID00] |                | [BID:01 UID02] |
+Industrial   |                | [BID:02 UID01] |                |
+Rosas        | [BID:03 UID00] | [BID:03 UID01] |                |
+Aviacao      |                | [BID:04 UID01] | [BID:04 UID02] |
+
