@@ -224,17 +224,17 @@ void imprimirTabelaCidadaos (tabelaCidadaos *tabela)
 }
 
 // função para buscar cidadão a partir do nome
-CidadaoHash* buscarCidadao (tabelaCidadaos *tabela, char nome[])
+Cidadao* buscarCidadao (tabelaCidadaos *tabela, int cpf)
 {
-    int indice = hashCidadaos(nome);
+    int indice = hashCidadaos(cpf);
 
     CidadaoHash *aux = tabela->vetorCidadaos[indice];
 
     while (aux != NULL)                                                       // procura, comparando com o nome de parâmetro
     {
-        if (strcmp(aux->c->nome, nome) == 0)
+        if (aux->c->cpf == cpf)
         {
-            return aux;                                                       // retorna o ponteiro ao cidadão, se encontrar
+            return aux->c;                                                       // retorna o ponteiro ao cidadão, se encontrar
         }
         aux = aux->prox;
     }
@@ -243,45 +243,3 @@ CidadaoHash* buscarCidadao (tabelaCidadaos *tabela, char nome[])
 }
 
 
-
-
-
-
-// função para criar cidadão -> não está sendo utilizada
-/* Cidadao* criarCidadao (char nome[], tabelaBairros *tBairros)
-{
-    Cidadao *novoCidadao = malloc (sizeof(Cidadao));
-
-    char bairro[MAXNOME];
-
-    printf ("\nInforme o cpf: ");
-    scanf ("%d", &novoCidadao->cpf);
-    getchar(); // limpa o '\n' deixado pelo scanf
-
-    printf ("\nInforme o email: ");
-    fgets(novoCidadao->email, MAXNOME, stdin);
-    novoCidadao->email[strcspn(novoCidadao->email, "\n")] = '\0'; // remove '\n'
-
-    printf ("\nInforme o nome do bairro: ");
-    fgets(bairro, MAXNOME, stdin);
-    bairro[strcspn(bairro, "\n")] = '\0'; // remove '\n'
-
-
-
-    Bairro *b = buscarBairro (bairro, tBairros);
-
-    if (b != NULL){
-
-        novoCidadao->endereco = b;
-        novoCidadao->id = idCidadao;
-        strcpy (novoCidadao->nome, nome);
-
-
-        return novoCidadao;
-    }
-    else {
-        printf ("\nBairro nao encontrado -> pessoa nao criada");
-        free (novoCidadao);
-        return NULL;
-    }
-} */
