@@ -18,6 +18,16 @@ typedef struct Unidade
     char nome[MAXNOME];
 } Unidade;
 
+typedef enum{
+    ALTA,MEDIA,BAIXA
+}Gravidade;
+
+typedef struct{
+    int idOcorrencia;
+    Gravidade nivel;
+    char ocorrencia[MAXNOME];
+}Ocorrencia;
+
 char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};
 char* nomesUnidades[] = {"Policia", "Hospital", "Bombeiro"};
 #endif

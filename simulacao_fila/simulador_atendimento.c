@@ -16,7 +16,12 @@
 #define MAXNOME 50
 #define MAXBAIRRO 5
 
-//TODO: Lembrar de ajeitar as estatisticas de cada fila
+//TODO - fazer a struct de ocorrencias
+//TODO - fazer com que a BST returno o id da ocorrencia para printar a struct ocorrencia
+//TODO - adicionar a AVL para atender chamadas de acordo com a gravidade
+
+
+
 
 typedef struct{
     Bairro bairro;
@@ -34,8 +39,7 @@ typedef struct{
 typedef struct{
     Cidadao *cidadao;
     int servico_desejado;
-    char ocorrencia[MAXNOME];
-    int idOcorrencia;
+    Ocorrencia atendimento;
     //Essa parte de baixo � para dados estat�sticos
     int chegada;
     int saida;
@@ -48,15 +52,27 @@ char* ocorrenciaPolicia[] = {
     "Assalto", "Furto", "Homicidio", "Estelionato",
     "Ameaca", "Sequestro", "Embriaguez", "Receptacao"
 };
+Gravidade gravidadePolicia[] = {
+    ALTA, MEDIA, ALTA, BAIXA,
+    MEDIA, ALTA, MEDIA, BAIXA
+};
 
 char* ocorrenciaHospital[] = {
     "Queda", "Ferimento", "Febre","Dor",
     "Desmaio", "Convulcao", "Infeccao", "Alergia",
 };
+Gravidade gravidadeHospital[] = {
+    BAIXA, MEDIA, ALTA, BAIXA,
+    ALTA, MEDIA, BAIXA, ALTA
+};
 
 char* ocorrenciaBombeiro[] = {
     "Incendio", "Acidente", "Afogamento", "Deslizamento",
     "Resgate", "Busca", "Vazamento", "Explosao"
+};
+Gravidade gravidadeBombeiro[] = {
+    ALTA, BAIXA, MEDIA, ALTA,
+    MEDIA, BAIXA, MEDIA, ALTA
 };
 
 
@@ -67,17 +83,20 @@ void GerarOcorrenciaAleatorio(CidadaoSimulacao* pessoa)
     //se o serviço for o 1, entao sua ocorrencia é policial
     if(pessoa->servico_desejado == 1)
     {
-        strcpy(pessoa->ocorrencia, ocorrenciaPolicia[indice]);
+        strcpy(pessoa->atendimento.ocorrencia, ocorrenciaPolicia[indice]);
+        pessoa->atendimento.nivel = gravidadePolicia[indice];
     }
     //se o serviço for o 2, entao sua ocorrencia é hospitalar
     if(pessoa->servico_desejado == 2)
     {
-        strcpy(pessoa->ocorrencia, ocorrenciaHospital[indice]);
+        strcpy(pessoa->atendimento.ocorrencia, ocorrenciaHospital[indice]);
+        pessoa->atendimento.nivel = gravidadeHospital[indice];
     }
     //se o serviço for o 3, entao sua ocorrencia é de bombeiro
     if(pessoa->servico_desejado == 3)
     {
-        strcpy(pessoa->ocorrencia, ocorrenciaBombeiro[indice]);
+        strcpy(pessoa->atendimento.ocorrencia, ocorrenciaBombeiro[indice]);
+        pessoa->atendimento.nivel = gravidadeBombeiro[indice];
     }
 
 }
@@ -194,7 +213,8 @@ int main()
         pessoa[i].cidadao->id = i+1;
         pessoa[i].servico_desejado = rand()% NUM_SERVICOS + 1; //gera aleatoriamente o serviço de cada pessoa
         pessoa[i].cidadao->cpf = num_cpf;
-        pessoa[i].idOcorrencia = i+1;
+
+        pessoa[i].atendimento.idOcorrencia = i+1;
     
 
         // aleatoriza um numero para escolher o nome do bairro
@@ -282,17 +302,17 @@ int main()
                         
                         //Print dos dados da pessoa que foi retirada de sua fila
                         printf("\tPessoa %d atendida!\n",pessoa_);
-                        printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao->cpf,pessoa[pessoa_].cidadao->nome,pessoa[pessoa_].ocorrencia,pessoa[pessoa_].cidadao->email);
+                        printf("\tcpf: %d \tnome: %s \tocorrencia: %s \temail:%s\n",pessoa[pessoa_].cidadao->cpf,pessoa[pessoa_].cidadao->nome,pessoa[pessoa_].atendimento.ocorrencia,pessoa[pessoa_].cidadao->email);
                         
                         //Cada pessoa tem um id referente a sua ocorrencia, a partir dele conseguimos recuperar a pessoa referente a esse id, como tambem sua ocorrência
                         //Adiciona esse id em um BST
                         printf("ID da ocorrencia adicionada na BST!\n");
-                        inserirnoArvBB(&ArvOcorrencia,pessoa[pessoa_].idOcorrencia);
+                        inserirnoArvBB(&ArvOcorrencia,pessoa[pessoa_].atendimento.idOcorrencia);
                         
                         //Adiciona cada ocorrencia referente a pilha referente a unidade solicitada
                         //A pilha seria unica para cada unidade e não em relaçao ao bairro
                         printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
-                        push(&historico_atendimento[i],pessoa[pessoa_].ocorrencia);
+                        push(&historico_atendimento[i],pessoa[pessoa_].atendimento.ocorrencia);
 
                         //Dado para saber o tempo de espera da pessoa na fila
                         pessoa[pessoa_].saida = tempAtual;
