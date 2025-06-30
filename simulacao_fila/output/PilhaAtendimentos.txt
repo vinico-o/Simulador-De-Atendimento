@@ -1,5 +1,6 @@
 =======Histórico de Policia: 
 
+<<<<<<< Updated upstream
 Dados da ocorrência 36:
 	ID: 36
 	Nivel: ALTA
@@ -182,10 +183,209 @@ Dados da ocorrência 18:
 	Nivel: ALTA
 	Ocorrência: Desmaio
 	Nome atendente: Gustavo
+=======
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Luciana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 4:
+	ID: 4
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Mariana
+
+
+=======Histórico de Hospital: 
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 107:
+	ID: 107
+	Nivel: BAIXA
+	Ocorrência: Receptacao
+	Nome atendente: Eduarda
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 109:
+	ID: 109
+	Nivel: ALTA
+	Ocorrência: Assalto
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+>>>>>>> Stashed changes
 
 
 Dados da ocorrência 105:
 	ID: 105
+<<<<<<< Updated upstream
 	Nivel: ALTA
 	Ocorrência: Sequestro
 	Nome atendente: Gustavo
@@ -357,10 +557,170 @@ Dados da ocorrência 5:
 	Nivel: MEDIA
 	Ocorrência: Vazamento
 	Nome atendente: Diego
+=======
+	Nivel: MEDIA
+	Ocorrência: Resgate
+	Nome atendente: Eduarda
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 92:
+	ID: 92
+	Nivel: BAIXA
+	Ocorrência: Acidente
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 79:
+	ID: 79
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 73:
+	ID: 73
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: José
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 55:
+	ID: 55
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Gabriel
+
+
+Dados da ocorrência 49:
+	ID: 49
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Henrique
+
+
+Dados da ocorrência 31:
+	ID: 31
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 41:
+	ID: 41
+	Nivel: ALTA
+	Ocorrência: Alergia
+	Nome atendente: Mariana
+
+
+Dados da ocorrência 31:
+	ID: 31
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 37:
+	ID: 37
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Bruno
+
+
+Dados da ocorrência 31:
+	ID: 31
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 17:
+	ID: 17
+	Nivel: ALTA
+	Ocorrência: Alergia
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 13:
+	ID: 13
+	Nivel: MEDIA
+	Ocorrência: Resgate
+	Nome atendente: Mariana
+>>>>>>> Stashed changes
 
 
 =======Histórico de Bombeiro: 
 
+<<<<<<< Updated upstream
 Dados da ocorrência 45:
 	ID: 45
 	Nivel: ALTA
@@ -653,10 +1013,46 @@ Dados da ocorrência 25:
 	Nivel: BAIXA
 	Ocorrência: Dor
 	Nome atendente: Bianca
+=======
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
 
 
 Dados da ocorrência 8:
 	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+>>>>>>> Stashed changes
+
+
+Dados da ocorrência 8:
+	ID: 8
+<<<<<<< Updated upstream
 	Nivel: ALTA
 	Ocorrência: Homicidio
 	Nome atendente: Henrique
@@ -666,6 +1062,234 @@ Dados da ocorrência 6:
 	ID: 6
 	Nivel: ALTA
 	Ocorrência: Incendio
+=======
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 30:
+	ID: 30
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 8:
+	ID: 8
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Igor
+
+
+Dados da ocorrência 6:
+	ID: 6
+	Nivel: MEDIA
+	Ocorrência: Ameaca
+>>>>>>> Stashed changes
 	Nome atendente: Gabriel
 
 

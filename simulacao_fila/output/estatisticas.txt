@@ -14,11 +14,19 @@ Atendimentos referentes ao bairro Ipanema
 	Tempo médio de chegada da Hospital: N/A
 	Tempo médio de saída da Hospital: N/A
 
+<<<<<<< Updated upstream
 	Pessoas que entraram na fila Bombeiro: 10
 	Atendimentos da fila de Bombeiro: 18
 	Tempo de espera médio da Bombeiro: 7,72
 	Tempo médio de chegada da Bombeiro: 96,80
 	Tempo médio de saída da Bombeiro: 122,50
+=======
+	Pessoas que entraram na fila Bombeiro: 19
+	Atendimentos da fila de Bombeiro: 22
+	Tempo de espera médio da Bombeiro: 0,00
+	Tempo médio de chegada da Bombeiro: 110,68
+	Tempo médio de saída da Bombeiro: 102,05
+>>>>>>> Stashed changes
 
 
 Atendimentos referentes ao bairro Marupiara
@@ -29,11 +37,40 @@ Atendimentos referentes ao bairro Marupiara
 	Tempo médio de chegada da Policia: N/A
 	Tempo médio de saída da Policia: N/A
 
+<<<<<<< Updated upstream
 	Pessoas que entraram na fila Hospital: 23
 	Atendimentos da fila de Hospital: 15
 	Tempo de espera médio da Hospital: 15,33
 	Tempo médio de chegada da Hospital: 104,30
 	Tempo médio de saída da Hospital: 107,87
+=======
+	Pessoas que entraram na fila Hospital: 11
+	Atendimentos da fila de Hospital: 11
+	Tempo de espera médio da Hospital: 0,00
+	Tempo médio de chegada da Hospital: 101,91
+	Tempo médio de saída da Hospital: 110,27
+
+	Pessoas que entraram na fila Bombeiro: 5
+	Atendimentos da fila de Bombeiro: 16
+	Tempo de espera médio da Bombeiro: 8,44
+	Tempo médio de chegada da Bombeiro: 98,40
+	Tempo médio de saída da Bombeiro: 125,44
+
+
+Atendimentos referentes ao bairro Industrial
+
+	Pessoas que entraram na fila Policia: 29
+	Atendimentos da fila de Policia: 23
+	Tempo de espera médio da Policia: 0,57
+	Tempo médio de chegada da Policia: 102,21
+	Tempo médio de saída da Policia: 98,61
+
+	Pessoas que entraram na fila Hospital: 14
+	Atendimentos da fila de Hospital: 17
+	Tempo de espera médio da Hospital: 4,71
+	Tempo médio de chegada da Hospital: 105,86
+	Tempo médio de saída da Hospital: 121,65
+>>>>>>> Stashed changes
 
 	Pessoas que entraram na fila Bombeiro: 11
 	Atendimentos da fila de Bombeiro: 20
@@ -65,6 +102,7 @@ Atendimentos referentes ao bairro Industrial
 
 Atendimentos referentes ao bairro Rosas
 
+<<<<<<< Updated upstream
 	Pessoas que entraram na fila Policia: 16
 	Atendimentos da fila de Policia: 0
 	Tempo de espera médio da Policia: N/A
@@ -75,32 +113,56 @@ Atendimentos referentes ao bairro Rosas
 	Atendimentos da fila de Hospital: 0
 	Tempo de espera médio da Hospital: N/A
 	Tempo médio de chegada da Hospital: 97,14
+=======
+	Pessoas que entraram na fila Policia: 11
+	Atendimentos da fila de Policia: 0
+	Tempo de espera médio da Policia: N/A
+	Tempo médio de chegada da Policia: 108,55
+	Tempo médio de saída da Policia: N/A
+
+	Pessoas que entraram na fila Hospital: 11
+	Atendimentos da fila de Hospital: 0
+	Tempo de espera médio da Hospital: N/A
+	Tempo médio de chegada da Hospital: 106,18
+>>>>>>> Stashed changes
 	Tempo médio de saída da Hospital: N/A
 
 	Pessoas que entraram na fila Bombeiro: 7
 	Atendimentos da fila de Bombeiro: 0
 	Tempo de espera médio da Bombeiro: N/A
+<<<<<<< Updated upstream
 	Tempo médio de chegada da Bombeiro: 90,43
+=======
+	Tempo médio de chegada da Bombeiro: 110,57
+>>>>>>> Stashed changes
 	Tempo médio de saída da Bombeiro: N/A
 
 
 Atendimentos referentes ao bairro Aviacao
 
-	Pessoas que entraram na fila Policia: 0
+	Pessoas que entraram na fila Policia: 8
 	Atendimentos da fila de Policia: 0
 	Tempo de espera médio da Policia: N/A
-	Tempo médio de chegada da Policia: N/A
+	Tempo médio de chegada da Policia: 108,75
 	Tempo médio de saída da Policia: N/A
 
+<<<<<<< Updated upstream
 	Pessoas que entraram na fila Hospital: 8
 	Atendimentos da fila de Hospital: 0
 	Tempo de espera médio da Hospital: N/A
 	Tempo médio de chegada da Hospital: 94,38
+=======
+	Pessoas que entraram na fila Hospital: 7
+	Atendimentos da fila de Hospital: 0
+	Tempo de espera médio da Hospital: N/A
+	Tempo médio de chegada da Hospital: 68,86
+>>>>>>> Stashed changes
 	Tempo médio de saída da Hospital: N/A
 
 	Pessoas que entraram na fila Bombeiro: 8
 	Atendimentos da fila de Bombeiro: 0
 	Tempo de espera médio da Bombeiro: N/A
+<<<<<<< Updated upstream
 	Tempo médio de chegada da Bombeiro: 92,13
 	Tempo médio de saída da Bombeiro: N/A
 
@@ -205,3 +267,103 @@ Tempo de espera da pessoa José: 0
 Tempo de espera da pessoa Fernando: 0
 
 Maior tempo de espera foi do Lucas com 193 unidades de tempo
+=======
+	Tempo médio de chegada da Bombeiro: 103,25
+	Tempo médio de saída da Bombeiro: N/A
+
+
+Numero de clientes atendidos: 89
+
+Tempo de espera da pessoa André: 0
+Tempo de espera da pessoa Hugo: 0
+Tempo de espera da pessoa José: 0
+Tempo de espera da pessoa Katia: 78
+Tempo de espera da pessoa Diego: 0
+Tempo de espera da pessoa Luciana: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa Diego: 173
+Tempo de espera da pessoa Nicolas: 0
+Tempo de espera da pessoa Daniel: 0
+Tempo de espera da pessoa André: 0
+Tempo de espera da pessoa Felipe: 0
+Tempo de espera da pessoa Lucas: 2
+Tempo de espera da pessoa Bruno: 0
+Tempo de espera da pessoa Sílvia: 0
+Tempo de espera da pessoa Carla: 0
+Tempo de espera da pessoa Eduarda: 14
+Tempo de espera da pessoa Luciana: 0
+Tempo de espera da pessoa Hugo: 0
+Tempo de espera da pessoa Hugo: 0
+Tempo de espera da pessoa Felipe: 0
+Tempo de espera da pessoa Gabriel: 0
+Tempo de espera da pessoa Diego: 0
+Tempo de espera da pessoa Sílvia: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa Luciana: 0
+Tempo de espera da pessoa Hugo: 0
+Tempo de espera da pessoa Laura: 0
+Tempo de espera da pessoa Bianca: 0
+Tempo de espera da pessoa Laura: 135
+Tempo de espera da pessoa Hugo: 22
+Tempo de espera da pessoa Tiago: 0
+Tempo de espera da pessoa Sofia: 0
+Tempo de espera da pessoa André: 0
+Tempo de espera da pessoa Olívia: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa André: 1
+Tempo de espera da pessoa Felipe: 0
+Tempo de espera da pessoa Henrique: 0
+Tempo de espera da pessoa José: 0
+Tempo de espera da pessoa Tiago: 9
+Tempo de espera da pessoa Henrique: 0
+Tempo de espera da pessoa Gabriel: 0
+Tempo de espera da pessoa Olívia: 0
+Tempo de espera da pessoa Diego: 0
+Tempo de espera da pessoa Bruno: 0
+Tempo de espera da pessoa Sílvia: 0
+Tempo de espera da pessoa Fernando: 0
+Tempo de espera da pessoa Diego: 107
+Tempo de espera da pessoa Gustavo: 0
+Tempo de espera da pessoa Mariana: 0
+Tempo de espera da pessoa João: 0
+Tempo de espera da pessoa Felipe: 0
+Tempo de espera da pessoa Hugo: 0
+Tempo de espera da pessoa Laura: 8
+Tempo de espera da pessoa Bruno: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa Laura: 0
+Tempo de espera da pessoa Luciana: 91
+Tempo de espera da pessoa Igor: 0
+Tempo de espera da pessoa Daniel: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa Paulo: 0
+Tempo de espera da pessoa Sofia: 0
+Tempo de espera da pessoa Laura: 0
+Tempo de espera da pessoa Sílvia: 0
+Tempo de espera da pessoa Sofia: 0
+Tempo de espera da pessoa Felipe: 0
+Tempo de espera da pessoa Lucas: 0
+Tempo de espera da pessoa Olívia: 0
+Tempo de espera da pessoa Katia: 0
+Tempo de espera da pessoa Diego: 0
+Tempo de espera da pessoa Carla: 0
+Tempo de espera da pessoa Igor: 0
+Tempo de espera da pessoa Sílvia: 0
+Tempo de espera da pessoa Sofia: 0
+Tempo de espera da pessoa Gabriel: 0
+Tempo de espera da pessoa Carla: 0
+Tempo de espera da pessoa Sílvia: 2
+Tempo de espera da pessoa Hugo: 0
+Tempo de espera da pessoa Gustavo: 0
+Tempo de espera da pessoa Bianca: 0
+Tempo de espera da pessoa Igor: 0
+Tempo de espera da pessoa Gabriel: 0
+Tempo de espera da pessoa Katia: 0
+Tempo de espera da pessoa Gustavo: 0
+Tempo de espera da pessoa Carla: 0
+Tempo de espera da pessoa Gustavo: 0
+Tempo de espera da pessoa Diego: 0
+Tempo de espera da pessoa Daniel: 0
+
+Maior tempo de espera foi do Diego com 173 unidades de tempo
+>>>>>>> Stashed changes
