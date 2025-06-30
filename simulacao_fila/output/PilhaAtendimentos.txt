@@ -1,636 +1,405 @@
 =======Histórico de Policia: 
 
-Dados da ocorrência 120:
-	ID: 120
-	Nivel: BAIXA
-	Ocorrência: Estelionato
-	Nome atendente: Luciana
-
-
-Dados da ocorrência 105:
-	ID: 105
-	Nivel: BAIXA
-	Ocorrência: Estelionato
-	Nome atendente: Olívia
-
-
-Dados da ocorrência 97:
-	ID: 97
-	Nivel: BAIXA
-	Ocorrência: Queda
-	Nome atendente: Sílvia
-
-
-Dados da ocorrência 84:
-	ID: 84
-	Nivel: ALTA
-	Ocorrência: Explosao
-	Nome atendente: Daniel
-
-
-Dados da ocorrência 54:
-	ID: 54
-	Nivel: MEDIA
-	Ocorrência: Furto
-	Nome atendente: Carla
-
-
-Dados da ocorrência 53:
-	ID: 53
-	Nivel: ALTA
-	Ocorrência: Assalto
-	Nome atendente: Luciana
-
-
-Dados da ocorrência 51:
-	ID: 51
-	Nivel: ALTA
-	Ocorrência: Deslizamento
-	Nome atendente: Daniel
-
-
-Dados da ocorrência 46:
-	ID: 46
-	Nivel: MEDIA
-	Ocorrência: Ferimento
-	Nome atendente: Lucas
-
-
-Dados da ocorrência 25:
-	ID: 25
-	Nivel: BAIXA
-	Ocorrência: Dor
-	Nome atendente: Katia
-
-
-Dados da ocorrência 14:
-	ID: 14
-	Nivel: MEDIA
-	Ocorrência: Afogamento
-	Nome atendente: José
-
-
-Dados da ocorrência 6:
-	ID: 6
-	Nivel: ALTA
-	Ocorrência: Alergia
-	Nome atendente: Sofia
-
-
-Dados da ocorrência 12:
-	ID: 12
-	Nivel: MEDIA
-	Ocorrência: Vazamento
-	Nome atendente: Sofia
-
-
-Dados da ocorrência 21:
-	ID: 21
-	Nivel: ALTA
-	Ocorrência: Incendio
-	Nome atendente: Sofia
-
-
-Dados da ocorrência 4:
-	ID: 4
-	Nivel: ALTA
-	Ocorrência: Deslizamento
-	Nome atendente: Gabriel
-
-
-=======Histórico de Hospital: 
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 116:
-	ID: 116
-	Nivel: BAIXA
-	Ocorrência: Acidente
-	Nome atendente: Laura
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 123:
-	ID: 123
-	Nivel: BAIXA
-	Ocorrência: Receptacao
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 114:
-	ID: 114
-	Nivel: BAIXA
-	Ocorrência: Estelionato
-	Nome atendente: Fernando
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 98:
-	ID: 98
-	Nivel: BAIXA
-	Ocorrência: Estelionato
-	Nome atendente: Olívia
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 82:
-	ID: 82
-	Nivel: MEDIA
-	Ocorrência: Vazamento
-	Nome atendente: Sofia
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 81:
-	ID: 81
-	Nivel: BAIXA
-	Ocorrência: Dor
-	Nome atendente: Lucas
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 73:
-	ID: 73
+Dados da ocorrência 122:
+	ID: 122
 	Nivel: MEDIA
 	Ocorrência: Convulcao
-	Nome atendente: Olívia
+	Nome atendente: Luciana
 
 
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 95:
-	ID: 95
+Dados da ocorrência 125:
+	ID: 125
 	Nivel: MEDIA
 	Ocorrência: Furto
-	Nome atendente: Mariana
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 88:
-	ID: 88
-	Nivel: ALTA
-	Ocorrência: Desmaio
-	Nome atendente: Diego
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 44:
-	ID: 44
-	Nivel: ALTA
-	Ocorrência: Sequestro
-	Nome atendente: Nicolas
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 76:
-	ID: 76
-	Nivel: BAIXA
-	Ocorrência: Acidente
-	Nome atendente: Fernando
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 43:
-	ID: 43
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Lucas
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 31:
-	ID: 31
-	Nivel: MEDIA
-	Ocorrência: Ferimento
-	Nome atendente: João
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 27:
-	ID: 27
-	Nivel: BAIXA
-	Ocorrência: Receptacao
-	Nome atendente: Lucas
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 20:
-	ID: 20
-	Nivel: ALTA
-	Ocorrência: Homicidio
-	Nome atendente: Hugo
-
-
-=======Histórico de Bombeiro: 
-
-Dados da ocorrência 66:
-	ID: 66
-	Nivel: BAIXA
-	Ocorrência: Receptacao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 60:
-	ID: 60
-	Nivel: BAIXA
-	Ocorrência: Busca
-	Nome atendente: André
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 59:
-	ID: 59
-	Nivel: MEDIA
-	Ocorrência: Resgate
-	Nome atendente: Bruno
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 102:
-	ID: 102
-	Nivel: ALTA
-	Ocorrência: Alergia
-	Nome atendente: José
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 94:
-	ID: 94
-	Nivel: ALTA
-	Ocorrência: Alergia
-	Nome atendente: Daniel
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 93:
-	ID: 93
-	Nivel: ALTA
-	Ocorrência: Deslizamento
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 85:
-	ID: 85
-	Nivel: ALTA
-	Ocorrência: Alergia
-	Nome atendente: Hugo
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 78:
-	ID: 78
-	Nivel: MEDIA
-	Ocorrência: Furto
-	Nome atendente: Eduarda
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
+	Nome atendente: Felipe
 
 
 Dados da ocorrência 65:
 	ID: 65
 	Nivel: MEDIA
-	Ocorrência: Vazamento
+	Ocorrência: Convulcao
 	Nome atendente: Sílvia
 
 
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
+Dados da ocorrência 113:
+	ID: 113
+	Nivel: MEDIA
+	Ocorrência: Vazamento
+	Nome atendente: Mariana
 
 
-Dados da ocorrência 64:
-	ID: 64
+Dados da ocorrência 65:
+	ID: 65
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 100:
+	ID: 100
 	Nivel: ALTA
-	Ocorrência: Deslizamento
-	Nome atendente: Lucas
-
-
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 63:
-	ID: 63
-	Nivel: ALTA
-	Ocorrência: Explosao
+	Ocorrência: Alergia
 	Nome atendente: Felipe
 
 
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
+Dados da ocorrência 65:
+	ID: 65
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Sílvia
 
 
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 62:
-	ID: 62
+Dados da ocorrência 75:
+	ID: 75
 	Nivel: ALTA
-	Ocorrência: Deslizamento
+	Ocorrência: Homicidio
 	Nome atendente: Nicolas
 
 
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
+Dados da ocorrência 65:
+	ID: 65
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Sílvia
 
 
-Dados da ocorrência 48:
-	ID: 48
+Dados da ocorrência 96:
+	ID: 96
 	Nivel: BAIXA
 	Ocorrência: Queda
 	Nome atendente: Daniel
 
 
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
+Dados da ocorrência 65:
+	ID: 65
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Sílvia
 
 
-Dados da ocorrência 24:
-	ID: 24
-	Nivel: BAIXA
-	Ocorrência: Estelionato
+Dados da ocorrência 65:
+	ID: 65
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 65:
+	ID: 65
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 79:
+	ID: 79
+	Nivel: MEDIA
+	Ocorrência: Ferimento
 	Nome atendente: Bianca
 
 
-Dados da ocorrência 39:
-	ID: 39
-	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
-
-
-Dados da ocorrência 22:
-	ID: 22
+Dados da ocorrência 65:
+	ID: 65
 	Nivel: MEDIA
 	Ocorrência: Convulcao
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 67:
+	ID: 67
+	Nivel: ALTA
+	Ocorrência: Deslizamento
+	Nome atendente: Daniel
+
+
+Dados da ocorrência 65:
+	ID: 65
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 36:
+	ID: 36
+	Nivel: MEDIA
+	Ocorrência: Afogamento
+	Nome atendente: Rafael
+
+
+Dados da ocorrência 65:
+	ID: 65
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 16:
+	ID: 16
+	Nivel: BAIXA
+	Ocorrência: Busca
+	Nome atendente: Laura
+
+
+Dados da ocorrência 65:
+	ID: 65
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Sílvia
+
+
+Dados da ocorrência 55:
+	ID: 55
+	Nivel: MEDIA
+	Ocorrência: Afogamento
+	Nome atendente: Fernando
+
+
+Dados da ocorrência 38:
+	ID: 38
+	Nivel: BAIXA
+	Ocorrência: Receptacao
+	Nome atendente: Eduarda
+
+
+Dados da ocorrência 31:
+	ID: 31
+	Nivel: ALTA
+	Ocorrência: Explosao
+	Nome atendente: Daniel
+
+
+Dados da ocorrência 25:
+	ID: 25
+	Nivel: BAIXA
+	Ocorrência: Acidente
+	Nome atendente: Carla
+
+
+Dados da ocorrência 11:
+	ID: 11
+	Nivel: ALTA
+	Ocorrência: Sequestro
+	Nome atendente: Lucas
+
+
+=======Histórico de Hospital: 
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 85:
+	ID: 85
+	Nivel: ALTA
+	Ocorrência: Homicidio
+	Nome atendente: Rafael
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 82:
+	ID: 82
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Tiago
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 12:
+	ID: 12
+	Nivel: BAIXA
+	Ocorrência: Estelionato
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 48:
+	ID: 48
+	Nivel: ALTA
+	Ocorrência: Explosao
 	Nome atendente: Paulo
 
 
-Dados da ocorrência 39:
-	ID: 39
+Dados da ocorrência 35:
+	ID: 35
+	Nivel: MEDIA
+	Ocorrência: Ameaca
+	Nome atendente: João
+
+
+=======Histórico de Bombeiro: 
+
+Dados da ocorrência 117:
+	ID: 117
+	Nivel: MEDIA
+	Ocorrência: Convulcao
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 109:
+	ID: 109
+	Nivel: ALTA
+	Ocorrência: Desmaio
+	Nome atendente: José
+
+
+Dados da ocorrência 102:
+	ID: 102
+	Nivel: BAIXA
+	Ocorrência: Acidente
+	Nome atendente: Fernando
+
+
+Dados da ocorrência 93:
+	ID: 93
+	Nivel: MEDIA
+	Ocorrência: Embriaguez
+	Nome atendente: Daniel
+
+
+Dados da ocorrência 62:
+	ID: 62
+	Nivel: BAIXA
+	Ocorrência: Queda
+	Nome atendente: Carla
+
+
+Dados da ocorrência 59:
+	ID: 59
+	Nivel: MEDIA
+	Ocorrência: Ameaca
+	Nome atendente: Paulo
+
+
+Dados da ocorrência 54:
+	ID: 54
+	Nivel: ALTA
+	Ocorrência: Homicidio
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 52:
+	ID: 52
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Felipe
+
+
+Dados da ocorrência 49:
+	ID: 49
 	Nivel: BAIXA
 	Ocorrência: Infeccao
-	Nome atendente: Henrique
+	Nome atendente: Lucas
 
 
-Dados da ocorrência 39:
-	ID: 39
+Dados da ocorrência 46:
+	ID: 46
+	Nivel: MEDIA
+	Ocorrência: Furto
+	Nome atendente: Diego
+
+
+Dados da ocorrência 44:
+	ID: 44
 	Nivel: BAIXA
-	Ocorrência: Infeccao
-	Nome atendente: Henrique
+	Ocorrência: Acidente
+	Nome atendente: Nicolas
 
 
-Dados da ocorrência 23:
-	ID: 23
+Dados da ocorrência 32:
+	ID: 32
 	Nivel: ALTA
-	Ocorrência: Incendio
-	Nome atendente: José
+	Ocorrência: Homicidio
+	Nome atendente: Laura
 
 
-Dados da ocorrência 23:
-	ID: 23
+Dados da ocorrência 29:
+	ID: 29
+	Nivel: BAIXA
+	Ocorrência: Dor
+	Nome atendente: Olívia
+
+
+Dados da ocorrência 28:
+	ID: 28
 	Nivel: ALTA
-	Ocorrência: Incendio
-	Nome atendente: José
+	Ocorrência: Deslizamento
+	Nome atendente: Mariana
 
 
-Dados da ocorrência 23:
-	ID: 23
-	Nivel: ALTA
-	Ocorrência: Incendio
-	Nome atendente: José
-
-
-Dados da ocorrência 23:
-	ID: 23
-	Nivel: ALTA
-	Ocorrência: Incendio
-	Nome atendente: José
+Dados da ocorrência 18:
+	ID: 18
+	Nivel: MEDIA
+	Ocorrência: Furto
+	Nome atendente: Gustavo
 
 

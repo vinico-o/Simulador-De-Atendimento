@@ -3,9 +3,9 @@
 #include <string.h>
 #include <locale.h>
 #include <time.h>
-#include "fila_din.c"
-#include "pilha.c"
-#include "ArvBB.c"
+#include "../FilaDinamica/fila_din.c"
+#include "../PilhaDinamica/pilha.c"
+#include "../ArvoreBinariaBusca/ArvBB.c"
 #include "../HashingUnidades/Tabela_Hash.c"
 #include "../bairroEcidadaoHash/BairrosCidadao.c"
 #include "../bairroXunidade/Lista_Cruzada.c"
