@@ -52,11 +52,30 @@ void remover(Fila* fila,int* elem)
         printf("Sem elementos na fila!\n");
         return;
     }
-    noFila *temp;
-    temp = fila->inicio;
-    *elem = temp->elem;
-    fila->inicio = fila->inicio->prox;
-    free(temp);
+
+    noFila *percorreFilaAtual = fila->inicio;
+    noFila *percorreFilaAnt = NULL;
+
+    while(percorreFilaAtual != NULL && percorreFilaAtual->elem > *elem)
+    {
+        percorreFilaAnt = percorreFilaAtual;
+        percorreFilaAtual = percorreFilaAtual->prox;
+    }
+
+    if(!percorreFilaAtual)
+    {
+        printf("Elemento nao esta na fila!\n");
+        return;
+    }
+    if(!percorreFilaAnt)
+    {
+        fila->inicio = percorreFilaAtual->prox;
+    }
+    else
+    {
+        percorreFilaAnt->prox = percorreFilaAtual->prox;
+    }
+    free(percorreFilaAtual);
 }
 void obter_topo(Fila* fila,int* elem)
 {
