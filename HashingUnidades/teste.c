@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "Tabela_Hash.c"
+#include "../struct_comum.h"
 
 int main()
 {

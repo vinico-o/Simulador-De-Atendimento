@@ -2,6 +2,7 @@
 #include <time.h>
 #include <string.h>
 #include "Lista_Cruzada.c"
+#include "../struct_comum.h"
 
 int main ()
 {
