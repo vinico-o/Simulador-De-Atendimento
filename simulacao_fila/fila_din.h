@@ -14,3 +14,4 @@ void remover(Fila* fila,int* elem);
 void obter_topo(Fila *fila,int* elem);
 void num_elem(Fila* fila,int *elem);
 void imprimir_fila(Fila* fila);
+int tamanhoFila(Fila* fila);

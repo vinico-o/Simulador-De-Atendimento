@@ -274,15 +274,30 @@ int main()
             //Caso nao exista, procura o primeiro bairro que possuir aquela unidade
             else
             {
-                //TODO: ver método melhor de verificar bairro disponível para inserção
-                idTempBairro = 0;
-                while(!BuscarUnidadeBairro(&matrizBairroUnidade, idTempBairro, fila_inserido) && idTempBairro != 5)
-                {
-                    idTempBairro++;
-                }
+                int menorFila = 999999;
+                int melhorBairro = -1;
 
-                inserir(&bairro[idTempBairro].servicos[fila_inserido],num_pessoa);
-                Inserir_Arvore_AVL(&bairro[idTempBairro].arvoreOcorrencias[fila_inserido], pessoa[num_pessoa].atendimento);
+                for(int i=0;i<MAXBAIRRO;i++)
+                {
+                    if(BuscarUnidadeBairro(&matrizBairroUnidade,i,fila_inserido))
+                    {
+                        int tam_fila = tamanhoFila(&bairro[i].servicos[fila_inserido]);
+                        if(tam_fila<menorFila)
+                        {
+                            menorFila = tam_fila;
+                            melhorBairro = i;
+                        }
+                    }
+                }
+                if(melhorBairro!=-1)
+                {
+                    Inserir_Arvore_AVL(&bairro[melhorBairro].arvoreOcorrencias[fila_inserido],pessoa[num_pessoa].atendimento);
+                    idTempBairro = melhorBairro;
+                }
+                else
+                {
+                    printf("Nenhum bairro disponível para o servico %d\n",pessoa[num_pessoa].atendimento.idOcorrencia);
+                }
             }
             //Atualiza os dados da pessoa referentes a tempo na fila e em qual fila ela estava
             pessoa[num_pessoa].chegada = tempAtual;

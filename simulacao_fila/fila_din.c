@@ -119,3 +119,15 @@ void imprimir_fila(Fila* fila)
         printf("\n");
     }
 }
+int tamanhoFila(Fila* fila)
+{
+    noFila *percorreFila = fila->inicio;
+    int cont=0;
+
+    while(percorreFila)
+    {
+        cont++;
+        percorreFila = percorreFila->prox;
+    }
+    return cont;
+}
