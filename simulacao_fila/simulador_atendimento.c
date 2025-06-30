@@ -17,7 +17,7 @@
 #define MAXBAIRRO 5
 
 //TODO - fazer a struct de ocorrencias
-//TODO - fazer com que a BST returno o id da ocorrencia para printar a struct ocorrencia
+
 //TODO - adicionar a AVL para atender chamadas de acordo com a gravidade
 
 
@@ -125,6 +125,11 @@ void GerarNomeAleatorio(CidadaoSimulacao* pessoa,int *indice)
     *indice = rand() % qntNomes;
     strcpy(pessoa->cidadao->nome,nomesAleatorios[*indice]);
 }
+void GerarNomeAleatorioAtendente(CidadaoSimulacao *pessoa)
+{
+    int indice = rand() % qntNomes;
+    strcpy(pessoa->atendimento.atendente,nomesAleatorios[indice]);
+}
 
 char* emailAleatorio[] = {
     "laura.silva@example.com", "bruno.oliveira@example.org", "carla.souza@example.net", "diego.lima@example.com",
@@ -222,7 +227,6 @@ int main()
         pessoa[i].cidadao->id = i+1;
         pessoa[i].servico_desejado = rand()% NUM_SERVICOS + 1; //gera aleatoriamente o serviço de cada pessoa
         pessoa[i].cidadao->cpf = num_cpf;
-
         pessoa[i].atendimento.idOcorrencia = i+1;
     
 
@@ -236,6 +240,7 @@ int main()
         int indicetempNome;
         GerarNomeAleatorio(&pessoa[i],&indicetempNome);
         GerarEmailAleatorio(&pessoa[i],indicetempNome);
+        GerarNomeAleatorioAtendente(&pessoa[i].atendimento.atendente);
         GerarOcorrenciaAleatorio(&pessoa[i]);
 
         // inserindo na tabela
@@ -321,7 +326,10 @@ int main()
                         //Adiciona cada ocorrencia referente a pilha referente a unidade solicitada
                         //A pilha seria unica para cada unidade e não em relaçao ao bairro
                         printf("\tOcorrencia adicionada ao historico de atendimento\n\n");
-                        push(&historico_atendimento[i],pessoa[pessoa_].atendimento.ocorrencia);
+                        Ocorrencia atendPilha = pessoa[pessoa_].atendimento;
+
+
+                        push(&historico_atendimento[i],atendPilha);
 
                         //Dado para saber o tempo de espera da pessoa na fila
                         pessoa[pessoa_].saida = tempAtual;
@@ -358,6 +366,8 @@ int main()
     //ImprimirTabelaHashUnidades(&TabelaUnidade);
     //imprimirTabelaDeBairros(&tabelaBairro);
     //imprimirTabelaCidadaos (&tabelaCidadao);
+
+    //Salvar a BST de ocorrencias
     FILE *bst = fopen("OcorrenciasBST.txt", "w");
     if (bst) {
         fprintf(bst, "------- Ocorrencias na BST -------\n\n");
@@ -370,7 +380,8 @@ int main()
                         fprintf(bst, "Dados da ocorrência %d:\n", temp->elem);
                         fprintf(bst, "\tID: %d\n", pessoa[j].atendimento.idOcorrencia);
                         fprintf(bst, "\tNivel: %s\n", gravidadeNome(pessoa[j].atendimento.nivel));
-                        fprintf(bst, "\tOcorrência: %s\n\n\n", pessoa[j].atendimento.ocorrencia);
+                        fprintf(bst, "\tOcorrência: %s\n", pessoa[j].atendimento.ocorrencia);
+                        fprintf(bst, "\tNome atendente: %s\n\n\n",pessoa[j].atendimento.atendente);
                     }
                 }
             }
@@ -407,7 +418,28 @@ int main()
         fclose(cidadaos);
     }
 
+    //Salvar as pilhas de aterndimento das unidades
+    FILE *pilha = fopen("PilhaAtendimentos.txt","w");
+    if(pilha)
+    {
+        fprintf(bst, "------- Histórico de Atendimentos -------\n\n");
+        for(int i=0;i<NUM_SERVICOS;i++)
+        {
+            noPilha *aux = historico_atendimento[i].topo;
+            fprintf(pilha,"=======Histórico de %s: \n\n",nomesUnidades[i]);
+            while(aux)
+            {
+                fprintf(pilha, "Dados da ocorrência %d:\n", aux->atendimento.idOcorrencia);
+                fprintf(pilha, "\tID: %d\n", aux->atendimento.idOcorrencia);
+                fprintf(pilha, "\tNivel: %s\n", gravidadeNome(aux->atendimento.nivel));
+                fprintf(pilha, "\tOcorrência: %s\n", aux->atendimento.ocorrencia);
+                fprintf(pilha, "\tNome atendente: %s\n\n\n",aux->atendimento.atendente);
+                aux = aux->prox;
+            }
+        }
 
+
+    }
     
     for(int i=0;i<num_pessoa;i++)
     {
@@ -465,7 +497,7 @@ int main()
         return 1;
     }
 
-    fprintf(arq, "======= ESTATÍSTICAS DA SIMULAÇÃO =======\n\n");
+    fprintf(arq, "------- ESTATÍSTICAS DA SIMULAÇÃO -------\n\n");
 
     for (int i = 0; i < MAXBAIRRO; i++) {
         fprintf(arq, "Atendimentos referentes ao bairro %s\n\n", bairro[i].bairro.nome);

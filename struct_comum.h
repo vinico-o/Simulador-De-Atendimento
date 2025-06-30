@@ -26,6 +26,7 @@ typedef struct{
     int idOcorrencia;
     Gravidade nivel;
     char ocorrencia[MAXNOME];
+    char atendente[MAXNOME];
 }Ocorrencia;
 
 char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};

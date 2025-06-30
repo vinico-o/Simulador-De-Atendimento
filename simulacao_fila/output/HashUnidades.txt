@@ -3,16 +3,17 @@
 
 0:
 Id do Unidade: 9
-Nome do Unidade: Hospital
+Nome do Unidade: Policia
 Id do Unidade: 18
-Nome do Unidade: Bombeiro
+Nome do Unidade: Policia
 Id do Unidade: 27
 Nome do Unidade: Hospital
 Id do Unidade: 36
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 45
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 54
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Nome do Unidade: Hospital
 Id do Unidade: 63
@@ -32,47 +33,70 @@ Nome do Unidade: Policia
 Id do Unidade: 99
 Nome do Unidade: Policia
 =======
+=======
+Nome do Unidade: Policia
+Id do Unidade: 63
+>>>>>>> Stashed changes
 Nome do Unidade: Bombeiro
+Id do Unidade: 72
+Nome do Unidade: Bombeiro
+Id do Unidade: 81
+Nome do Unidade: Bombeiro
+Id do Unidade: 90
+Nome do Unidade: Policia
 Id do Unidade: 99
+<<<<<<< Updated upstream
 Nome do Unidade: Hospital
 Id do Unidade: 108
 Nome do Unidade: Hospital
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+=======
+Nome do Unidade: Policia
+>>>>>>> Stashed changes
 
 
 1:
 Id do Unidade: 1
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 10
 Nome do Unidade: Bombeiro
 Id do Unidade: 19
-Nome do Unidade: Bombeiro
+Nome do Unidade: Policia
 Id do Unidade: 28
 Nome do Unidade: Policia
 Id do Unidade: 37
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Nome do Unidade: Policia
 =======
 Nome do Unidade: Bombeiro
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+=======
+Nome do Unidade: Hospital
+>>>>>>> Stashed changes
 Id do Unidade: 46
-Nome do Unidade: Hospital
-Id do Unidade: 55
 Nome do Unidade: Policia
-Id do Unidade: 64
+Id do Unidade: 55
 Nome do Unidade: Hospital
+Id do Unidade: 64
+Nome do Unidade: Policia
 Id do Unidade: 73
 Nome do Unidade: Policia
 Id do Unidade: 82
+<<<<<<< Updated upstream
 Nome do Unidade: Policia
+=======
+Nome do Unidade: Hospital
+>>>>>>> Stashed changes
 Id do Unidade: 91
-Nome do Unidade: Policia
+Nome do Unidade: Hospital
 Id do Unidade: 100
-Nome do Unidade: Bombeiro
+Nome do Unidade: Policia
 
 
 2:
 Id do Unidade: 2
+<<<<<<< Updated upstream
 Nome do Unidade: Policia
 Id do Unidade: 11
 <<<<<<< HEAD
@@ -80,10 +104,15 @@ Nome do Unidade: Bombeiro
 Id do Unidade: 20
 =======
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+=======
+>>>>>>> Stashed changes
 Nome do Unidade: Bombeiro
+Id do Unidade: 11
+Nome do Unidade: Hospital
 Id do Unidade: 20
 Nome do Unidade: Policia
 Id do Unidade: 29
+<<<<<<< Updated upstream
 Nome do Unidade: Bombeiro
 Id do Unidade: 38
 <<<<<<< HEAD
@@ -95,25 +124,37 @@ Nome do Unidade: Bombeiro
 Id do Unidade: 65
 Nome do Unidade: Policia
 =======
+=======
+>>>>>>> Stashed changes
 Nome do Unidade: Policia
+Id do Unidade: 38
+Nome do Unidade: Bombeiro
 Id do Unidade: 47
 Nome do Unidade: Bombeiro
 Id do Unidade: 56
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 65
+<<<<<<< Updated upstream
 Nome do Unidade: Hospital
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+=======
+Nome do Unidade: Bombeiro
+>>>>>>> Stashed changes
 Id do Unidade: 74
-Nome do Unidade: Hospital
-Id do Unidade: 83
 Nome do Unidade: Policia
+Id do Unidade: 83
+Nome do Unidade: Bombeiro
 Id do Unidade: 92
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Nome do Unidade: Bombeiro
 Id do Unidade: 101
 Nome do Unidade: Hospital
 =======
 Nome do Unidade: Hospital
+=======
+Nome do Unidade: Bombeiro
+>>>>>>> Stashed changes
 Id do Unidade: 101
 Nome do Unidade: Policia
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
@@ -121,12 +162,19 @@ Nome do Unidade: Policia
 
 3:
 Id do Unidade: 3
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Nome do Unidade: Policia
 =======
 Nome do Unidade: Hospital
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Id do Unidade: 12
+=======
+Nome do Unidade: Policia
+Id do Unidade: 12
+Nome do Unidade: Bombeiro
+Id do Unidade: 21
+>>>>>>> Stashed changes
 Nome do Unidade: Hospital
 Id do Unidade: 21
 <<<<<<< HEAD
@@ -137,8 +185,9 @@ Nome do Unidade: Hospital
 Id do Unidade: 30
 Nome do Unidade: Hospital
 Id do Unidade: 39
-Nome do Unidade: Hospital
+Nome do Unidade: Policia
 Id do Unidade: 48
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Nome do Unidade: Hospital
 Id do Unidade: 57
@@ -149,25 +198,33 @@ Id do Unidade: 75
 Nome do Unidade: Policia
 =======
 Nome do Unidade: Bombeiro
+=======
+Nome do Unidade: Policia
+>>>>>>> Stashed changes
 Id do Unidade: 57
-Nome do Unidade: Bombeiro
+Nome do Unidade: Policia
 Id do Unidade: 66
 Nome do Unidade: Hospital
 Id do Unidade: 75
+<<<<<<< Updated upstream
 Nome do Unidade: Bombeiro
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+=======
+Nome do Unidade: Hospital
+>>>>>>> Stashed changes
 Id do Unidade: 84
-Nome do Unidade: Hospital
-Id do Unidade: 93
-Nome do Unidade: Hospital
-Id do Unidade: 102
 Nome do Unidade: Policia
+Id do Unidade: 93
+Nome do Unidade: Policia
+Id do Unidade: 102
+Nome do Unidade: Hospital
 
 
 4:
 Id do Unidade: 4
 Nome do Unidade: Hospital
 Id do Unidade: 13
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Nome do Unidade: Policia
 =======
@@ -185,7 +242,15 @@ Nome do Unidade: Policia
 Id do Unidade: 58
 Nome do Unidade: Hospital
 =======
+=======
+Nome do Unidade: Policia
+Id do Unidade: 22
+>>>>>>> Stashed changes
 Nome do Unidade: Bombeiro
+Id do Unidade: 31
+Nome do Unidade: Bombeiro
+Id do Unidade: 40
+Nome do Unidade: Hospital
 Id do Unidade: 49
 Nome do Unidade: Policia
 Id do Unidade: 58
@@ -196,8 +261,9 @@ Nome do Unidade: Bombeiro
 Id do Unidade: 76
 Nome do Unidade: Bombeiro
 Id do Unidade: 85
-Nome do Unidade: Bombeiro
+Nome do Unidade: Policia
 Id do Unidade: 94
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Nome do Unidade: Policia
 =======
@@ -205,6 +271,11 @@ Nome do Unidade: Bombeiro
 Id do Unidade: 103
 Nome do Unidade: Hospital
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+=======
+Nome do Unidade: Policia
+Id do Unidade: 103
+Nome do Unidade: Bombeiro
+>>>>>>> Stashed changes
 
 
 5:
@@ -215,13 +286,17 @@ Nome do Unidade: Policia
 Nome do Unidade: Bombeiro
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Id do Unidade: 14
-Nome do Unidade: Bombeiro
+Nome do Unidade: Hospital
 Id do Unidade: 23
-Nome do Unidade: Hospital
-Id do Unidade: 32
 Nome do Unidade: Policia
+Id do Unidade: 32
+<<<<<<< Updated upstream
+Nome do Unidade: Policia
+=======
+Nome do Unidade: Bombeiro
+>>>>>>> Stashed changes
 Id do Unidade: 41
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 50
 Nome do Unidade: Hospital
 Id do Unidade: 59
@@ -231,20 +306,31 @@ Nome do Unidade: Policia
 Nome do Unidade: Hospital
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Id do Unidade: 68
+<<<<<<< Updated upstream
 Nome do Unidade: Policia
 Id do Unidade: 77
 Nome do Unidade: Policia
 Id do Unidade: 86
 Nome do Unidade: Hospital
 Id do Unidade: 95
+=======
+Nome do Unidade: Policia
+Id do Unidade: 77
+>>>>>>> Stashed changes
 Nome do Unidade: Hospital
+Id do Unidade: 86
+Nome do Unidade: Policia
+Id do Unidade: 95
+Nome do Unidade: Policia
+Id do Unidade: 104
+Nome do Unidade: Policia
 
 
 6:
 Id do Unidade: 6
 Nome do Unidade: Bombeiro
 Id do Unidade: 15
-Nome do Unidade: Bombeiro
+Nome do Unidade: Policia
 Id do Unidade: 24
 <<<<<<< HEAD
 Nome do Unidade: Hospital
@@ -252,6 +338,7 @@ Nome do Unidade: Hospital
 Nome do Unidade: Bombeiro
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Id do Unidade: 33
+<<<<<<< Updated upstream
 Nome do Unidade: Bombeiro
 Id do Unidade: 42
 Nome do Unidade: Bombeiro
@@ -279,30 +366,57 @@ Id do Unidade: 96
 Nome do Unidade: Policia
 Id do Unidade: 105
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+=======
+Nome do Unidade: Hospital
+Id do Unidade: 42
+Nome do Unidade: Policia
+Id do Unidade: 51
 Nome do Unidade: Bombeiro
+Id do Unidade: 60
+Nome do Unidade: Bombeiro
+Id do Unidade: 69
+>>>>>>> Stashed changes
+Nome do Unidade: Bombeiro
+Id do Unidade: 78
+Nome do Unidade: Bombeiro
+Id do Unidade: 87
+Nome do Unidade: Bombeiro
+Id do Unidade: 96
+Nome do Unidade: Hospital
+Id do Unidade: 105
+Nome do Unidade: Policia
 
 
 7:
 Id do Unidade: 7
 Nome do Unidade: Policia
 Id do Unidade: 16
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 Nome do Unidade: Policia
+=======
+Nome do Unidade: Hospital
+>>>>>>> Stashed changes
 Id do Unidade: 25
 Nome do Unidade: Policia
 Id do Unidade: 34
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 43
-Nome do Unidade: Bombeiro
+Nome do Unidade: Policia
 Id do Unidade: 52
-Nome do Unidade: Bombeiro
+Nome do Unidade: Policia
 Id do Unidade: 61
+<<<<<<< Updated upstream
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome do Unidade: Bombeiro
 Id do Unidade: 25
 Nome do Unidade: Bombeiro
 Id do Unidade: 34
+=======
+Nome do Unidade: Policia
+Id do Unidade: 70
+>>>>>>> Stashed changes
 Nome do Unidade: Hospital
 Id do Unidade: 43
 Nome do Unidade: Bombeiro
@@ -313,9 +427,13 @@ Nome do Unidade: Hospital
 Id do Unidade: 70
 Nome do Unidade: Bombeiro
 Id do Unidade: 79
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 Nome do Unidade: Hospital
+=======
+Nome do Unidade: Policia
+>>>>>>> Stashed changes
 Id do Unidade: 88
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Nome do Unidade: Hospital
@@ -323,11 +441,14 @@ Id do Unidade: 88
 Nome do Unidade: Bombeiro
 Id do Unidade: 97
 Nome do Unidade: Hospital
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 Id do Unidade: 106
 Nome do Unidade: Bombeiro
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+=======
+>>>>>>> Stashed changes
 
 
 8:
@@ -343,10 +464,11 @@ Nome do Unidade: Policia
 =======
 Nome do Unidade: Policia
 Id do Unidade: 17
-Nome do Unidade: Hospital
+Nome do Unidade: Bombeiro
 Id do Unidade: 26
-Nome do Unidade: Policia
+Nome do Unidade: Bombeiro
 Id do Unidade: 35
+<<<<<<< Updated upstream
 Nome do Unidade: Bombeiro
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
 Id do Unidade: 44
@@ -369,10 +491,27 @@ Nome do Unidade: Bombeiro
 Id do Unidade: 80
 Nome do Unidade: Bombeiro
 Id do Unidade: 89
+=======
+>>>>>>> Stashed changes
 Nome do Unidade: Hospital
+Id do Unidade: 44
+Nome do Unidade: Hospital
+Id do Unidade: 53
+Nome do Unidade: Policia
+Id do Unidade: 62
+Nome do Unidade: Hospital
+Id do Unidade: 71
+Nome do Unidade: Hospital
+Id do Unidade: 80
+Nome do Unidade: Policia
+Id do Unidade: 89
+Nome do Unidade: Bombeiro
 Id do Unidade: 98
 Nome do Unidade: Bombeiro
+<<<<<<< Updated upstream
 Id do Unidade: 107
 Nome do Unidade: Policia
 >>>>>>> 89fdb18a8a3c432ef343eb87b482aaf379d29385
+=======
+>>>>>>> Stashed changes
 
