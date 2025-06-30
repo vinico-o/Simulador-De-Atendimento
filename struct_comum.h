@@ -29,6 +29,6 @@ typedef struct{
     char atendente[MAXNOME];
 }Ocorrencia;
 
-char* nomesBairros[] = {"Ipanema", "Marupiara", "Industrial", "Rosas", "Aviacao"};
+char* nomesBairros[] = {"Entidade", "Marupiara", "Industrial", "Rosas", "Aviacao"};
 char* nomesUnidades[] = {"Policia", "Hospital", "Bombeiro"};
 #endif

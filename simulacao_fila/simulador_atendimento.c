@@ -211,7 +211,7 @@ int main()
     int idUnidade = 1;
 
     // gerando bairros
-    inserirTabelaBairros ("Ipanema",&tabelaBairro);
+    inserirTabelaBairros ("Entidade",&tabelaBairro);
     inserirTabelaBairros ("Marupiara",&tabelaBairro);
     inserirTabelaBairros ("Industrial",&tabelaBairro);
     inserirTabelaBairros ("Rosas",&tabelaBairro);
