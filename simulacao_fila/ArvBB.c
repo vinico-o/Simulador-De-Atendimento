@@ -74,14 +74,14 @@ noArvBB* buscanoArvBB(noArvBB **abb,int elem)
         noArvBB *aux =  *abb;
         if(aux->elem==elem)
         {
-            printf("Elemento esta na arvore!\n");
+            
             return aux;
         }
         if(aux->elem>elem)
         {
             if(!aux->esq)
             {
-                printf("Elemento nao esta na arvore!\n");
+                
                 return NULL;
             }
             else
@@ -93,7 +93,7 @@ noArvBB* buscanoArvBB(noArvBB **abb,int elem)
         {
             if(!aux->dir)
             {
-                printf("Elemento nao esta na arvore!\n");
+                
                 return NULL;
             }
             else
